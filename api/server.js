@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '..','public')));
 
 
 const PORT = process.env.PORT || 3000;
@@ -12,27 +12,27 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'home.html'));
+  res.sendFile(path.join(__dirname, '..', 'public', 'home.html'));
 });
 
 app.get('/schedule', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'schedule.html'));
+  res.sendFile(path.join(__dirname,  '..', 'public', 'schedule.html'));
 });
 
 app.get('/gallery', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'gallery.html'));
+  res.sendFile(path.join(__dirname, '..','public', 'gallery.html'));
 });
 
 app.get('/concessions', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'concessions.html'));
+  res.sendFile(path.join(__dirname, '..','public', 'concessions.html'));
 });
 
 app.get('/faq', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'faq.html'));
+  res.sendFile(path.join(__dirname, '..','public', 'faq.html'));
 });
 
 app.get('/contact', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'contact.html'));
+  res.sendFile(path.join(__dirname, '..','public', 'contact.html'));
 });
 
 module.exports = app;
