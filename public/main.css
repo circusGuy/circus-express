@@ -144,7 +144,6 @@ body {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-
 .circus {
     display: inline-block;
     font-family: 'Circus';
@@ -209,7 +208,6 @@ body {
         0 0 20px black,   /* Bigger glow */
         0 0 30px black,   /* Even bigger glow */
         0 0 40px black;   /* Outermost glow */
-
     }
 
     div {
@@ -296,7 +294,6 @@ body {
             font-size: 1.4em;
             font-weight: bold;
         }
-        
     }
 
     .location-container:hover {
@@ -304,8 +301,6 @@ body {
         border: 3px solid #efc524;
         transition: transform 0.2s, background-color 0.2s;
     }
-
-    
 }
 
 /* Styles for FAQ Page */
@@ -356,7 +351,6 @@ h1.faqTitle {
     0 0 20px purple,   /* Bigger glow */
     0 0 30px purple,   /* Even bigger glow */
     0 0 40px purple;   /* Outermost glow */
-
 }
 
 .faq-contact-us a:hover {
@@ -369,9 +363,6 @@ h1.faqTitle {
         color: white;
     }
 }
-
-
-
 
 button {
     display: inline-block;
@@ -537,7 +528,6 @@ footer a, .socials {
     #menuBtn {
         display: none;
     }
-
 }
 
 @media (max-width: 53.99em) {
@@ -692,7 +682,6 @@ input, select {
 textarea { height: 100%; }
 
 
-
 /* Media query for phones */
 @media only screen and (max-width: 768px) {
     /* CSS styles for phone screens */
@@ -766,7 +755,6 @@ textarea { height: 100%; }
         span:nth-of-type(2) {
             font-size: 2em;
         }
-
     }
 
     .locations {
@@ -821,5 +809,4 @@ textarea { height: 100%; }
     h1.faqTitle {
         font-size: 2.6em;
     }
-
 }
