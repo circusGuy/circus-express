@@ -110,7 +110,7 @@ locations.forEach((location, index) => {
         showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
     } else {
         showTimesDiv.innerHTML = startAbbreviatedDay.trim() === endAbbreviatedDay.trim()
-            ? `${startAbbreviatedDay}: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM`
+            ? `${startAbbreviatedDay} @ 5 PM&nbsp; & &nbsp;7:30 PM`
             : `${startAbbreviatedDay} – ${endAbbreviatedDay}: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM`;
     }
 
