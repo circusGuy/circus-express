@@ -535,10 +535,6 @@ footer a, .socials {
         background-color: purple;
     }
 
-    .navbar {
-        overflow-y: scroll;
-    }
-    
     #menuBtn {
         position: absolute;
         top: -.1em;
@@ -565,7 +561,7 @@ footer a, .socials {
         border-width: 0 0 0 3px;
         margin-top: 0;
         margin-bottom: 0;
-        width: 59vw;
+        width: 55vw;
         min-width: 30vw;
     }
 
@@ -808,6 +804,10 @@ textarea { height: 100%; }
 
     h1.faqTitle {
         font-size: 2.6em;
+    }
+
+    .navbar {
+        width: 59vw;
     }
 
     .navbar ul li {
