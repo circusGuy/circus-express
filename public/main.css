@@ -727,12 +727,12 @@ textarea { height: 100%; }
     }
 
     .termsAndConditions {
-        margin: 1em 1em;
-        padding: .75em;
-        font-size: .75em;
+        margin: 1em .5em;
+        padding: 1em;
+        font-size: 1.1em;
         text-align: left;
         h3 {
-            font-size: 1.5em;
+            font-size: 1.75em;
             text-align: center;
         }
         h3 span {
@@ -749,7 +749,7 @@ textarea { height: 100%; }
         }
 
         span:nth-of-type(2) {
-            font-size: 2em;
+            font-size: 2.6em;
         }
     }
 
