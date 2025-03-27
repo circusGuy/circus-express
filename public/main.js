@@ -2,13 +2,11 @@
 
 // Get the current path 
 const currentPath = window.location.pathname;
-console.log(currentPath);
 // Get all anchor tags 
 const links = document.querySelectorAll('nav a');
 // Loop through each anchor tag 
 links.forEach(link => {
     // Check if the href matches the current path 
-    console.log(link.getAttribute('href'));
     if (link.getAttribute('href') === currentPath) {
         // Add the active class 
         link.classList.add('active');
@@ -41,30 +39,16 @@ function closeNav() {
 }
 
 
-// // Get the toggle button and menu
-// const toggleButton = document.querySelector('.menu-toggle');
-
-// // Add event listener to toggle menu and button appearance
-// toggleButton.addEventListener('click', () => {
-//     toggleButton.classList.toggle('active'); // Toggles the "X" effect
-// });
-
-
 // Define the media query
 const mediaQuery = window.matchMedia("(min-width: 54em)");
 
 // Function to handle media query changes
 function handleMediaQueryChange(event) {
-  const element = document.getElementById("overlay"); // Replace 'yourElement' with your target element's ID
+  const element = document.getElementById("overlay"); // Target element's ID
   
   if (event.matches) {
     // Media query matches, remove the class
     closeNav();
-    // element.classList.remove("overlay"); // Replace 'your-class' with the class you want to remove
-    // document.getElementById('navbar').classList.remove('show');
-    // document.getElementById('menuBtn').classList.remove('active');
-    // document.body.classList.remove('removeScrollbar');
-    // toggleButton.click();
     console.log("Class removed: Media query matched");
     
   } else {
@@ -80,8 +64,6 @@ mediaQuery.addEventListener("change", handleMediaQueryChange);
 document.addEventListener('DOMContentLoaded', () => {
     handleMediaQueryChange(mediaQuery);
   });
-// handleMediaQueryChange(mediaQuery);
-
 
 // Show the button when the user scrolls away from the top of the webpage
 window.onscroll = function() {
@@ -106,7 +88,7 @@ function topFunction() {
 }
   
 
-
+// Keep this method and uncomment the footer insert when this gets fixed.
 function insertFile (file) {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', file, true);
@@ -118,4 +100,4 @@ function insertFile (file) {
     xhr.send();
 }
 
-insertFile('includes/footer.html');
+// insertFile('includes/footer.html');
