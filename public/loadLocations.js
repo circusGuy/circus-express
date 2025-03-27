@@ -88,10 +88,6 @@ locations.forEach((location, index) => {
     endDate.setHours(0, 0, 0, 0);
     endDate.setDate(endDate.getDate() + 1);
     const oneDayShow = startDate.getTime() === endDate.getTime(); 
-    console.log('-------------------');
-    console.log('startDate', startDate);
-    console.log('endDate', endDate);
-    console.log('oneDayShow', oneDayShow);
 
     // Do not display locationDiv if endDate is less than today's date
     if (endDate < today) {
@@ -129,6 +125,9 @@ locations.forEach((location, index) => {
 
     if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
 		showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
+        if (location.name === 'Barnwell, SC') {  // REMOVE once show is over. 
+            showTimes2Div.innerHTML = 'Sun: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM';
+        }
 		
 	} else if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay !== endAbbreviatedDay) {
         const saturdayDate = new Date(endDate);
@@ -143,6 +142,10 @@ locations.forEach((location, index) => {
         }
         
         showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
+        if (location.name === 'Barnwell, SC') {  // REMOVE once show is over. 
+            showTimes2Div.innerHTML = 'Sun: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM';
+        }
+
     } else {
         showTimesDiv.innerHTML = startAbbreviatedDay.trim() === endAbbreviatedDay.trim()
             ? `${startAbbreviatedDay} @ 5 PM&nbsp; & &nbsp;7:30 PM`
