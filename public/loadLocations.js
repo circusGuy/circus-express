@@ -30,6 +30,18 @@ const locations =
             "address": "401 Fairgrounds Rd.",
             "dates": ["2025-04-03", "2025-04-06"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
+        },
+        {
+            "name": "Lexington, NC",
+            "address": "Davidson County Agricultural Fairgrounds",
+            "dates": ["2025-04-17", "2025-04-20"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/417-420-lexington-nc/UCG6W4YD4CDGRVJ3M2MRG7BJ"
+        },
+        {
+            "name": "Union, SC",
+            "address": "Union County Fairgrounds",
+            "dates": ["2025-04-24", "2025-04-27"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ"
         }
     ];
 
