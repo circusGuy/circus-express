@@ -29,6 +29,7 @@ const locations =
             "name": "Kinston, NC",
             "address": "401 Fairgrounds Rd.",
             "dates": ["2025-04-03", "2025-04-06"],
+            "promo": "Buy One Get One Thrusday",
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
         },
         {
@@ -56,6 +57,15 @@ locations.sort((a, b) => {
     return dateA - dateB;
 });
 
+// Helper function to get the ordinal suffix
+function getOrdinalSuffix(day) {
+    if (day === 1 || day === 21 || day === 31) return `${day}st`;
+    if (day === 2 || day === 22) return `${day}nd`;
+    if (day === 3 || day === 23) return `${day}rd`;
+    return `${day}th`;
+}
+let firstPromo = true;
+
 locations.forEach((location, index) => {
     const linkElement = document.createElement('a');
     linkElement.href = location.link;
@@ -73,17 +83,17 @@ locations.forEach((location, index) => {
     addressDiv.className = 'address';
     addressDiv.innerHTML = location.address;
 
+    const promoDiv = document.createElement('div');
+    if (firstPromo) {
+        promoDiv.className = 'promo animate';
+    } else {
+        promoDiv.className = 'promo';
+    }
+    promoDiv.innerHTML = 'Buy One Get One Thursday';
+
     // Create the dates div
 	const datesDiv = document.createElement('div');
     datesDiv.className = 'dates';
-
-    // Helper function to get the ordinal suffix
-    function getOrdinalSuffix(day) {
-        if (day === 1 || day === 21 || day === 31) return `${day}st`;
-        if (day === 2 || day === 22) return `${day}nd`;
-        if (day === 3 || day === 23) return `${day}rd`;
-        return `${day}th`;
-    }
 
     const showTimesDiv = document.createElement('div');
     showTimesDiv.className = 'showTimes';
@@ -104,6 +114,8 @@ locations.forEach((location, index) => {
     // Do not display locationDiv if endDate is less than today's date
     if (endDate < today) {
         return; // Exit the loop iteration for this location
+    } else {
+        firstPromo = false;
     }
 
     // Increment startDate until it matches today's date or endDate
@@ -134,6 +146,9 @@ locations.forEach((location, index) => {
     locationDiv.appendChild(cityDiv);
     locationDiv.appendChild(addressDiv);
     locationDiv.appendChild(datesDiv);
+    if (promoDiv.innerHTML !== 'undefined' && promoDiv.innerHTML && startAbbreviatedDay === 'Thu') {
+        locationDiv.appendChild(promoDiv);
+    }
 
     if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
 		showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';

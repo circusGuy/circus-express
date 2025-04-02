@@ -15,6 +15,33 @@
     50% { opacity: .2; } /* Hidden */
 }
 
+@keyframes textShadowSwitch {
+    0% {
+        text-shadow: 
+            0 0 5px white,
+            0 0 10px white,
+            0 0 20px white,
+            0 0 30px white,
+            0 0 40px white;
+    }
+    50% {
+        text-shadow: 
+            0 0 5px #00ff00,
+            0 0 10px #00ff00,
+            0 0 20px #00ff00,
+            0 0 30px #00ff00,
+            0 0 40px #00ff00;
+    }
+    100% {
+        text-shadow: 
+            0 0 5px white,
+            0 0 10px white,
+            0 0 20px white,
+            0 0 30px white,
+            0 0 40px white;
+    }
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -411,6 +438,23 @@ button:hover {
                 0 0 40px #00ff00;   /* Outermost glow */
 
     }
+}
+
+.promo {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-family: Carnival;
+    font-size: 1.8em;
+    color: purple;
+    text-shadow: 0 0 5px white,    /* Inner glow */
+                0 0 10px white,   /* Slightly bigger glow */
+                0 0 20px white,   /* Bigger glow */
+                0 0 30px white,   /* Even bigger glow */
+                0 0 40px white;
+}
+
+.promo.animate {
+    animation: textShadowSwitch 3s infinite; /* Adjust duration as needed */
 }
 
 footer {
