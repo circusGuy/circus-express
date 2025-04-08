@@ -33,6 +33,13 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
         },
         {
+            "name": "Kinston, NC",
+            "address": "401 Fairgrounds Rd.",
+            "dates": ["2025-04-13", "2025-04-13"],
+            "promo": "Buy One Get One Thrusday",
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
+        },
+        {
             "name": "Lexington, NC",
             "address": "Davidson County Agricultural Fairgrounds",
             "dates": ["2025-04-17", "2025-04-20"],
@@ -77,11 +84,19 @@ locations.forEach((location, index) => {
 
     const cityDiv = document.createElement('div');
     cityDiv.className = 'city';
-    cityDiv.innerHTML = location.name;
 
+    
     const addressDiv = document.createElement('div');
     addressDiv.className = 'address';
-    addressDiv.innerHTML = location.address;
+    if (location.name === 'Kinston, NC') {
+        cityDiv.innerHTML = `<span>👑 &nbsp; ` + location.name + ` &nbsp; 👑</span>`;
+        addressDiv.innerHTML = `<span>🏰 &nbsp; &nbsp; ` + location.address + ` &nbsp; &nbsp; 🏰</span><div>✨&nbsp; ENC Renaissance Faire &nbsp;✨</div>`;
+    } else {
+        cityDiv.innerHTML = location.name;
+        addressDiv.innerHTML = location.address;
+    }
+    // cityDiv.innerHTML = location.name;
+    // addressDiv.innerHTML = location.address;
 
     const promoDiv = document.createElement('div');
     if (firstPromo) {
@@ -152,8 +167,8 @@ locations.forEach((location, index) => {
 
     if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
 		showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
-        if (location.name === 'Barnwell, SC') {  // REMOVE once show is over. 
-            showTimes2Div.innerHTML = 'Sun: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM';
+        if (location.name === 'Kinston, NC') {  // REMOVE once show is over. 
+            showTimes2Div.innerHTML = `<span style="font-size: 1.4em;">Sun: &nbsp; 7:00 PM</span>`;
         }
 		
 	} else if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay !== endAbbreviatedDay) {
