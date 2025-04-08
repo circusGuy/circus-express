@@ -37,7 +37,7 @@ const locations =
             "address": "401 Fairgrounds Rd.",
             "dates": ["2025-04-13", "2025-04-13"],
             "promo": "Buy One Get One Thrusday",
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/413-kinston-nc/OJTZEZZHKU6YRCYTHMVQBQGM"
         },
         {
             "name": "Lexington, NC",
