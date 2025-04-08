@@ -89,7 +89,7 @@ locations.forEach((location, index) => {
     const addressDiv = document.createElement('div');
     addressDiv.className = 'address';
     if (location.name === 'Kinston, NC') {
-        cityDiv.innerHTML = `<span>👑 &nbsp; ` + location.name + ` &nbsp; 👑</span>`;
+        cityDiv.innerHTML = `<span>👑 &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; 👑</span>`;
         addressDiv.innerHTML = `<span>🏰 &nbsp; &nbsp; ` + location.address + ` &nbsp; &nbsp; 🏰</span><div>✨&nbsp; ENC Renaissance Faire &nbsp;✨</div>`;
     } else {
         cityDiv.innerHTML = location.name;
