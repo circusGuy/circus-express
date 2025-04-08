@@ -575,10 +575,6 @@ footer a, .socials {
 }
 
 @media (max-width: 53.99em) {
-    .story span.circus {
-        font-size: 1.1em;
-    }
-
     .menu {
         background-color: purple;
     }
