@@ -71,7 +71,6 @@ function getOrdinalSuffix(day) {
     if (day === 3 || day === 23) return `${day}rd`;
     return `${day}th`;
 }
-let firstPromo = true;
 
 locations.forEach((location, index) => {
     const linkElement = document.createElement('a');
@@ -98,13 +97,6 @@ locations.forEach((location, index) => {
     // cityDiv.innerHTML = location.name;
     // addressDiv.innerHTML = location.address;
 
-    const promoDiv = document.createElement('div');
-    if (firstPromo) {
-        promoDiv.className = 'promo animate';
-    } else {
-        promoDiv.className = 'promo';
-    }
-    promoDiv.innerHTML = 'Buy One Get One Thursday';
 
     // Create the dates div
 	const datesDiv = document.createElement('div');
@@ -129,8 +121,6 @@ locations.forEach((location, index) => {
     // Do not display locationDiv if endDate is less than today's date
     if (endDate < today) {
         return; // Exit the loop iteration for this location
-    } else {
-        firstPromo = false;
     }
 
     // Increment startDate until it matches today's date or endDate
@@ -161,9 +151,6 @@ locations.forEach((location, index) => {
     locationDiv.appendChild(cityDiv);
     locationDiv.appendChild(addressDiv);
     locationDiv.appendChild(datesDiv);
-    if (promoDiv.innerHTML !== 'undefined' && promoDiv.innerHTML && startAbbreviatedDay === 'Thu') {
-        locationDiv.appendChild(promoDiv);
-    }
 
     if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
 		showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
