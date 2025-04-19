@@ -50,6 +50,12 @@ const locations =
             "address": "Union County Fairgrounds",
             "dates": ["2025-04-24", "2025-04-27"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ"
+        },
+        {
+            "name": "Lenoir, NC",
+            "address": "Caldwell County Fairgrounds",
+            "dates": ["2025-05-22", "2025-05-25"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY"
         }
     ];
 
@@ -91,7 +97,7 @@ locations.forEach((location, index) => {
         cityDiv.innerHTML = `<span>👑 &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; 👑</span>`;
         addressDiv.innerHTML = `<span>🏰 &nbsp; &nbsp; ` + location.address + ` &nbsp; &nbsp; 🏰</span><div>✨&nbsp; ENC Renaissance Faire &nbsp;✨</div>`;
     } else {
-        cityDiv.innerHTML = location.name;
+        cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
         addressDiv.innerHTML = location.address;
     }
     // cityDiv.innerHTML = location.name;
