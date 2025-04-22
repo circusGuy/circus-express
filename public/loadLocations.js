@@ -52,6 +52,13 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ"
         },
         {
+            "name": "Oxford, NC",
+            "address": "Granville County Shrine Club",
+            "address2": "706 Roxboro Rd",
+            "dates": ["2025-05-15", "2025-05-18"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/515-518-oxford-nc/JTPRXMFETZKFK3LQK5BILGOR"
+        },
+        {
             "name": "Lenoir, NC",
             "address": "Caldwell County Fairgrounds",
             "dates": ["2025-05-22", "2025-05-25"],
@@ -103,6 +110,9 @@ locations.forEach((location, index) => {
     // cityDiv.innerHTML = location.name;
     // addressDiv.innerHTML = location.address;
 
+    if (location.address2) {
+        addressDiv.innerHTML += `<div>` + location.address2 + `</div>`;
+    }
 
     // Create the dates div
 	const datesDiv = document.createElement('div');

@@ -49,7 +49,7 @@ function handleMediaQueryChange(event) {
   if (event.matches) {
     // Media query matches, remove the class
     closeNav();
-    console.log("Class removed: Media query matched");
+    // console.log("Class removed: Media query matched");
     
   } else {
     // Media query no longer matches, optional action
