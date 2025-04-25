@@ -52,6 +52,12 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ"
         },
         {
+            "name": "Greenwood, SC",
+            "address": "Greenwood County Fairgrounds",
+            "dates": ["2025-05-08", "2025-05-11"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/58-511-greenwood-sc/G477ATAYLBC7SL4MCZY57KW6"
+        },
+        {
             "name": "Oxford, NC",
             "address": "Granville County Shrine Club",
             "address2": "706 Roxboro Rd",
