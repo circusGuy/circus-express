@@ -58,11 +58,11 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/58-511-greenwood-sc/G477ATAYLBC7SL4MCZY57KW6"
         },
         {
-            "name": "Oxford, NC",
-            "address": "Granville County Shrine Club",
-            "address2": "706 Roxboro Rd",
+            "name": "Greeneville, TN",
+            "address": "Greene County Fairgrounds",
+            "address2": "109 Jeff Woods Memorial Dr",
             "dates": ["2025-05-15", "2025-05-18"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/515-518-oxford-nc/JTPRXMFETZKFK3LQK5BILGOR"
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/515-518-greeneville-tn/JTPRXMFETZKFK3LQK5BILGOR"
         },
         {
             "name": "Lenoir, NC",
