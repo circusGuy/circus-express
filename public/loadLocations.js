@@ -72,7 +72,13 @@ const locations =
         }
     ];
 
+function getDifferenceInDays(date1, date2) {
+    // Convert both dates to milliseconds
+    const timeDifference = Math.abs(new Date(date2) - new Date(date1));
 
+    // Convert milliseconds to days
+    return Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+}
 
 const locationsContainer = document.querySelector('.locations'); // Get the element with the class "locations"
 
@@ -102,19 +108,19 @@ locations.forEach((location, index) => {
 
     const cityDiv = document.createElement('div');
     cityDiv.className = 'city';
-
     
     const addressDiv = document.createElement('div');
     addressDiv.className = 'address';
-    if (location.name === 'Kinston, NC') {
-        cityDiv.innerHTML = `<span>👑 &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; 👑</span>`;
-        addressDiv.innerHTML = `<span>🏰 &nbsp; &nbsp; ` + location.address + ` &nbsp; &nbsp; 🏰</span><div>✨&nbsp; ENC Renaissance Faire &nbsp;✨</div>`;
-    } else {
-        cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
-        addressDiv.innerHTML = location.address;
-    }
-    // cityDiv.innerHTML = location.name;
-    // addressDiv.innerHTML = location.address;
+
+    // if (location.name === 'Kinston, NC') {
+    //     cityDiv.innerHTML = `<span>👑 &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; 👑</span>`;
+    //     addressDiv.innerHTML = `<span>🏰 &nbsp; &nbsp; ` + location.address + ` &nbsp; &nbsp; 🏰</span><div>✨&nbsp; ENC Renaissance Faire &nbsp;✨</div>`;
+    // } else {
+    //     cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
+    //     addressDiv.innerHTML = location.address;
+    // }
+    cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
+    addressDiv.innerHTML = location.address;
 
     if (location.address2) {
         addressDiv.innerHTML += `<div>` + location.address2 + `</div>`;
@@ -124,11 +130,17 @@ locations.forEach((location, index) => {
 	const datesDiv = document.createElement('div');
     datesDiv.className = 'dates';
 
-    const showTimesDiv = document.createElement('div');
-    showTimesDiv.className = 'showTimes';
+    const showTimes1Div = document.createElement('div');
+    showTimes1Div.className = 'showTimes1';
 
     const showTimes2Div = document.createElement('div');
     showTimes2Div.className = 'showTimes2';
+
+    const showTimes3Div = document.createElement('div');
+    showTimes3Div.className = 'showTimes3';
+
+    const showTimes4Div = document.createElement('div');
+    showTimes4Div.className = 'showTimes4';
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -174,41 +186,65 @@ locations.forEach((location, index) => {
     locationDiv.appendChild(addressDiv);
     locationDiv.appendChild(datesDiv);
 
-    if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
-		showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
-        if (location.name === 'Kinston, NC') {  // REMOVE once show is over. 
-            showTimes2Div.innerHTML = `<span style="font-size: 1.4em;">Sun: &nbsp; 7:00 PM</span>`;
+    if (location.name !== 'Greenwood, SC') {
+        for (let i = 0; i <= getDifferenceInDays(startDate, endDate); i++) { 
+            const currentDate = new Date(); // Get the current date
+            currentDate.setDate(startDate.getDate() + i); // Add # days
+            console.log(currentDate);
+            const abbreviatedDay = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
+            if (abbreviatedDay === 'Thu') {
+                showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
+            }
+            if (abbreviatedDay === 'Fri') {
+                showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            }
+            if (abbreviatedDay === 'Sat') {
+                showTimes3Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            }
+            if (abbreviatedDay === 'Sun') {
+                showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
+            }
         }
-		
-	} else if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay !== endAbbreviatedDay) {
-        const saturdayDate = new Date(endDate);
-        saturdayDate.setDate(endDate.getDate() - 1);
 
-        const saturdayAbbreviatedDay = saturdayDate.toLocaleDateString('en-US', { weekday: 'short' });
-
-        if (startAbbreviatedDay === saturdayAbbreviatedDay) {
-            showTimesDiv.innerHTML = `${saturdayAbbreviatedDay}: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM`;
+    } else { // Location is Greenwood 
+        if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
+            showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
+            
+        } else if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay !== endAbbreviatedDay) {
+            const saturdayDate = new Date(endDate);
+            saturdayDate.setDate(endDate.getDate() - 1);
+    
+            const saturdayAbbreviatedDay = saturdayDate.toLocaleDateString('en-US', { weekday: 'short' });
+    
+            if (startAbbreviatedDay === saturdayAbbreviatedDay) {
+                showTimes3Div.innerHTML = `${saturdayAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
+            } else {
+                showTimes3Div.innerHTML = `${startAbbreviatedDay} – ${saturdayAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
+            }
+            
+            showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
+    
         } else {
-            showTimesDiv.innerHTML = `${startAbbreviatedDay} – ${saturdayAbbreviatedDay}: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM`;
+            showTimes3Div.innerHTML = startAbbreviatedDay.trim() === endAbbreviatedDay.trim()
+                ? `${startAbbreviatedDay} @ 5:00&nbsp; & &nbsp;7:30 PM`
+                : `${startAbbreviatedDay} – ${endAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
         }
-        
-        showTimes2Div.innerHTML = 'Sun: &nbsp; 2:30 PM&nbsp; & &nbsp;5 PM';
-        if (location.name === 'Barnwell, SC') {  // REMOVE once show is over. 
-            showTimes2Div.innerHTML = 'Sun: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM';
-        }
-
-    } else {
-        showTimesDiv.innerHTML = startAbbreviatedDay.trim() === endAbbreviatedDay.trim()
-            ? `${startAbbreviatedDay} @ 5 PM&nbsp; & &nbsp;7:30 PM`
-            : `${startAbbreviatedDay} – ${endAbbreviatedDay}: &nbsp; 5 PM&nbsp; & &nbsp;7:30 PM`;
     }
 
-    if (showTimesDiv.innerHTML) {
-        locationDiv.appendChild(showTimesDiv);
+    if (showTimes1Div.innerHTML) {
+        locationDiv.appendChild(showTimes1Div);
     }
 
     if (showTimes2Div.innerHTML) {
         locationDiv.appendChild(showTimes2Div);
+    }
+
+    if (showTimes3Div.innerHTML) {
+        locationDiv.appendChild(showTimes3Div);
+    }
+
+    if (showTimes4Div.innerHTML) {
+        locationDiv.appendChild(showTimes4Div);
     }
 
     linkElement.appendChild(locationDiv);
