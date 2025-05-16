@@ -73,13 +73,13 @@ const locations =
         {
             "name": "South Boston, VA",
             "address": "Halifax County Fairgrounds",
-            "dates": ["2025-05-29", "2025-05-01"],
+            "dates": ["2025-05-29", "2025-06-01"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
         },
         {
             "name": "Front Royal, VA",
             "address": "Warren County Fairgrounds",
-            "dates": ["2025-06-05", "2025-05-08"],
+            "dates": ["2025-06-05", "2025-06-08"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/65-68-front-royal-va/NBIM2USA6W7HERDIOAHXWDZV"
         }
     ];
@@ -198,47 +198,22 @@ locations.forEach((location, index) => {
     locationDiv.appendChild(addressDiv);
     locationDiv.appendChild(datesDiv);
 
-    if (location.name !== 'Greenwood, SC') {
-        for (let i = 0; i <= getDifferenceInDays(startDate, endDate); i++) { 
-            const currentDate = new Date(); // Get the current date
-            currentDate.setDate(startDate.getDate() + i); // Add # days
-            const abbreviatedDay = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
-            if (abbreviatedDay === 'Thu') {
-                showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
-            }
-            if (abbreviatedDay === 'Fri') {
-                showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
-            }
-            if (abbreviatedDay === 'Sat') {
-                showTimes3Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
-            }
-            if (abbreviatedDay === 'Sun') {
-                showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
-            }
-        }
+    for (let i = 0; i <= getDifferenceInDays(startDate, endDate); i++) { 
+        let currentDate = new Date(startDate);
 
-    } else { // Location is Greenwood 
-        if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay === 'Sun') {
+        currentDate.setDate(startDate.getDate() + i); // Add # days
+        const abbreviatedDay = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
+        if (abbreviatedDay === 'Thu') {
+            showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
+        }
+        if (abbreviatedDay === 'Fri') {
+            showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+        }
+        if (abbreviatedDay === 'Sat') {
+            showTimes3Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+        }
+        if (abbreviatedDay === 'Sun') {
             showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
-            
-        } else if (endAbbreviatedDay === 'Sun' && startAbbreviatedDay !== endAbbreviatedDay) {
-            const saturdayDate = new Date(endDate);
-            saturdayDate.setDate(endDate.getDate() - 1);
-    
-            const saturdayAbbreviatedDay = saturdayDate.toLocaleDateString('en-US', { weekday: 'short' });
-    
-            if (startAbbreviatedDay === saturdayAbbreviatedDay) {
-                showTimes3Div.innerHTML = `${saturdayAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
-            } else {
-                showTimes3Div.innerHTML = `${startAbbreviatedDay} – ${saturdayAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
-            }
-            
-            showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
-    
-        } else {
-            showTimes3Div.innerHTML = startAbbreviatedDay.trim() === endAbbreviatedDay.trim()
-                ? `${startAbbreviatedDay} @ 5:00&nbsp; & &nbsp;7:30 PM`
-                : `${startAbbreviatedDay} – ${endAbbreviatedDay}: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM`;
         }
     }
 
