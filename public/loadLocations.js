@@ -69,6 +69,18 @@ const locations =
             "address": "Caldwell County Fairgrounds",
             "dates": ["2025-05-22", "2025-05-25"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY"
+        },
+        {
+            "name": "South Boston, VA",
+            "address": "Halifax County Fairgrounds",
+            "dates": ["2025-05-29", "2025-05-01"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
+        },
+        {
+            "name": "Front Royal, VA",
+            "address": "Warren County Fairgrounds",
+            "dates": ["2025-06-05", "2025-05-08"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/65-68-front-royal-va/NBIM2USA6W7HERDIOAHXWDZV"
         }
     ];
 
@@ -190,7 +202,6 @@ locations.forEach((location, index) => {
         for (let i = 0; i <= getDifferenceInDays(startDate, endDate); i++) { 
             const currentDate = new Date(); // Get the current date
             currentDate.setDate(startDate.getDate() + i); // Add # days
-            console.log(currentDate);
             const abbreviatedDay = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
             if (abbreviatedDay === 'Thu') {
                 showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
