@@ -562,7 +562,7 @@ footer a, .socials {
         display: block;
     }
     .player {
-        margin: 1em 5em;
+        margin: auto auto;
     }
 }
 
