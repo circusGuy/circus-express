@@ -65,6 +65,7 @@ body {
     background-size: cover;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .main {
@@ -541,6 +542,11 @@ footer a, .socials {
     left: 50%;
     transform: translateX(-50%);
 }
+.player {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 64.99em) {
@@ -554,6 +560,9 @@ footer a, .socials {
 @media (min-width: 58em) {
     .story span:nth-of-type(2) {
         display: block;
+    }
+    .player {
+        margin: 1em 5em;
     }
 }
 
@@ -575,6 +584,11 @@ footer a, .socials {
 }
 
 @media (max-width: 53.99em) {
+    .player {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .menu {
         background-color: purple;
     }
