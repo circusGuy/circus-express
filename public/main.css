@@ -543,8 +543,9 @@ footer a, .socials {
     transform: translateX(-50%);
 }
 .player {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
 }
 
 
@@ -560,9 +561,6 @@ footer a, .socials {
 @media (min-width: 58em) {
     .story span:nth-of-type(2) {
         display: block;
-    }
-    .player {
-        margin: auto auto;
     }
 }
 
