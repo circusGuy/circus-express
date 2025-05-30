@@ -73,14 +73,23 @@ const locations =
         {
             "name": "South Boston, VA",
             "address": "Halifax County Fairgrounds",
+            "address2": "1188 James D Hagwood Hwy",
             "dates": ["2025-05-29", "2025-06-01"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
         },
         {
             "name": "Front Royal, VA",
             "address": "Warren County Fairgrounds",
+            "address2": "26 Fairground Rd",
             "dates": ["2025-06-05", "2025-06-08"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/65-68-front-royal-va/NBIM2USA6W7HERDIOAHXWDZV"
+        },
+        {
+            "name": "Ridgeley, WV",
+            "address": "Ridgeley Community Center",
+            "address2": "581 Veterans Memorial Hwy",
+            "dates": ["2025-06-12", "2025-06-15"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/612-615-ridgeley-wv/ITBPN6TENPY5NTSUBFYOTZTK"
         }
     ];
 
