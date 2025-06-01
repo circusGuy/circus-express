@@ -70,13 +70,13 @@ const locations =
             "dates": ["2025-05-22", "2025-05-25"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY"
         },
-        {
-            "name": "South Boston, VA",
-            "address": "Halifax County Fairgrounds",
-            "address2": "1188 James D Hagwood Hwy",
-            "dates": ["2025-05-29", "2025-06-01"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
-        },
+        // {
+        //     "name": "South Boston, VA",
+        //     "address": "Halifax County Fairgrounds",
+        //     "address2": "1188 James D Hagwood Hwy",
+        //     "dates": ["2025-05-29", "2025-06-01"],
+        //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
+        // },
         {
             "name": "Front Royal, VA",
             "address": "Warren County Fairgrounds",
