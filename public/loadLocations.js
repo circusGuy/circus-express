@@ -70,13 +70,13 @@ const locations =
             "dates": ["2025-05-22", "2025-05-25"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY"
         },
-        // {
-        //     "name": "South Boston, VA",
-        //     "address": "Halifax County Fairgrounds",
-        //     "address2": "1188 James D Hagwood Hwy",
-        //     "dates": ["2025-05-29", "2025-06-01"],
-        //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
-        // },
+        {
+            "name": "South Boston, VA",
+            "address": "Halifax County Fairgrounds",
+            "address2": "1188 James D Hagwood Hwy",
+            "dates": ["2025-05-29", "2025-06-01"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
+        },
         {
             "name": "Front Royal, VA",
             "address": "Warren County Fairgrounds",
@@ -90,6 +90,13 @@ const locations =
             "address2": "581 Veterans Memorial Hwy",
             "dates": ["2025-06-12", "2025-06-15"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/612-615-ridgeley-wv/ITBPN6TENPY5NTSUBFYOTZTK"
+        },
+        {
+            "name": "Manchester, MD",
+            "address": "Manchester VFD Activities Bldg",
+            "address2": "3297 York Street",
+            "dates": ["2025-06-19", "2025-06-22"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/619-622-manchester-md/5DEGCTHQAMRRZGRYAJPR2D2W"
         }
     ];
 
