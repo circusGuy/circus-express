@@ -175,7 +175,8 @@ body {
 .circus {
     display: inline-block;
     font-family: 'Circus';
-    font-size: 1.3em;
+    font-size: 1.4em;
+    letter-spacing: 0.08em;
 }
 
 .titleText {
@@ -185,6 +186,13 @@ body {
     text-shadow: 0 5px 6px purple;
     padding: 0;
     margin: 0;
+}
+
+.performance {
+    margin-top: 1em;
+    color: #efc524;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .kow {
