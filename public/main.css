@@ -786,6 +786,11 @@ textarea { height: 100%; }
         padding: .8em 1em .8em 1em;
     }
 
+    .performance {
+        margin-bottom: .5em;
+        font-size: .9em;
+    }
+
     .titleText {
         font-size: 1.8em;
     }
