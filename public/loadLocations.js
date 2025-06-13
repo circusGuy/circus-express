@@ -97,6 +97,13 @@ const locations =
             "address2": "3297 York Street",
             "dates": ["2025-06-19", "2025-06-22"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/619-622-manchester-md/5DEGCTHQAMRRZGRYAJPR2D2W"
+        },
+        {
+            "name": "Chestertown, MD",
+            "address": "Minary's Dream Alliance, Inc.",
+            "address2": "9155 American Legion Rd",
+            "dates": ["2025-06-26", "2025-06-29"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
         }
     ];
 
