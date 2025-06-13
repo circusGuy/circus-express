@@ -100,7 +100,7 @@ const locations =
         },
         {
             "name": "Chestertown, MD",
-            "address": "Minary's Dream Alliance, Inc.",
+            // "address": "Minary's Dream Alliance, Inc.",
             "address2": "9155 American Legion Rd",
             "dates": ["2025-06-26", "2025-06-29"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
@@ -155,7 +155,9 @@ locations.forEach((location, index) => {
     //     addressDiv.innerHTML = location.address;
     // }
     cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
-    addressDiv.innerHTML = location.address;
+    if (location.address) {
+        addressDiv.innerHTML = location.address;
+    }
 
     if (location.address2) {
         addressDiv.innerHTML += `<div>` + location.address2 + `</div>`;
