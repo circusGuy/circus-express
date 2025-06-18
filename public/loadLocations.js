@@ -170,6 +170,9 @@ locations.forEach((location, index) => {
     const showTimes1Div = document.createElement('div');
     showTimes1Div.className = 'showTimes1';
 
+    const promo = document.createElement('div');
+    promo.className = 'promo';
+
     const showTimes2Div = document.createElement('div');
     showTimes2Div.className = 'showTimes2';
 
@@ -243,6 +246,8 @@ locations.forEach((location, index) => {
     }
 
     if (showTimes1Div.innerHTML) {
+        promo.innerHTML = "First 100 tickets $15";
+        locationDiv.appendChild(promo);
         locationDiv.appendChild(showTimes1Div);
     }
 
