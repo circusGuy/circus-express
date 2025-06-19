@@ -104,6 +104,13 @@ const locations =
             "address2": "9155 American Legion Rd",
             "dates": ["2025-06-26", "2025-06-29"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
+        },
+        {
+            "name": "Bridgeville, DE",
+            "address": "Bridgeville Banquet Center",
+            "address2": "18531 S Main St, Bridgeville, DE 19933",
+            "dates": ["2025-07-03", "2025-07-06"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/73-76-bridgeville-de/BOXKKCOTCL2FY5Y6T3K24FPG"
         }
     ];
 
