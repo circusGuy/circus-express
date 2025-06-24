@@ -111,6 +111,13 @@ const locations =
             "address2": "18531 S Main St, Bridgeville, DE 19933",
             "dates": ["2025-07-03", "2025-07-06"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/73-76-bridgeville-de/BOXKKCOTCL2FY5Y6T3K24FPG"
+        },
+        {
+            "name": "Gettysburg, PA",
+            "address": "Gettysburg Recreation Park",
+            "address2": "545 Long Lane, Gettysburg, PA 17325",
+            "dates": ["2025-07-17", "2025-07-20"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/717-720-gettysburg-pa/YOJNPCLKSTQULQ7MWBD56DXS"
         }
     ];
 
