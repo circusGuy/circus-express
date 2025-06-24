@@ -260,9 +260,10 @@ locations.forEach((location, index) => {
     }
 
     if (showTimes1Div.innerHTML) {
-        promo.innerHTML = "First 100 tickets $15";
-        locationDiv.appendChild(promo);
-        locationDiv.appendChild(showTimes1Div);
+        // NOTE: Turn this back on after Bridgeville, DE. 
+        // promo.innerHTML = "First 100 tickets $10";
+        // locationDiv.appendChild(promo);
+        // locationDiv.appendChild(showTimes1Div);
     }
 
     if (showTimes2Div.innerHTML) {
