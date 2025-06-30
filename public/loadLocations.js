@@ -105,6 +105,7 @@ const locations =
         //     "dates": ["2025-06-26", "2025-06-29"],
         //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
         // },
+        
         {
             "name": "Bridgeville, DE",
             "address": "Bridgeville Banquet Center",
