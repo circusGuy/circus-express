@@ -105,7 +105,7 @@ const locations =
         //     "dates": ["2025-06-26", "2025-06-29"],
         //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
         // },
-        
+
         {
             "name": "Bridgeville, DE",
             "address": "Bridgeville Banquet Center",
@@ -126,6 +126,13 @@ const locations =
             "address2": "545 Long Lane, Gettysburg, PA 17325",
             "dates": ["2025-07-17", "2025-07-20"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/717-720-gettysburg-pa/YOJNPCLKSTQULQ7MWBD56DXS"
+        },
+        {
+            "name": "Chambersburg, PA",
+            "address": "Cumberland Valley Antique Engine & Machinery Assoc.",
+            "address2": "1501 Criders Church Rd, Chambersburg, PA 17202",
+            "dates": ["2025-07-24", "2025-07-27"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/724-727-chambersburg-pa/63RURNBKPRKAKADPTAWTC6G6"
         }
     ];
 
