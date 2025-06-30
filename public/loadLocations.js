@@ -113,6 +113,13 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/73-76-bridgeville-de/BOXKKCOTCL2FY5Y6T3K24FPG"
         },
         {
+            "name": "Salisbury, MD",
+            "address": "Parsonsburd Vol. Fire Dept.",
+            "address2": "33030 Old Ocean City Rd, Parsonsburg, MD 21849",
+            "dates": ["2025-07-10", "2025-07-13"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/710-713-salisbury-md/JYXLGFLSXU2ZD4NQCKKTB7M4"
+        },
+        {
             "name": "Gettysburg, PA",
             "address": "Gettysburg Recreation Park",
             "address2": "545 Long Lane, Gettysburg, PA 17325",
