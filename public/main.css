@@ -316,6 +316,7 @@ body {
             font-size: 1.8em;
             color: white;
             font-weight: bold;
+            margin-top: .25em;
             div {
                 font-size: smaller;
             }        
@@ -325,6 +326,8 @@ body {
             display: inline-block;
             font-size: 2.4em;
             font-weight: bold;
+            margin-top: .5em;
+            margin-bottom: .25em;
         
         }
 
@@ -451,6 +454,32 @@ button:hover {
 
     }
 }
+
+.earlyBird {
+    font-size: 2.1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-shadow: 0 0 5px white,    /* Inner glow */
+        0 0 10px white,   /* Slightly bigger glow */
+        0 0 20px white,   /* Bigger glow */
+        0 0 30px white,   /* Even bigger glow */
+        0 0 40px white;   /* Outermost glow */
+        span {
+            color: #fcc613;
+            font-size: 1.2em;
+            text-shadow: 0 0 10px purple,    /* Inner glow */
+                0 0 10px purple,   /* Slightly bigger glow */
+                0 0 20px purple,   /* Bigger glow */
+                0 0 30px purple,   /* Even bigger glow */
+                0 0 40px blue,   /* Outermost glow */
+                0 0 50px blue,   /* Outermost glow */
+                0 0 60px blue;   /* Outermost glow */
+
+
+        }
+
+    }
+
 
 .promo {
     margin-top: .5em;
@@ -773,7 +802,7 @@ textarea { height: 100%; }
     }
 
     .dates {
-        font-size: 1.4em !important;
+        font-size: 1.8em !important;
     }
 
     .banner-logo img {
@@ -830,6 +859,11 @@ textarea { height: 100%; }
         span:nth-of-type(2) {
             font-size: 3.2em;
         }
+    }
+
+    .earlyBird {
+        font-size: 1.7em;
+        padding: 0 .5em;
     }
 
     .locations {

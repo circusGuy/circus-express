@@ -133,6 +133,13 @@ const locations =
             "address2": "1501 Criders Church Rd, Chambersburg, PA 17202",
             "dates": ["2025-07-24", "2025-07-27"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/724-727-chambersburg-pa/63RURNBKPRKAKADPTAWTC6G6"
+        },
+        {
+            "name": "Hershey, PA",
+            "address": "The AACA Museum",
+            "address2": "161 Museum Dr, Hershey PA 17033",
+            "dates": ["2025-07-31", "2025-08-03"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/731-83-hershey-pa/YIEJQBPPCZ56C25P7I2WHXGG"
         }
     ];
 
@@ -264,7 +271,13 @@ locations.forEach((location, index) => {
             showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
         }
         if (abbreviatedDay === 'Fri') {
-            showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            let changeDate = new Date("2025-07-30");
+            if (currentDate.getTime() >= changeDate.getTime()) {
+                showTimes2Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
+            } else {
+                showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            }
+            // showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
         if (abbreviatedDay === 'Sat') {
             showTimes3Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
