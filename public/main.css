@@ -331,7 +331,7 @@ body {
         
         }
 
-        .showTimes1, .showTimes2, .showTimes3, .showTimes4 {
+        .showTimes1, .showTimes2, .showTimes3, .showTimes4, .showTimes5, .showTimes6, .showTimes7 {
             font-size: 1.4em;
             font-weight: bold;
         }
@@ -452,6 +452,28 @@ button:hover {
                 0 0 30px #00ff00,   /* Even bigger glow */
                 0 0 40px #00ff00;   /* Outermost glow */
 
+    }
+}
+
+.lancaster {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: .75em auto 0 auto;
+    font-family: Carnival;
+    font-size: 1.2em;
+    color: black;
+    align-items: center;
+    line-height: 1;
+
+    span { 
+        font-size: 2.2em;
+        text-shadow: 0 0 5px white,    /* Inner glow */
+            0 0 10px white,   /* Slightly bigger glow */
+            0 0 20px white,   /* Bigger glow */
+            0 0 30px white,   /* Even bigger glow */
+            0 0 40px white;   /* Outermost glow */
     }
 }
 
@@ -858,6 +880,12 @@ textarea { height: 100%; }
 
         span:nth-of-type(2) {
             font-size: 3.2em;
+        }
+    }
+    
+    .lancaster {
+        span {
+            font-size: 1.6em;
         }
     }
 

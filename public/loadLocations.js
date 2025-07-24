@@ -146,6 +146,13 @@ const locations =
             "address": "200 N State Street, York, PA 17403",
             "dates": ["2025-08-07", "2025-08-10"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/87-710-york-pa/GK2AJNEPABUNRHHJSD6SEKI2"
+        },
+        {
+            "name": "Lancaster, PA",
+            "address": "East Petersburg Civic Grounds Community Park",
+            "address2": "6051 Pine St, East Petersburg, PA 17520",
+            "dates": ["2025-08-13", "2025-08-24"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-lancaster-pa/7DGS3EF26T33WTBIZKTLNUGL"
         }
     ];
 
@@ -209,11 +216,11 @@ locations.forEach((location, index) => {
 	const datesDiv = document.createElement('div');
     datesDiv.className = 'dates';
 
-    const showTimes1Div = document.createElement('div');
-    showTimes1Div.className = 'showTimes1';
-
     const promo = document.createElement('div');
     promo.className = 'promo';
+    
+    const showTimes1Div = document.createElement('div');
+    showTimes1Div.className = 'showTimes1';
 
     const showTimes2Div = document.createElement('div');
     showTimes2Div.className = 'showTimes2';
@@ -223,6 +230,15 @@ locations.forEach((location, index) => {
 
     const showTimes4Div = document.createElement('div');
     showTimes4Div.className = 'showTimes4';
+
+    const showTimes5Div = document.createElement('div');
+    showTimes5Div.className = 'showTimes5';
+
+    const showTimes6Div = document.createElement('div');
+    showTimes6Div.className = 'showTimes6';
+
+    const showTimes7Div = document.createElement('div');
+    showTimes7Div.className = 'showTimes7';
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -255,6 +271,9 @@ locations.forEach((location, index) => {
     // Construct the date string
     if (oneDayShow) {
         datesDiv.innerHTML = `${startMonth} ${startDay} – <span class="lastDay">One Day Only!</span>`;
+    } else if (location.name === 'Lancaster, PA') {
+        datesDiv.innerHTML = `August 13th – 17th`;
+
     } else if (startDay === endDay) {
         datesDiv.innerHTML = `${startMonth} ${startDay} – <span class="lastDay">Last Day!</span>`;
     } else if (startMonth === endMonth) {
@@ -266,6 +285,16 @@ locations.forEach((location, index) => {
 
     locationDiv.appendChild(cityDiv);
     locationDiv.appendChild(addressDiv);
+
+    // Remove after Lancaster, PA
+    if (location.name === 'Lancaster, PA') {
+        const lancasterDatesDiv = document.createElement('div');
+        lancasterDatesDiv.className = 'lancaster';
+        lancasterDatesDiv.innerHTML = `<span>August 13th – 24th</span>`;
+
+        locationDiv.appendChild(lancasterDatesDiv)
+    }
+
     locationDiv.appendChild(datesDiv);
 
     for (let i = 0; i <= getDifferenceInDays(startDate, endDate); i++) { 
@@ -273,45 +302,92 @@ locations.forEach((location, index) => {
 
         currentDate.setDate(startDate.getDate() + i); // Add # days
         const abbreviatedDay = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
+        if (abbreviatedDay === 'Mon') {
+            showTimes1Div.innerHTML = 'Mon: &nbsp; 6:00 PM';
+        }
+        if (abbreviatedDay === 'Tue') {
+            showTimes2Div.innerHTML = 'Tue: &nbsp; 6:00 PM';
+        }
+        if (abbreviatedDay === 'Wed') {
+            showTimes3Div.innerHTML = 'Wed: &nbsp; 6:00 PM';
+        }
         if (abbreviatedDay === 'Thu') {
-            showTimes1Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
+            showTimes4Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
         }
         if (abbreviatedDay === 'Fri') {
             let changeDate = new Date("2025-07-30");
-            if (currentDate.getTime() >= changeDate.getTime()) {
-                showTimes2Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
+            if (location.name === 'Lancaster, PA') {
+                showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM';
+            } else if (currentDate.getTime() >= changeDate.getTime()) {
+                showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
             } else {
-                showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+                showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
             }
-            // showTimes2Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            // showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
         if (abbreviatedDay === 'Sat') {
-            showTimes3Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            showTimes6Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
         if (abbreviatedDay === 'Sun') {
-            showTimes4Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
+            showTimes7Div.innerHTML = 'Sun: &nbsp; 2:30&nbsp; & &nbsp;5:00 PM';
         }
     }
 
-    if (showTimes1Div.innerHTML) {
-        // NOTE: Turn this back on after Bridgeville, DE. 
-        // promo.innerHTML = "First 100 tickets $10";
-        // locationDiv.appendChild(promo);
-        locationDiv.appendChild(showTimes1Div);
-    }
+    // MONDAY
+    // if (showTimes1Div.innerHTML) {
+    //     locationDiv.appendChild(showTimes1Div);
+    // }
 
-    if (showTimes2Div.innerHTML) {
-        locationDiv.appendChild(showTimes2Div);
-    }
+    // TUESDAY
+    // if (showTimes2Div.innerHTML) {
+    //     locationDiv.appendChild(showTimes2Div);
+    // }
 
+    // WEDNESDAY
     if (showTimes3Div.innerHTML) {
         locationDiv.appendChild(showTimes3Div);
     }
 
+    // THURSDAY
     if (showTimes4Div.innerHTML) {
+        // NOTE: Turn this back on after Bridgeville, DE. 
+        // promo.innerHTML = "First 100 tickets $10";
+        // locationDiv.appendChild(promo);
         locationDiv.appendChild(showTimes4Div);
+    }
+
+    // FRIDAY
+    if (showTimes5Div.innerHTML) {
+        locationDiv.appendChild(showTimes5Div);
+    }
+
+    // SATURDAY
+    if (showTimes6Div.innerHTML) {
+        locationDiv.appendChild(showTimes6Div);
+    }
+
+    // SUNDAY
+    if (showTimes7Div.innerHTML) {
+        locationDiv.appendChild(showTimes7Div);
+    }
+
+    if (location.name === 'Lancaster, PA') { 
+        let specialDiv = document.createElement('div');
+        specialDiv.innerHTML = `<div class="lancaster"><span>~~~~~~~~~~~~~</span></div>`;
+        specialDiv.innerHTML += `<div class="dates">August 18th – 24th</div>`;
+        specialDiv.innerHTML += `<div class="showTimes1">Mon: &nbsp; 6:00 PM</div>`;
+        specialDiv.innerHTML += `<div class="showTimes3">Wed: &nbsp; 6:00 PM</div>`;
+        specialDiv.innerHTML += `<div class="showTimes4">Thu: &nbsp; 6:00 PM</div>`;
+        specialDiv.innerHTML += `<div class="showTimes5">Fri: &nbsp; 6:00 PM</div>`;
+        specialDiv.innerHTML += `<div class="showTimes6">Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; &amp; &nbsp;7:30 PM</div>`;
+        specialDiv.innerHTML += `<div class="showTimes7">Sun: &nbsp; 2:30&nbsp; &amp; &nbsp;5:00 PM</div>`;
+        locationDiv.appendChild(specialDiv);
     }
 
     linkElement.appendChild(locationDiv);
     locationsContainer.appendChild(linkElement);
 });
+
+
+
+
