@@ -455,7 +455,7 @@ button:hover {
     }
 }
 
-.lancaster {
+.reading {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -883,7 +883,7 @@ textarea { height: 100%; }
         }
     }
     
-    .lancaster {
+    .reading {
         span {
             font-size: 1.6em;
         }

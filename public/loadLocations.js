@@ -148,11 +148,11 @@ const locations =
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/87-710-york-pa/GK2AJNEPABUNRHHJSD6SEKI2"
         },
         {
-            "name": "Lancaster, PA",
-            "address": "East Petersburg Civic Grounds Community Park",
-            "address2": "6051 Pine St, East Petersburg, PA 17520",
+            "name": "Reading, PA",
+            "address": "Willow Glen Park",
+            "address2": "94 Park Ave, Reading, PA 19608",
             "dates": ["2025-08-13", "2025-08-24"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-lancaster-pa/7DGS3EF26T33WTBIZKTLNUGL"
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-reading-pa/7DGS3EF26T33WTBIZKTLNUGL"
         }
     ];
 
@@ -271,7 +271,7 @@ locations.forEach((location, index) => {
     // Construct the date string
     if (oneDayShow) {
         datesDiv.innerHTML = `${startMonth} ${startDay} – <span class="lastDay">One Day Only!</span>`;
-    } else if (location.name === 'Lancaster, PA') {
+    } else if (location.name === 'Reading, PA') {
         datesDiv.innerHTML = `August 13th – 17th`;
 
     } else if (startDay === endDay) {
@@ -286,13 +286,13 @@ locations.forEach((location, index) => {
     locationDiv.appendChild(cityDiv);
     locationDiv.appendChild(addressDiv);
 
-    // Remove after Lancaster, PA
-    if (location.name === 'Lancaster, PA') {
-        const lancasterDatesDiv = document.createElement('div');
-        lancasterDatesDiv.className = 'lancaster';
-        lancasterDatesDiv.innerHTML = `<span>August 13th – 24th</span>`;
+    // Remove after Reading, PA
+    if (location.name === 'Reading, PA') {
+        const readingDatesDiv = document.createElement('div');
+        readingDatesDiv.className = 'reading';
+        readingDatesDiv.innerHTML = `<span>August 13th – 24th</span>`;
 
-        locationDiv.appendChild(lancasterDatesDiv)
+        locationDiv.appendChild(readingDatesDiv)
     }
 
     locationDiv.appendChild(datesDiv);
@@ -316,7 +316,7 @@ locations.forEach((location, index) => {
         }
         if (abbreviatedDay === 'Fri') {
             let changeDate = new Date("2025-07-30");
-            if (location.name === 'Lancaster, PA') {
+            if (location.name === 'Reading, PA') {
                 showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM';
             } else if (currentDate.getTime() >= changeDate.getTime()) {
                 showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
@@ -371,9 +371,9 @@ locations.forEach((location, index) => {
         locationDiv.appendChild(showTimes7Div);
     }
 
-    if (location.name === 'Lancaster, PA') { 
+    if (location.name === 'Reading, PA') { 
         let specialDiv = document.createElement('div');
-        specialDiv.innerHTML = `<div class="lancaster"><span>~~~~~~~~~~~~~</span></div>`;
+        specialDiv.innerHTML = `<div class="reading"><span>~~~~~~~~~~~~~</span></div>`;
         specialDiv.innerHTML += `<div class="dates">August 18th – 24th</div>`;
         specialDiv.innerHTML += `<div class="showTimes1">Mon: &nbsp; 6:00 PM</div>`;
         specialDiv.innerHTML += `<div class="showTimes3">Wed: &nbsp; 6:00 PM</div>`;
