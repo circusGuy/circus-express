@@ -150,7 +150,7 @@ const locations =
         {
             "name": "Reading, PA",
             "address": "Willow Glen Park",
-            "address2": "94 Park Ave, Reading, PA 19608",
+            "address2": "94 Park Ave, Sinking Spring, PA 19608",
             "dates": ["2025-08-13", "2025-08-24"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-reading-pa/7DGS3EF26T33WTBIZKTLNUGL"
         }
