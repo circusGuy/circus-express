@@ -141,12 +141,12 @@ const locations =
             "dates": ["2025-07-31", "2025-08-03"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/731-83-hershey-pa/YIEJQBPPCZ56C25P7I2WHXGG"
         },
-        {
-            "name": "York, PA",
-            "address": "200 N State Street, York, PA 17403",
-            "dates": ["2025-08-07", "2025-08-10"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/87-710-york-pa/GK2AJNEPABUNRHHJSD6SEKI2"
-        },
+        // { // NOTE: Location was cancelled
+        //     "name": "York, PA",
+        //     "address": "200 N State Street, York, PA 17403",
+        //     "dates": ["2025-08-07", "2025-08-10"],
+        //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/87-710-york-pa/GK2AJNEPABUNRHHJSD6SEKI2"
+        // },
         {
             "name": "Reading, PA",
             "address": "Willow Glen Park",
