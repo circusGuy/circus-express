@@ -157,7 +157,7 @@ const locations =
         {
             "name": "Williamsport, PA",
             "address": "Montgomery Park",
-            "address2": "119 1st St, Williamsport, PA 17752",
+            "address2": "119 1st St, Montgomery, PA 17752",
             "dates": ["2025-08-27", "2025-08-31"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN"
         }
