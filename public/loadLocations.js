@@ -153,6 +153,13 @@ const locations =
             "address2": "94 Park Ave, Sinking Spring, PA 19608",
             "dates": ["2025-08-13", "2025-08-24"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-reading-pa/7DGS3EF26T33WTBIZKTLNUGL"
+        },
+        {
+            "name": "Williamsport, PA",
+            "address": "Montgomery Park",
+            "address2": "119 1st St, Williamsport, PA 17752",
+            "dates": ["2025-08-27", "2025-08-31"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN"
         }
     ];
 
@@ -315,14 +322,15 @@ locations.forEach((location, index) => {
             showTimes4Div.innerHTML = 'Thu: &nbsp; 6:00 PM';
         }
         if (abbreviatedDay === 'Fri') {
-            let changeDate = new Date("2025-07-30");
-            if (location.name === 'Reading, PA') {
-                showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM';
-            } else if (currentDate.getTime() >= changeDate.getTime()) {
-                showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
-            } else {
-                showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
-            }
+            showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM';
+            // let changeDate = new Date("2025-07-30");
+            // if (location.name === 'Reading, PA') {
+            //     showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM';
+            // } else if (currentDate.getTime() >= changeDate.getTime()) {
+            //     showTimes5Div.innerHTML = 'Fri: &nbsp; 6:00 PM&nbsp; & &nbsp;8:30 PM';
+            // } else {
+            //     showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
+            // }
             // showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
         if (abbreviatedDay === 'Sat') {
