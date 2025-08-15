@@ -363,9 +363,9 @@ locations.forEach((location, index) => {
     // }
 
     // TUESDAY
-    // if (showTimes2Div.innerHTML) {
-    //     locationDiv.appendChild(showTimes2Div);
-    // }
+    if (showTimes2Div && location.name !== 'Reading, PA') {
+        locationDiv.appendChild(showTimes2Div);
+    }
 
     // WEDNESDAY
     if (showTimes3Div.innerHTML) {
