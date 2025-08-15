@@ -160,6 +160,20 @@ const locations =
             "address2": "119 1st St, Montgomery, PA 17752",
             "dates": ["2025-08-27", "2025-08-31"],
             "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN"
+        },
+        {
+            "name": "Reedsville, PA",
+            "address": "Mifflin County Youth Park",
+            "address2": "110 W Logan St, Reedsville, PA 17084",
+            "dates": ["2025-09-02", "2025-09-04"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/92-94-reedsville-pa/CYDVT6KVS6OB5JSIFM7XCNL4"
+        },
+        {
+            "name": "Mill Hall, PA",
+            "address": "Clinton County Fairgrounds",
+            "address2": "98 Racetrack Rd, Mill Hall, PA 17751",
+            "dates": ["2025-09-06", "2025-09-07"],
+            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/96-97-mill-hall-pa/YVPOJ3CWBHSLXZXFZDCCSLKD"
         }
     ];
 
@@ -333,7 +347,9 @@ locations.forEach((location, index) => {
             // }
             // showTimes5Div.innerHTML = 'Fri: &nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
-        if (abbreviatedDay === 'Sat') {
+        if (abbreviatedDay === 'Sat' && location.name === 'Mill Hall, PA') {
+            showTimes6Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; & &nbsp;5:00 PM';
+        } else if (abbreviatedDay === 'Sat') {
             showTimes6Div.innerHTML = 'Sat: &nbsp; 2:30,&nbsp; 5:00&nbsp; & &nbsp;7:30 PM';
         }
         if (abbreviatedDay === 'Sun') {
