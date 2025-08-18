@@ -1,4 +1,4 @@
-// FROM Kingdom Of Wonders test site
+// The Kingdom Of Wonders
 
 // Get the current path 
 const currentPath = window.location.pathname;

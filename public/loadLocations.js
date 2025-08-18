@@ -330,7 +330,7 @@ locations.forEach((location, index) => {
             showTimes2Div.innerHTML = 'Tue: &nbsp; 6:00 PM';
         }
         if (abbreviatedDay === 'Wed') {
-            showTimes3Div.innerHTML = 'Wed: &nbsp; 6:00 PM';
+            showTimes3Div.innerHTML = 'Wed: &nbsp; 6:01 PM';
         }
         if (abbreviatedDay === 'Thu') {
             showTimes4Div.innerHTML = 'Thu: &nbsp; 6:00 PM';

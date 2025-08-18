@@ -27,6 +27,10 @@ app.get('/gallery', (req, res) => {
   res.sendFile(path.join(__dirname, '..','public', 'gallery.html'));
 });
 
+app.get('/media', (req, res) => {
+  res.sendFile(path.join(__dirname, '..','public', 'media.html'));
+});
+
 app.get('/concessions', (req, res) => {
   res.sendFile(path.join(__dirname, '..','public', 'concessions.html'));
 });
