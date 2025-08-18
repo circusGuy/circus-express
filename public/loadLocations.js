@@ -1,110 +1,118 @@
-// import { locations } from './locations.js'; // Import the locations array
-const locations =
-    [
-        {
-            "name": "Chester, SC",
-            "address": "2355 Great Falls Hwy.",
-            "dates": ["2025-03-19", "2025-03-20"], 
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/319-320-chester-sc/C2KJR2W7VERKIHW3ULB2QDFY"
-        },
-        {
-            "name": "Lake City, SC",
-            "address": "748 McCutcheon Rd.",
-            "dates": ["2025-03-21", "2025-03-23"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/321-323-lake-city-sc/PHS5KRPI2PLN7UXVQ3QDQOS2"
-        },
-        {
-            "name": "Orangeburg, SC",
-            "address": "350 Magnolia Street",
-            "dates": ["2025-03-26", "2025-03-28"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/326-328-orangeburg-sc/3RFFSBJLOIBROIOHGFK57JY3"
-        },
-        {
-            "name": "Barnwell, SC",
-            "address": "12403 Ellenton Street",
-            "dates": ["2025-03-29", "2025-03-30"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/329-330-barnwell-sc/2I75PKPN4XSI7VRQKXCR6U7K"
-        },
-        {
-            "name": "Kinston, NC",
-            "address": "401 Fairgrounds Rd.",
-            "dates": ["2025-04-03", "2025-04-06"],
-            "promo": "Buy One Get One Thrusday",
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K"
-        },
-        {
-            "name": "Kinston, NC",
-            "address": "401 Fairgrounds Rd.",
-            "dates": ["2025-04-13", "2025-04-13"],
-            "promo": "Buy One Get One Thrusday",
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/413-kinston-nc/OJTZEZZHKU6YRCYTHMVQBQGM"
-        },
-        {
-            "name": "Lexington, NC",
-            "address": "Davidson County Agricultural Fairgrounds",
-            "dates": ["2025-04-17", "2025-04-20"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/417-420-lexington-nc/UCG6W4YD4CDGRVJ3M2MRG7BJ"
-        },
-        {
-            "name": "Union, SC",
-            "address": "Union County Fairgrounds",
-            "dates": ["2025-04-24", "2025-04-27"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ"
-        },
-        {
-            "name": "Greenwood, SC",
-            "address": "Greenwood County Fairgrounds",
-            "dates": ["2025-05-08", "2025-05-11"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/58-511-greenwood-sc/G477ATAYLBC7SL4MCZY57KW6"
-        },
-        {
-            "name": "Greeneville, TN",
-            "address": "Greene County Fairgrounds",
-            "address2": "109 Jeff Woods Memorial Dr",
-            "dates": ["2025-05-15", "2025-05-18"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/515-518-greeneville-tn/JTPRXMFETZKFK3LQK5BILGOR"
-        },
-        {
-            "name": "Lenoir, NC",
-            "address": "Caldwell County Fairgrounds",
-            "dates": ["2025-05-22", "2025-05-25"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY"
-        },
-        {
-            "name": "South Boston, VA",
-            "address": "Halifax County Fairgrounds",
-            "address2": "1188 James D Hagwood Hwy",
-            "dates": ["2025-05-29", "2025-06-01"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ"
-        },
-        {
-            "name": "Front Royal, VA",
-            "address": "Warren County Fairgrounds",
-            "address2": "26 Fairground Rd",
-            "dates": ["2025-06-05", "2025-06-08"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/65-68-front-royal-va/NBIM2USA6W7HERDIOAHXWDZV"
-        },
-        {
-            "name": "Ridgeley, WV",
-            "address": "Ridgeley Community Center",
-            "address2": "581 Veterans Memorial Hwy",
-            "dates": ["2025-06-12", "2025-06-15"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/612-615-ridgeley-wv/ITBPN6TENPY5NTSUBFYOTZTK"
-        },
-        {
-            "name": "Manchester, MD",
-            "address": "Manchester VFD Activities Bldg",
-            "address2": "3297 York Street",
-            "dates": ["2025-06-19", "2025-06-22"],
-            "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/619-622-manchester-md/5DEGCTHQAMRRZGRYAJPR2D2W"
-        },
-        // { NOTE: Location was cancelled
-        //     "name": "Chestertown, MD",
-        //     // "address": "Minary's Dream Alliance, Inc.",
-        //     "address2": "9155 American Legion Rd",
-        //     "dates": ["2025-06-26", "2025-06-29"],
-        //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
-        // },
+async function load_locations(){
+    const data = await fetch('./locations.json');
+    return await data.json();
+}
+
+load_locations().then(data => {
+    console.log(data)
+})
+
+
+const locations = [
+  {
+    name: "Chester, SC",
+    address: "2355 Great Falls Hwy.",
+    dates: ["2025-03-19", "2025-03-20"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/319-320-chester-sc/C2KJR2W7VERKIHW3ULB2QDFY",
+  },
+  {
+    name: "Lake City, SC",
+    address: "748 McCutcheon Rd.",
+    dates: ["2025-03-21", "2025-03-23"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/321-323-lake-city-sc/PHS5KRPI2PLN7UXVQ3QDQOS2",
+  },
+  {
+    name: "Orangeburg, SC",
+    address: "350 Magnolia Street",
+    dates: ["2025-03-26", "2025-03-28"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/326-328-orangeburg-sc/3RFFSBJLOIBROIOHGFK57JY3",
+  },
+  {
+    name: "Barnwell, SC",
+    address: "12403 Ellenton Street",
+    dates: ["2025-03-29", "2025-03-30"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/329-330-barnwell-sc/2I75PKPN4XSI7VRQKXCR6U7K",
+  },
+  {
+    name: "Kinston, NC",
+    address: "401 Fairgrounds Rd.",
+    dates: ["2025-04-03", "2025-04-06"],
+    promo: "Buy One Get One Thrusday",
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/43-46-kinston-nc/LFYJX536FW2WNCAHST3VGP3K",
+  },
+  {
+    name: "Kinston, NC",
+    address: "401 Fairgrounds Rd.",
+    dates: ["2025-04-13", "2025-04-13"],
+    promo: "Buy One Get One Thrusday",
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/413-kinston-nc/OJTZEZZHKU6YRCYTHMVQBQGM",
+  },
+  {
+    name: "Lexington, NC",
+    address: "Davidson County Agricultural Fairgrounds",
+    dates: ["2025-04-17", "2025-04-20"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/417-420-lexington-nc/UCG6W4YD4CDGRVJ3M2MRG7BJ",
+  },
+  {
+    name: "Union, SC",
+    address: "Union County Fairgrounds",
+    dates: ["2025-04-24", "2025-04-27"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/424-427-union-sc/7O63KNV66WF2GR6SUPBBUYIJ",
+  },
+  {
+    name: "Greenwood, SC",
+    address: "Greenwood County Fairgrounds",
+    dates: ["2025-05-08", "2025-05-11"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/58-511-greenwood-sc/G477ATAYLBC7SL4MCZY57KW6",
+  },
+  {
+    name: "Greeneville, TN",
+    address: "Greene County Fairgrounds",
+    address2: "109 Jeff Woods Memorial Dr",
+    dates: ["2025-05-15", "2025-05-18"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/515-518-greeneville-tn/JTPRXMFETZKFK3LQK5BILGOR",
+  },
+  {
+    name: "Lenoir, NC",
+    address: "Caldwell County Fairgrounds",
+    dates: ["2025-05-22", "2025-05-25"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/522-525-lenoir-nc/NT337AXTDWSXPBZDS3UEBKCY",
+  },
+  {
+    name: "South Boston, VA",
+    address: "Halifax County Fairgrounds",
+    address2: "1188 James D Hagwood Hwy",
+    dates: ["2025-05-29", "2025-06-01"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/529-61-south-boston-va/G7KU364KOJTDKYITEFWJRZVJ",
+  },
+  {
+    name: "Front Royal, VA",
+    address: "Warren County Fairgrounds",
+    address2: "26 Fairground Rd",
+    dates: ["2025-06-05", "2025-06-08"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/65-68-front-royal-va/NBIM2USA6W7HERDIOAHXWDZV",
+  },
+  {
+    name: "Ridgeley, WV",
+    address: "Ridgeley Community Center",
+    address2: "581 Veterans Memorial Hwy",
+    dates: ["2025-06-12", "2025-06-15"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/612-615-ridgeley-wv/ITBPN6TENPY5NTSUBFYOTZTK",
+  },
+  {
+    name: "Manchester, MD",
+    address: "Manchester VFD Activities Bldg",
+    address2: "3297 York Street",
+    dates: ["2025-06-19", "2025-06-22"],
+    link: "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/619-622-manchester-md/5DEGCTHQAMRRZGRYAJPR2D2W",
+  },
+  // { NOTE: Location was cancelled
+  //     "name": "Chestertown, MD",
+  //     // "address": "Minary's Dream Alliance, Inc.",
+  //     "address2": "9155 American Legion Rd",
+  //     "dates": ["2025-06-26", "2025-06-29"],
+  //     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/626-629-chestertown-md/2SUCRDL3IWMITLCB7CS4T3NF"
+  // },
 
         {
             "name": "Bridgeville, DE",
