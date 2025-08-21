@@ -1,127 +1,60 @@
 [
   {
-    "location": "York, PA",
-    "date_range": "August 7 – August 10",
-    "address": [
-      "200 N State Street, York, PA 17403"
-    ],
-    "shows": [
-      {
-        "date": "August 7",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-7-york-pa/HMNRYN7V7N3FY4RTFFE4CA3G?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 8",
-        "times": [
-          "6:00 PM",
-          "8:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-8-york-pa/2P3G7T3I26GTKZNVYUSFA4HK?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 9",
-        "times": [
-          "2:30 PM",
-          "5:00 PM",
-          "7:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-9-york-pa/PX4A2LGMD5CJ3RSOGLXM74G4?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 10",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-10-york-pa/EQN3M5JR3CSCQBG7IZ3MIYXQ?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      }
-    ]
-  },
-  {
-    "location": "Reading, PA",
-    "date_range": "August 15 – August 24",
+    "name": "Reading, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-reading-pa/7DGS3EF26T33WTBIZKTLNUGL",
+    "date_range": "August 21 – August 24",
+    "date_range_text": "August 21st – 24th",
     "address": [
       "Willow Glen Park",
       "94 Park Ave, Sinking Spring PA 19608"
     ],
     "shows": [
       {
-        "date": "August 15",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-15-reading-pa/7COIUMSKVLDKOIDI7Z4W4FT6?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 16",
-        "times": [
-          "2:30 PM",
-          "5:00 PM",
-          "7:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-reading-pa/H5TUKEO66HMUTM4YNVUXPI36?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 17",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-17-reading-pa/IANJJFKAMHB4HIQ6XDNUO4UU?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 18",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-18-reading-pa/WEI6WMGUV22HDZRN7LZM3V4B?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
-        "date": "August 20",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-20-reading-pa/7XPFV3BPKTVZKTL4NGK64SWD?page=1&limit=30&sort_by=category_order&sort_order=asc"
-      },
-      {
         "date": "August 21",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-21-reading-pa/HWQA2TQ5YXERS4JETIAMZVFE?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-21-reading-pa/HWQA2TQ5YXERS4JETIAMZVFE"
       },
       {
         "date": "August 22",
+        "weekday": "Fri",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-22-reading-pa/BDEZM5U46KTIYY7LEMWYKFU6?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-22-reading-pa/BDEZM5U46KTIYY7LEMWYKFU6"
       },
       {
         "date": "August 23",
+        "weekday": "Sat",
+        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM",
         "times": [
           "2:30 PM",
           "5:00 PM",
           "7:30 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-23-reading-pa/J3GJ5KR7JTAG2A4CJP25RYLH?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-23-reading-pa/J3GJ5KR7JTAG2A4CJP25RYLH"
       },
       {
         "date": "August 24",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
         "times": [
           "2:30 PM",
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-24-reading-pa/NU6GIANWNKXXT32ZVCOCC55D?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-24-reading-pa/NU6GIANWNKXXT32ZVCOCC55D"
       }
     ]
   },
   {
-    "location": "Williamsport, PA",
+    "name": "Williamsport, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN",
     "date_range": "August 27 – August 31",
+    "date_range_text": "August 27th – 31st",
     "address": [
       "Montgomery Park",
       "119 1st St, Montgomery, PA 17752"
@@ -129,47 +62,59 @@
     "shows": [
       {
         "date": "August 27",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-27-williamsport-pa/TAOSVIPDQOFGICRW4SI5J3TC?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-27-williamsport-pa/TAOSVIPDQOFGICRW4SI5J3TC"
       },
       {
         "date": "August 28",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-28-williamsport-pa/NTYIB6IDDMH55R5OCTGWVAO6?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-28-williamsport-pa/NTYIB6IDDMH55R5OCTGWVAO6"
       },
       {
         "date": "August 29",
+        "weekday": "Fri",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-29-williamsport-pa/6OJ4VZFPJUXTGDOY2DQZKF74?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-29-williamsport-pa/6OJ4VZFPJUXTGDOY2DQZKF74"
       },
       {
         "date": "August 30",
+        "weekday": "Sat",
+        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM",
         "times": [
           "2:30 PM",
           "5:00 PM",
           "7:30 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-30-williamsport-pa/E7VBJYLF6KLP6Q376RLSHQUX?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-30-williamsport-pa/E7VBJYLF6KLP6Q376RLSHQUX"
       },
       {
         "date": "August 31",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
         "times": [
           "2:30 PM",
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-31-williamsport-pa/XI7RTSFMDAOPWM2KNMVQIR5M?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-31-williamsport-pa/XI7RTSFMDAOPWM2KNMVQIR5M"
       }
     ]
   },
   {
-    "location": "Reedsville, PA",
+    "name": "Reedsville, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/92-94-reedsville-pa/CYDVT6KVS6OB5JSIFM7XCNL4",
     "date_range": "Sept 2 – Sept 4",
+    "date_range_text": "September 2nd – 4th",
     "address": [
       "Mifflin County Youth Park",
       "110 W Logan St, Reedsville, PA 17084"
@@ -177,30 +122,38 @@
     "shows": [
       {
         "date": "Sept 2",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-2-reedsville-pa/Y6UYY4WRNSCSWAL3Y67RFPCI?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-2-reedsville-pa/Y6UYY4WRNSCSWAL3Y67RFPCI"
       },
       {
         "date": "Sept 3",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-3-reedsville-pa/I2LSUPQUYVAYCFZROPU554ND?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-3-reedsville-pa/I2LSUPQUYVAYCFZROPU554ND"
       },
       {
         "date": "Sept 4",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-4-reedsville-pa/HEZ6WSVI7IWICICBU2AUQGAN?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-4-reedsville-pa/HEZ6WSVI7IWICICBU2AUQGAN"
       }
     ]
   },
   {
-    "location": "Mill Hall, PA",
+    "name": "Mill Hall, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/96-97-mill-hall-pa/YVPOJ3CWBHSLXZXFZDCCSLKD",
     "date_range": "Sept 6 – Sept 7",
+    "date_range_text": "September 6th – 7th",
     "address": [
       "Clinton County Fairgrounds",
       "98 Racetrack Rd, Mill Hall, PA 17751"
@@ -208,19 +161,62 @@
     "shows": [
       {
         "date": "Sept 6",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
         "times": [
           "2:30 PM",
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-6-mill-hall-pa/IPVCRQGQFP4DSC5QTVFYYBTO?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-6-mill-hall-pa/IPVCRQGQFP4DSC5QTVFYYBTO"
       },
       {
         "date": "Sept 7",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
         "times": [
           "2:30 PM",
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-7-mill-hall-pa/6TEBVK7WAPOFETA2S76DW7NS?page=1&limit=30&sort_by=category_order&sort_order=asc"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-7-mill-hall-pa/6TEBVK7WAPOFETA2S76DW7NS"
+      }
+    ]
+  },
+  {
+    "name": "Danville, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/916-918-danville-pa/GGOSJ5TJSZTZS2CXLOWLXODG",
+    "date_range": "Sept 16 – Sept 18",
+    "date_range_text": "September 16th – 18th",
+    "address": [
+      "Montour-Delong Community Fair",
+      "5848 Broadway Rd, Danville, PA 17821"
+    ],
+    "shows": [
+      {
+        "date": "Sept 16",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-16-danville-pa/X5MGCRZY5332C6PGBDYG5JZA"
+      },
+      {
+        "date": "Sept 17",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-17-danville-pa/7UKZUES2QEZ24FEIU7EDDX5L"
+      },
+      {
+        "date": "Sept 18",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-18-danville-pa/GEZK7GPUSWXRTVHOAY2NCKA6"
       }
     ]
   }

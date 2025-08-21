@@ -331,9 +331,22 @@ body {
         
         }
 
-        .showTimes1, .showTimes2, .showTimes3, .showTimes4, .showTimes5, .showTimes6, .showTimes7 {
+        .showTimes, .showTimes1, .showTimes2, .showTimes3, .showTimes4, .showTimes5, .showTimes6, .showTimes7 {
             font-size: 1.4em;
             font-weight: bold;
+        }
+
+        .showTimes a {
+            color: #efc524;
+            text-decoration: none;
+        }
+        .showTimes a:hover {
+            color: white;
+            text-shadow: 0 0 5px purple,    /* Inner glow */
+            0 0 10px purple,   /* Slightly bigger glow */
+            0 0 20px purple,   /* Bigger glow */
+            0 0 30px purple,   /* Even bigger glow */
+            0 0 40px purple;   /* Outermost glow */
         }
     }
 
@@ -421,6 +434,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: white;
 }
 
 .price {
@@ -466,6 +480,7 @@ button:hover {
     color: black;
     align-items: center;
     line-height: 1;
+    margin-bottom: 1em;
 
     span { 
         font-size: 2.2em;

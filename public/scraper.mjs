@@ -1,13 +1,18 @@
 import puppeteer from "puppeteer";
 import fs from "fs";
+import { format } from "path";
 
 const HOME_LINK =
-  "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/archived-items/ECUFJ46U6WBV74PK5YWMRHTJ?page=1&limit=30&sort_by=category_order&sort_order=asc&location_id=11efc7a10d854581bd5e3cecef6dbaf0";
+  "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/archived-items/ECUFJ46U6WBV74PK5YWMRHTJ";
 
 async function get_links() {
   let links = [];
 
-  const browser = await puppeteer.launch();
+  // const browser = await puppeteer.launch();
+  // Uncomment the line below to run in non-headless mode for debugging
+  // Displays browser window
+    const browser = await puppeteer.launch({headless: false});
+
   const page = await browser.newPage();
 
   await page.goto(HOME_LINK);
@@ -89,13 +94,14 @@ async function scrape_showtimes(date_link, page, addressPage, first) {
       showtimes.push(time);
     }
   }
+  
   return { times: showtimes, address: address };
 }
 
 async function scrape_location(show_link) {
   let shows = [];
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
   const timePage = await browser.newPage();
   const addressPage = await browser.newPage();
@@ -155,6 +161,28 @@ await browser.close();
   return shows;
 }
 
+// Helper function to get the ordinal suffix
+function getOrdinalSuffix(day) {
+    if (day === 1 || day === 21 || day === 31) return `${day}st`;
+    if (day === 2 || day === 22) return `${day}nd`;
+    if (day === 3 || day === 23) return `${day}rd`;
+    return `${day}th`;
+}
+
+function formatTimes(times) {
+    if (times.length === 0) return "";
+    if (times.length === 1) return times[0];
+    
+    // Extract the shared "AM" or "PM" suffix
+    const suffix = times[0].split(" ")[1];
+    
+    // Remove the "AM" or "PM" part from each time
+    const strippedTimes = times.map(time => time.split(" ")[0]);
+    
+    // Join the times with commas and an ampersand before the last one
+    return strippedTimes.slice(0, -1).join(", &nbsp;") + "&nbsp; &amp; &nbsp;" + strippedTimes.slice(-1) + " " + suffix;
+}
+
 const all_links = await get_links();
 let all_shows = [];
 
@@ -164,20 +192,42 @@ for (let link of all_links) {
 
     const location = shows[0].name;
     const final_address = shows[0].address;
+    const currentYear = new Date().getFullYear();
 
     shows = shows.map((s) => ({
       date: s.date,
+      weekday: new Date(s.date + `, ${currentYear}`).toLocaleDateString('en-US', { weekday: 'short' }),
+      formattedTimes: formatTimes(s.times),
       times: s.times,
-      link: s.link,
+      link: s.link.split('?')[0],
     }));
 
     console.log(shows);
 
     const date_range = shows[0].date + " – " + shows[shows.length - 1].date;
 
+    const startDate = new Date(shows[0].date + ", " + currentYear);
+    const endDate = new Date(shows[shows.length - 1].date + ", " + currentYear);
+
+    const date_range_text = `${startDate.toLocaleString('default', { month: 'long' })} ${getOrdinalSuffix(startDate.getDate())} – ${getOrdinalSuffix(endDate.getDate())}`;
+
+    // // Extract the shared "PM" suffix
+    // const suffix = shows.times[0].split(" ")[1];
+
+    // // Remove the "PM" part from each time
+    // const strippedTimes = shows.times.map(time => time.split(" ")[0]);
+
+    // // Join the times with commas and an ampersand before the last one
+    // const formattedTimes = strippedTimes.slice(0, -1).join(", ") + "&nbsp;&amp;&nbsp;" + strippedTimes.slice(-1) + " " + suffix;
+
+
+
     const s = {
-      location: location,
+      name: location,
+      link: link.split('?')[0],
       date_range: date_range,
+      date_range_text: date_range_text,
+      // formattedTimes: formattedTimes,
       address: final_address,
       shows: shows,
     };
@@ -189,4 +239,4 @@ for (let link of all_links) {
   }
 }
 
-fs.writeFileSync("locations.json", JSON.stringify(all_shows, null, 2));
+fs.writeFileSync("./public/locations.json", JSON.stringify(all_shows, null, 2));
