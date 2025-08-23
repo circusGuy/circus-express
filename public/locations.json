@@ -2,31 +2,13 @@
   {
     "name": "Reading, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/813-824-reading-pa/7DGS3EF26T33WTBIZKTLNUGL",
-    "date_range": "August 21 – August 24",
-    "date_range_text": "August 21st – 24th",
+    "date_range": "August 23 – August 24",
+    "date_range_text": "August 23rd – 24th",
     "address": [
       "Willow Glen Park",
       "94 Park Ave, Sinking Spring PA 19608"
     ],
     "shows": [
-      {
-        "date": "August 21",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-21-reading-pa/HWQA2TQ5YXERS4JETIAMZVFE"
-      },
-      {
-        "date": "August 22",
-        "weekday": "Fri",
-        "formattedTimes": "6:00 PM",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-22-reading-pa/BDEZM5U46KTIYY7LEMWYKFU6"
-      },
       {
         "date": "August 23",
         "weekday": "Sat",
@@ -182,6 +164,48 @@
     ]
   },
   {
+    "name": "Northampton, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/912-914-northampton-pa/HAARGIP7PJFJ63Q2DRMHDZPA",
+    "date_range": "Sept 12 – Sept 14",
+    "date_range_text": "September 12th – 14th",
+    "address": [
+      "Northampton Municipal Park",
+      "1401 Laubach Ave, Northampton, PA 18067"
+    ],
+    "shows": [
+      {
+        "date": "Sept 12",
+        "weekday": "Fri",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-12-northampton-pa/I77K2JMEVL247PLLI6ARTPBE"
+      },
+      {
+        "date": "Sept 13",
+        "weekday": "Sat",
+        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM",
+          "7:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-13-northampton-pa/FCLAGF2QO52XJPUBQQ63U3HR"
+      },
+      {
+        "date": "Sept 14",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-14-northampton-pa/UEKZEKY3UFTUXR7WW6UCH2NQ"
+      }
+    ]
+  },
+  {
     "name": "Danville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/916-918-danville-pa/GGOSJ5TJSZTZS2CXLOWLXODG",
     "date_range": "Sept 16 – Sept 18",
@@ -217,6 +241,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-18-danville-pa/GEZK7GPUSWXRTVHOAY2NCKA6"
+      }
+    ]
+  },
+  {
+    "name": "Clearfield, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/920-921-clearfield-pa/PCHH3ZPYKGVHCZNIZ3SZKHJI",
+    "date_range": "Sept 20 – Sept 21",
+    "date_range_text": "September 20th – 21st",
+    "address": [
+      "Clearfield County Fair",
+      "5615 Park St, Clearfield, PA 16830"
+    ],
+    "shows": [
+      {
+        "date": "Sept 20",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-20-clearfield-pa/YONEPZM3JMKYIE7PNEXQYFRU"
+      },
+      {
+        "date": "Sept 21",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-21-clearfield-pa/WDHERHP7UB6TMOF4PMWHWEPS"
       }
     ]
   }
