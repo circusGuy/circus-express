@@ -10,18 +10,9 @@
     ],
     "shows": [
       {
-        "date": "August 27",
-        "weekday": "🎪 Wed",
-        "formattedTimes": "6:00 PM 🎪",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-27-williamsport-pa/TAOSVIPDQOFGICRW4SI5J3TC"
-      },
-      {
         "date": "August 28",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🎪 Thu",
+        "formattedTimes": "6:00 PM 🎪",
         "times": [
           "6:00 PM"
         ],
