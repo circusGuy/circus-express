@@ -3,25 +3,16 @@
     "name": "Williamsport, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN",
     "date_range": "August 27 – August 31",
-    "date_range_text": "August 29th – 31st",
+    "date_range_text": "August 30th – 31st",
     "address": [
       "Montgomery Park",
       "119 1st St, Montgomery, PA 17752"
     ],
     "shows": [
       {
-        "date": "August 29",
-        "weekday": "🎪 Fri",
-        "formattedTimes": "6:00 PM 🎪",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-29-williamsport-pa/6OJ4VZFPJUXTGDOY2DQZKF74"
-      },
-      {
         "date": "August 30",
-        "weekday": "Sat",
-        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM",
+        "weekday": "🎪 Sat",
+        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM 🎪",
         "times": [
           "2:30 PM",
           "5:00 PM",
