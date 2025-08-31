@@ -2,24 +2,13 @@
   {
     "name": "Williamsport, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN",
-    "date_range": "August 27 – August 31",
-    "date_range_text": "August 30th – 31st",
+    "date_range": "August 31 – August 31",
+    "date_range_text": "🎪 August 31st – Last Day 🎪",
     "address": [
       "Montgomery Park",
       "119 1st St, Montgomery, PA 17752"
     ],
     "shows": [
-      {
-        "date": "August 30",
-        "weekday": "🎪 Sat",
-        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM 🎪",
-        "times": [
-          "2:30 PM",
-          "5:00 PM",
-          "7:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-30-williamsport-pa/E7VBJYLF6KLP6Q376RLSHQUX"
-      },
       {
         "date": "August 31",
         "weekday": "Sun",
@@ -213,6 +202,109 @@
           "5:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-21-clearfield-pa/WDHERHP7UB6TMOF4PMWHWEPS"
+      }
+    ]
+  },
+  {
+    "name": "Kersey, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/927-928-kersey-pa/JKDMFU34B6YNLCOWBDEWUREP",
+    "date_range": "Sept 27 – Sept 28",
+    "date_range_text": "September 27th – 28th",
+    "address": [
+      "Elk County Fairgrounds",
+      "316 Dietz Rd, Kersey, PA 15846"
+    ],
+    "shows": [
+      {
+        "date": "Sept 27",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-27-kersey-pa/WAOBDLVWJJCNRRMYRFV42VLM"
+      },
+      {
+        "date": "Sept 28",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-28-kersey-pa/4PUZ6N2ROAVEJEVQ4TLNJGTZ"
+      }
+    ]
+  },
+  {
+    "name": "Brookville, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/930-102-brookville-pa/XGJIIM2QCGI5ZRUJ35OJN2MU",
+    "date_range": "Sept 30 – Oct 2",
+    "date_range_text": "September 30th – 2nd",
+    "address": [
+      "Jefferson County Fairgrounds",
+      "146 Strishock Ln, Brookville, PA 15825"
+    ],
+    "shows": [
+      {
+        "date": "Sept 30",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-30-brookville-pa/46N4KYAOIZSMB4LHU6367CGS"
+      },
+      {
+        "date": "Oct 1",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-1-brookville-pa/7BPNKGOHSQ5I45PMOXP4Y3NC"
+      },
+      {
+        "date": "Oct 2",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-2-brookville-pa/TUZDE43WRO6ZO6ZMMWNHVRJE"
+      }
+    ]
+  },
+  {
+    "name": "Boswell, PA&nbsp; & &nbsp; &nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; Somerset, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/104-105-boswell-pa/FO4ZUHD25C6SZWLH5TUQY3MY",
+    "date_range": "Oct 4 – Oct 5",
+    "date_range_text": "October 4th – 5th",
+    "address": [
+      "The Shake Shak",
+      "327 Alwine Rd, Boswell, PA 15531"
+    ],
+    "shows": [
+      {
+        "date": "Oct 4",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-4-boswell-somerset-pa/DLS4ZIVLFP4H7UXN4NOLBRWL"
+      },
+      {
+        "date": "Oct 5",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-5-boswell-somerset-pa/2NXGEP5GKTVAWXL3YZERGYO4"
       }
     ]
   }
