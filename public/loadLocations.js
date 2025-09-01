@@ -3,6 +3,35 @@ async function load_locations(){
     return await data.json();
 }
 
+function isDateMoreThan7DaysAway(dateString) {
+  const monthMap = {
+    Jan: "January", Feb: "February", Mar: "March", Apr: "April",
+    May: "May", Jun: "June", Jul: "July", Aug: "August",
+    Sep: "September", Sept: "September", Oct: "October",
+    Nov: "November", Dec: "December"
+  };
+
+  const match = dateString.match(/^([A-Za-z]+)\s+(\d{1,2})$/);
+  if (!match) return false;
+
+  const monthAbbrev = match[1];
+  const day = match[2];
+  const fullMonth = monthMap[monthAbbrev];
+  if (!fullMonth) return false;
+
+  const currentYear = new Date().getFullYear();
+  const targetDate = new Date(`${fullMonth} ${day}, ${currentYear}`);
+  const today = new Date();
+
+  // Normalize both dates to midnight
+  targetDate.setHours(0, 0, 0, 0);
+  today.setHours(0, 0, 0, 0);
+
+  const diffInDays = (targetDate - today) / (1000 * 60 * 60 * 24);
+  return diffInDays > 7;
+}
+
+
 load_locations().then(data => {
     console.log(data);
     const locationsContainer = document.querySelector('.locations'); // Get the element with the class "locations"
@@ -46,6 +75,12 @@ load_locations().then(data => {
             const promo = document.createElement('div');
             promo.className = 'promo';
             promo.innerHTML = location.promo;
+            locationDiv.appendChild(promo);
+        }
+        if (isDateMoreThan7DaysAway(location.shows[0].date)) {
+            const promo = document.createElement('div');
+            promo.className = 'promo';
+            promo.innerHTML = "Buy Early & Save!";
             locationDiv.appendChild(promo);
         }
         

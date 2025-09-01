@@ -1,31 +1,9 @@
 [
   {
-    "name": "Williamsport, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/827-831-williamsport-pa/R6HXRNRG5MBRLVTCO52TFFSN",
-    "date_range": "August 31 – August 31",
-    "date_range_text": "🎪 August 31st 🎪<br>– Last Day –",
-    "address": [
-      "Montgomery Park",
-      "119 1st St, Montgomery, PA 17752"
-    ],
-    "shows": [
-      {
-        "date": "August 31",
-        "weekday": "🔥 Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM 🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-31-williamsport-pa/XI7RTSFMDAOPWM2KNMVQIR5M"
-      }
-    ]
-  },
-  {
     "name": "Reedsville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/92-94-reedsville-pa/CYDVT6KVS6OB5JSIFM7XCNL4",
     "date_range": "Sept 2 – Sept 4",
-    "date_range_text": "September 2nd – 4th",
+    "date_range_text": "🎪 September 2nd – 4th 🎪",
     "address": [
       "Mifflin County Youth Park",
       "110 W Logan St, Reedsville, PA 17084"
@@ -33,8 +11,8 @@
     "shows": [
       {
         "date": "Sept 2",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥 Tue",
+        "formattedTimes": "6:00 PM 🔥",
         "times": [
           "6:00 PM"
         ],
