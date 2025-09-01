@@ -442,7 +442,7 @@ button:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin: .5em auto .75em auto;
+    margin: .25em auto .5em auto;
     font-family: Carnival;
     font-size: 2.0em;
     color: black;
@@ -519,7 +519,7 @@ button:hover {
 
 
 .promo {
-    margin-top: .5em;
+    margin-top: 0;
     margin-bottom: .5em;
     font-family: Carnival;
     font-size: 1.8em;
@@ -622,7 +622,7 @@ footer a, .socials {
 .player {
     margin-left: 5em;
     margin-right: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 
