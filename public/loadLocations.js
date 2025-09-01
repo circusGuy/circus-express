@@ -70,13 +70,7 @@ load_locations().then(data => {
         datesDiv.innerHTML = '<span>' + location.date_range_text + '</span>';
         locationDiv.appendChild(datesDiv);
 
-        // Create the promo div if it exists
-        if (location.promo) {
-            const promo = document.createElement('div');
-            promo.className = 'promo';
-            promo.innerHTML = location.promo;
-            locationDiv.appendChild(promo);
-        }
+        // Create the promo div if promo is greater than 7 days away
         if (isDateMoreThan7DaysAway(location.shows[0].date)) {
             const promo = document.createElement('div');
             promo.className = 'promo';
