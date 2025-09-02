@@ -702,6 +702,11 @@ footer a, .socials {
         background-color: purple;
     }
 
+    .navbar .socials {
+        gap: 1.5em;
+    }
+
+
     #menuBtn {
         position: absolute;
         top: -.1em;
