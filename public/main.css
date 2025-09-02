@@ -148,6 +148,13 @@ body {
     border: none;
     cursor: pointer;
     position: relative;
+    border: 2px solid transparent;
+
+}
+
+.menuBtn:hover {
+    border: 2px solid white;
+    background-color: transparent;
 }
 
 .bar {
