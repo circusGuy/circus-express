@@ -227,7 +227,7 @@ body {
 .termsAndConditions {
     margin: 1em 12em;
     padding: 1em 3em;
-    font-size: 1.2em;
+    font-size: 1em;
     color: white;
     text-align: center;
     background-color: rgba(128, 0, 128, 0.8);
@@ -493,7 +493,7 @@ button:hover {
 }
 
 .earlyBird {
-    font-size: 2.1em;
+    font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 1em;
     text-shadow: 0 0 5px white,    /* Inner glow */
@@ -503,7 +503,7 @@ button:hover {
         0 0 40px white;   /* Outermost glow */
         span {
             color: #fcc613;
-            font-size: 1.2em;
+            font-size: 1.3em;
             text-shadow: 0 0 10px purple,    /* Inner glow */
                 0 0 10px purple,   /* Slightly bigger glow */
                 0 0 20px purple,   /* Bigger glow */
@@ -874,7 +874,7 @@ textarea { height: 100%; }
     .termsAndConditions {
         margin: 1em .5em;
         padding: 1em;
-        font-size: 1.1em;
+        font-size: .8em;
         text-align: left;
         h3 {
             font-size: 1.75em;
@@ -905,7 +905,7 @@ textarea { height: 100%; }
     }
 
     .earlyBird {
-        font-size: 1.7em;
+        font-size: 1.5em;
         padding: 0 .5em;
     }
 
