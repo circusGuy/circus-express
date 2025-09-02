@@ -138,6 +138,35 @@ body {
     0 0 40px #efc524;   /* Outermost glow */
 }
 
+.navbar .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 .5em 0;
+    gap: 2.4em;
+}
+
+.navbar .socials a {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+
+    /* border: 3px solid transparent; */
+    border-radius: 12px;
+    padding: .2em .2em .075em .2em;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .socials a:hover {
+    /* border: 3px solid white; */
+    border-width: 3px;
+    border-color: white;
+    border-bottom: 3px solid white;
+}   
+
 .show {
     display: inline-flex !important;
 }
@@ -656,8 +685,6 @@ footer a, .socials {
         list-style: none;
         margin: 0;
         padding: 0;
-    
-
     }
 
     #menuBtn {
@@ -691,6 +718,7 @@ footer a, .socials {
     .navbar {
         position: fixed;
         display: none;
+        flex-direction: column ;
         right: 0;
         bottom: 0;
         top: 0;
