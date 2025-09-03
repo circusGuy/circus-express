@@ -175,6 +175,45 @@
     ]
   },
   {
+    "name": "Ford City, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/923-925-ford-city-pa/2IPNMB4HPQ4X46COA6QYVV3E",
+    "date_range": "Sept 23 – Sept 25",
+    "date_range_text": "September 23rd – 25th",
+    "address": [
+      "Ford City Community Ballfields",
+      "1777 Ford City Rd, Kittanning, PA 16201"
+    ],
+    "shows": [
+      {
+        "date": "Sept 23",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-23-ford-city-pa/5FPE5YKUHMQBFDEGMXDV24O4"
+      },
+      {
+        "date": "Sept 24",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-24-ford-city-pa/WIR64LBZJTVCOC4P6WJHEPVD"
+      },
+      {
+        "date": "Sept 25",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-25-ford-city-pa/HOANLLWN4P4UMNKBJMU3A5JU"
+      }
+    ]
+  },
+  {
     "name": "Kersey, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/927-928-kersey-pa/JKDMFU34B6YNLCOWBDEWUREP",
     "date_range": "Sept 27 – Sept 28",
@@ -242,38 +281,6 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-2-brookville-pa/TUZDE43WRO6ZO6ZMMWNHVRJE"
-      }
-    ]
-  },
-  {
-    "name": "Boswell, PA&nbsp; & &nbsp; &nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; Somerset, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/104-105-boswell-pa/FO4ZUHD25C6SZWLH5TUQY3MY",
-    "date_range": "Oct 4 – Oct 5",
-    "date_range_text": "October 4th – 5th",
-    "address": [
-      "The Shake Shak",
-      "327 Alwine Rd, Boswell, PA 15531"
-    ],
-    "shows": [
-      {
-        "date": "Oct 4",
-        "weekday": "Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-4-boswell-somerset-pa/DLS4ZIVLFP4H7UXN4NOLBRWL"
-      },
-      {
-        "date": "Oct 5",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-5-boswell-somerset-pa/2NXGEP5GKTVAWXL3YZERGYO4"
       }
     ]
   }
