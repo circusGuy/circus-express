@@ -3,25 +3,16 @@
     "name": "Reedsville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/92-94-reedsville-pa/CYDVT6KVS6OB5JSIFM7XCNL4",
     "date_range": "Sept 2 – Sept 4",
-    "date_range_text": "🎪 September 2nd – 4th 🎪",
+    "date_range_text": "🎪 September 3rd – 4th 🎪",
     "address": [
       "Mifflin County Youth Park",
       "110 W Logan St, Reedsville, PA 17084"
     ],
     "shows": [
       {
-        "date": "Sept 2",
-        "weekday": "🔥 Tue",
-        "formattedTimes": "6:00 PM 🔥",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-2-reedsville-pa/Y6UYY4WRNSCSWAL3Y67RFPCI"
-      },
-      {
         "date": "Sept 3",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥 Wed",
+        "formattedTimes": "6:00 PM 🔥",
         "times": [
           "6:00 PM"
         ],
