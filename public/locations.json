@@ -240,7 +240,7 @@
     "name": "Brookville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/930-102-brookville-pa/XGJIIM2QCGI5ZRUJ35OJN2MU",
     "date_range": "Sept 30 – Oct 2",
-    "date_range_text": "Sept 30th – Oct 2nd",
+    "date_range_text": "September 30th – 2nd",
     "address": [
       "Jefferson County Fairgrounds",
       "146 Strishock Ln, Brookville, PA 15825"
@@ -272,6 +272,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-2-brookville-pa/TUZDE43WRO6ZO6ZMMWNHVRJE"
+      }
+    ]
+  },
+  {
+    "name": "Boswell, PA &<br>&nbsp; &nbsp; &nbsp; &nbsp; Somerset, PA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/104-105-boswell-pa/FO4ZUHD25C6SZWLH5TUQY3MY",
+    "date_range": "Oct 4 – Oct 5",
+    "date_range_text": "October 4th – 5th",
+    "address": [
+      "The Shake Shak",
+      "327 Alwine Rd, Boswell, PA 15531"
+    ],
+    "shows": [
+      {
+        "date": "Oct 4",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-4-boswell-somerset-pa/DLS4ZIVLFP4H7UXN4NOLBRWL"
+      },
+      {
+        "date": "Oct 5",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-5-boswell-somerset-pa/2NXGEP5GKTVAWXL3YZERGYO4"
       }
     ]
   }
