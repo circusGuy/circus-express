@@ -3,26 +3,16 @@
     "name": "Mill Hall, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/96-97-mill-hall-pa/YVPOJ3CWBHSLXZXFZDCCSLKD",
     "date_range": "Sept 6 – Sept 7",
-    "date_range_text": "🎪 September 6th – 7th 🎪",
+    "date_range_text": "🎪 September 7th 🎪<br>Last Day",
     "address": [
       "Clinton County Fairgrounds",
       "98 Racetrack Rd, Mill Hall, PA 17751"
     ],
     "shows": [
       {
-        "date": "Sept 6",
-        "weekday": "🔥 Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM 🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-6-mill-hall-pa/IPVCRQGQFP4DSC5QTVFYYBTO"
-      },
-      {
         "date": "Sept 7",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "weekday": "🔥 Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM 🔥",
         "times": [
           "2:30 PM",
           "5:00 PM"
