@@ -9,7 +9,18 @@ function isDateMoreThan7DaysAway(dateString) {
     May: "May", Jun: "June", Jul: "July", Aug: "August",
     Sep: "September", Sept: "September", Oct: "October",
     Nov: "November", Dec: "December"
-  };
+ }
+
+ function isToday(date) {
+  const today = new Date();
+  return (
+    date.getDate() === today.getDate() &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear()
+  );
+}
+
+  
 
   const match = dateString.match(/^([A-Za-z]+)\s+(\d{1,2})$/);
   if (!match) return false;
@@ -33,7 +44,7 @@ function isDateMoreThan7DaysAway(dateString) {
 
 
 load_locations().then(data => {
-    console.log(data);
+    // console.log(data);
     const locationsContainer = document.querySelector('.locations'); // Get the element with the class "locations"
     data.forEach((location, index) => {
         // const times = ["2:30 PM", "5:00 PM", "7:30 PM"];
@@ -75,6 +86,12 @@ load_locations().then(data => {
             const promo = document.createElement('div');
             promo.className = 'promo';
             promo.innerHTML = "Buy Early & Save!";
+            locationDiv.appendChild(promo);
+        } else if (new Date(location.shows[0].date)) {
+            // "The show is today!"
+            const promo = document.createElement('div');
+            promo.className = 'promo';
+            promo.innerHTML = "Buy NOW!!";
             locationDiv.appendChild(promo);
         }
         
