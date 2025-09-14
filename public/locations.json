@@ -3,27 +3,16 @@
     "name": "Northampton, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/912-914-northampton-pa/HAARGIP7PJFJ63Q2DRMHDZPA",
     "date_range": "Sept 13 – Sept 14",
-    "date_range_text": "🎪 September 13th – 14th 🎪",
+    "date_range_text": "🎪 September 14th 🎪<br>Last Day",
     "address": [
       "Northampton Municipal Park",
       "1401 Laubach Ave, Northampton, PA 18067"
     ],
     "shows": [
       {
-        "date": "Sept 13",
-        "weekday": "🔥 Sat",
-        "formattedTimes": "2:30, &nbsp;5:00&nbsp; &amp; &nbsp;7:30 PM 🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM",
-          "7:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-13-northampton-pa/FCLAGF2QO52XJPUBQQ63U3HR"
-      },
-      {
         "date": "Sept 14",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "weekday": "🔥🔥 Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM 🔥🔥",
         "times": [
           "2:30 PM",
           "5:00 PM"
