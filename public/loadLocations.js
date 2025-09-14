@@ -3,14 +3,6 @@ async function load_locations(){
     return await data.json();
 }
 
-function isDateMoreThan7DaysAway(dateString) {
-  const monthMap = {
-    Jan: "January", Feb: "February", Mar: "March", Apr: "April",
-    May: "May", Jun: "June", Jul: "July", Aug: "August",
-    Sep: "September", Sept: "September", Oct: "October",
-    Nov: "November", Dec: "December"
- }
-
  function isToday(date) {
   const today = new Date();
   return (
@@ -19,6 +11,14 @@ function isDateMoreThan7DaysAway(dateString) {
     date.getFullYear() === today.getFullYear()
   );
 }
+function isDateMoreThan7DaysAway(dateString) {
+  const monthMap = {
+    Jan: "January", Feb: "February", Mar: "March", Apr: "April",
+    May: "May", Jun: "June", Jul: "July", Aug: "August",
+    Sep: "September", Sept: "September", Oct: "October",
+    Nov: "November", Dec: "December"
+ }
+
 
   
 
@@ -87,8 +87,13 @@ load_locations().then(data => {
             promo.className = 'promo';
             promo.innerHTML = "Buy Early & Save!";
             locationDiv.appendChild(promo);
-        } else if (new Date(location.shows[0].date)) {
+        } else if (isToday(new Date(location.shows[0].date)) || location.shows.length === 1) {
             // "The show is today!"
+            const promo = document.createElement('div');
+            promo.className = 'promo';
+            promo.innerHTML = "Buy NOW!!";
+            locationDiv.appendChild(promo);
+        } else {
             const promo = document.createElement('div');
             promo.className = 'promo';
             promo.innerHTML = "Buy NOW!!";
