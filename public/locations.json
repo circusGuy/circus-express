@@ -1,31 +1,9 @@
 [
   {
-    "name": "Northampton, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/912-914-northampton-pa/HAARGIP7PJFJ63Q2DRMHDZPA",
-    "date_range": "Sept 13 – Sept 14",
-    "date_range_text": "🎪 September 14th 🎪<br>Last Day",
-    "address": [
-      "Northampton Municipal Park",
-      "1401 Laubach Ave, Northampton, PA 18067"
-    ],
-    "shows": [
-      {
-        "date": "Sept 14",
-        "weekday": "🔥🔥 Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM 🔥🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-14-northampton-pa/UEKZEKY3UFTUXR7WW6UCH2NQ"
-      }
-    ]
-  },
-  {
     "name": "Danville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/916-918-danville-pa/GGOSJ5TJSZTZS2CXLOWLXODG",
     "date_range": "Sept 16 – Sept 18",
-    "date_range_text": "September 16th – 18th",
+    "date_range_text": "🎪 Sept 16th – 18th 🎪",
     "address": [
       "Montour-Delong Community Fair",
       "5848 Broadway Rd, Danville, PA 17821"
@@ -33,8 +11,8 @@
     "shows": [
       {
         "date": "Sept 16",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥🔥&nbsp; Tue",
+        "formattedTimes": "6:00 PM &nbsp;🔥🔥",
         "times": [
           "6:00 PM"
         ],

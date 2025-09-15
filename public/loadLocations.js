@@ -62,7 +62,7 @@ load_locations().then(data => {
 
         const cityDiv = document.createElement('div');
         cityDiv.className = 'city';
-        cityDiv.innerHTML = `<span>✨ &nbsp; &nbsp;` + location.name + `&nbsp; &nbsp; ✨</span>`;
+        cityDiv.innerHTML = `<span>✨ &nbsp; ` + location.name + ` &nbsp; ✨</span>`;
         locationDiv.appendChild(cityDiv);
 
 

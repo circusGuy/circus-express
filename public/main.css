@@ -338,7 +338,7 @@ body {
 
         .city {
             display: inline-block;
-            font-size: 2.8em;
+            font-size: 2.5em;
             font-weight: bold;
             text-shadow: 0 0 5px purple,    /* Inner glow */
             0 0 10px purple,   /* Slightly bigger glow */
@@ -558,7 +558,7 @@ button:hover {
     margin-top: 0;
     margin-bottom: .5em;
     font-family: Carnival;
-    font-size: 1.8em;
+    font-size: 2em;
     color: purple;
     text-shadow: 0 0 5px white,    /* Inner glow */
                 0 0 10px white,   /* Slightly bigger glow */
@@ -867,12 +867,12 @@ textarea { height: 100%; }
         right: 15px;
     }
 
-    .city {
+    /* .city {
         font-size: 1.6em !important;
-    }
+    } */
 
     .address {
-        font-size: 1.3em !important;
+        font-size: 1.4em !important;
         div {
             font-size: smaller;
         }
