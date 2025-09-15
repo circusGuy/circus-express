@@ -271,8 +271,8 @@ body {
     border-radius: 1em;
 
     h3 {
-        margin-top: 0;
-        margin-bottom: .5em;
+        margin-top: .5em;
+        margin-bottom: .25em;
         color: white;
         font-size: 1.6em;
         text-shadow: 0 0 5px black,    /* Inner glow */
@@ -919,6 +919,8 @@ textarea { height: 100%; }
         h3 {
             font-size: 1.75em;
             text-align: center;
+            margin-top: .5em;
+            margin-bottom: .25em;
         }
         h3 span {
             display: none;
