@@ -91,12 +91,12 @@ load_locations().then(data => {
             // "The show is today!"
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Buy NOW!!";
+            promo.innerHTML = "Final Chance<br>Tickets Selling Fast!";
             locationDiv.appendChild(promo);
         } else {
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Buy NOW!!";
+            promo.innerHTML = "Final Chance<br>Tickets Selling Fast!";
             locationDiv.appendChild(promo);
         }
         
