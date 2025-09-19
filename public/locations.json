@@ -18,8 +18,7 @@
           "5:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-20-clearfield-pa/YONEPZM3JMKYIE7PNEXQYFRU"
-      },
-      {
+      },      {
         "date": "Sept 21",
         "weekday": "Sun",
         "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
@@ -106,7 +105,7 @@
     "name": "Brookville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/930-102-brookville-pa/XGJIIM2QCGI5ZRUJ35OJN2MU",
     "date_range": "Sept 30 – Oct 2",
-    "date_range_text": "Sept 30th – Oct 2nd",
+    "date_range_text": "September 30th – 2nd",
     "address": [
       "Jefferson County Fairgrounds",
       "146 Strishock Ln, Brookville, PA 15825"
@@ -241,6 +240,116 @@
           "5:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-12-chillicothe-oh/AYI6P2NXQXU37T7V2EHAWGQG"
+      }
+    ]
+  },
+  {
+    "name": "Wellston, OH",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1014-1016-wellston-oh/IJ6VGQMNBEXTWSSYREWFJZVS",
+    "date_range": "Oct 14 – Oct 16",
+    "date_range_text": "October 14th – 16th",
+    "address": [
+      "Jackson County Fairgrounds",
+      "96 Meadow Run Rd, Wellston, OH 45692"
+    ],
+    "shows": [
+      {
+        "date": "Oct 14",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-14-wellston-oh/QZMRBV66FMIQPWQW22I2GB4S"
+      },
+      {
+        "date": "Oct 15",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-15-wellston-oh/KY2KFWW7Q2NKPIHKAYRKC62M"
+      },
+      {
+        "date": "Oct 16",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-16-wellston-oh/M35PIIP2MBE2UKW6F57BMM7E"
+      }
+    ]
+  },
+  {
+    "name": "Hillsboro, OH",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1018-1019-hillsboro-oh/BDGDP6MSLMQI4U763KPTXLFO",
+    "date_range": "Oct 18 – Oct 19",
+    "date_range_text": "October 18th – 19th",
+    "address": [
+      "Highland County Fairgrounds",
+      "604 John St #1030, Hillsboro, OH 45133"
+    ],
+    "shows": [
+      {
+        "date": "Oct 18",
+        "weekday": "Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-18-hillsboro-oh/GOK7OQTK6PC43PCQ6PGCYF42"
+      },
+      {
+        "date": "Oct 19",
+        "weekday": "Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "times": [
+          "2:30 PM",
+          "5:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-19-hillsboro-oh/BLEWM3FYIGCBNHJOTJKIZGK3"
+      }
+    ]
+  },
+  {
+    "name": "Wheelersburg, OH",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1021-1023-wheelersburg-oh/MMNQRHSUSAGMRVEHLH7SK4NE",
+    "date_range": "Oct 21 – Oct 23",
+    "date_range_text": "October 21st – 23rd",
+    "address": [
+      "Wheelersburg Flea Market",
+      "7918 Ohio River Rd, Wheelersburg, OH 45694"
+    ],
+    "shows": [
+      {
+        "date": "Oct 21",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-21-wheelersburg-oh/O52U64AEKVOVWUQ42OKXO2L2"
+      },
+      {
+        "date": "Oct 22",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-22-wheelersburg-oh/SHFEQTNDR6U2CPTSZWFRDPZT"
+      },
+      {
+        "date": "Oct 23",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-23-wheelersburg-oh/WVWQANCR5VYA7IJNSMA462TI"
       }
     ]
   }
