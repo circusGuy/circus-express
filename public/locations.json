@@ -2,26 +2,17 @@
   {
     "name": "Clearfield, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/920-921-clearfield-pa/PCHH3ZPYKGVHCZNIZ3SZKHJI",
-    "date_range": "🎪 Sept 20 – Sept 21 🎪",
-    "date_range_text": "September 20th – 21st",
+    "date_range": "Sept 20 – Sept 21",
+    "date_range_text": "🎪 September 21st 🎪<br>Last Day",
     "address": [
       "Clearfield County Fair",
       "5615 Park St, Clearfield, PA 16830"
     ],
     "shows": [
       {
-        "date": "Sept 20",
-        "weekday": "🔥🔥&nbsp; Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-20-clearfield-pa/YONEPZM3JMKYIE7PNEXQYFRU"
-      },      {
         "date": "Sept 21",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "weekday": "🔥🔥&nbsp; Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥🔥",
         "times": [
           "2:30 PM",
           "5:00 PM"
