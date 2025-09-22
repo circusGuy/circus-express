@@ -1,31 +1,9 @@
 [
   {
-    "name": "Clearfield, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/920-921-clearfield-pa/PCHH3ZPYKGVHCZNIZ3SZKHJI",
-    "date_range": "Sept 20 – Sept 21",
-    "date_range_text": "🎪 September 21st 🎪<br>Last Day",
-    "address": [
-      "Clearfield County Fair",
-      "5615 Park St, Clearfield, PA 16830"
-    ],
-    "shows": [
-      {
-        "date": "Sept 21",
-        "weekday": "🔥🔥&nbsp; Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-21-clearfield-pa/WDHERHP7UB6TMOF4PMWHWEPS"
-      }
-    ]
-  },
-  {
     "name": "Ford City, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/923-925-ford-city-pa/2IPNMB4HPQ4X46COA6QYVV3E",
     "date_range": "Sept 23 – Sept 25",
-    "date_range_text": "September 23rd – 25th",
+    "date_range_text": "🎪 Sept 23rd – 25th 🎪",
     "address": [
       "Ford City Community Ballfields",
       "1777 Ford City Rd, Kittanning, PA 16201"
@@ -33,8 +11,8 @@
     "shows": [
       {
         "date": "Sept 23",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Tue",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
