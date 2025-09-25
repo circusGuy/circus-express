@@ -3,25 +3,16 @@
     "name": "Ford City, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/923-925-ford-city-pa/2IPNMB4HPQ4X46COA6QYVV3E",
     "date_range": "Sept 23 – Sept 25",
-    "date_range_text": "🎪 Sept 24rd – 25th 🎪",
+    "date_range_text": "🎪 Sept 25th 🎪<br>Last Day!",
     "address": [
       "Ford City Community Ballfields",
       "1777 Ford City Rd, Kittanning, PA 16201"
     ],
     "shows": [
       {
-        "date": "Sept 24",
-        "weekday": "🔥&nbsp; Wed",
-        "formattedTimes": "6:00 PM &nbsp;🔥",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-24-ford-city-pa/WIR64LBZJTVCOC4P6WJHEPVD"
-      },
-      {
         "date": "Sept 25",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Thu",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
