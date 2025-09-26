@@ -1,30 +1,9 @@
 [
   {
-    "name": "Ford City, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/923-925-ford-city-pa/2IPNMB4HPQ4X46COA6QYVV3E",
-    "date_range": "Sept 23 – Sept 25",
-    "date_range_text": "🎪 Sept 25th 🎪<br>Last Day!",
-    "address": [
-      "Ford City Community Ballfields",
-      "1777 Ford City Rd, Kittanning, PA 16201"
-    ],
-    "shows": [
-      {
-        "date": "Sept 25",
-        "weekday": "🔥&nbsp; Thu",
-        "formattedTimes": "6:00 PM &nbsp;🔥",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-25-ford-city-pa/HOANLLWN4P4UMNKBJMU3A5JU"
-      }
-    ]
-  },
-  {
     "name": "Kersey, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/927-928-kersey-pa/JKDMFU34B6YNLCOWBDEWUREP",
     "date_range": "Sept 27 – Sept 28",
-    "date_range_text": "Sept 27th – 28th",
+    "date_range_text": "🎪 Sept 27th – 28th 🎪",
     "address": [
       "Elk County Fairgrounds",
       "316 Dietz Rd, Kersey, PA 15846"
@@ -32,8 +11,8 @@
     "shows": [
       {
         "date": "Sept 27",
-        "weekday": "Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "weekday": "🔥&nbsp; Sat",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥",
         "times": [
           "2:30 PM",
           "5:00 PM"
