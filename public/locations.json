@@ -3,26 +3,16 @@
     "name": "Kersey, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/927-928-kersey-pa/JKDMFU34B6YNLCOWBDEWUREP",
     "date_range": "Sept 27 – Sept 28",
-    "date_range_text": "🎪 Sept 27th – 28th 🎪",
+    "date_range_text": "🎪 Sept 28th 🎪<br>Last Day!",
     "address": [
       "Elk County Fairgrounds",
       "316 Dietz Rd, Kersey, PA 15846"
     ],
     "shows": [
       {
-        "date": "Sept 27",
-        "weekday": "🔥&nbsp; Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-27-kersey-pa/WAOBDLVWJJCNRRMYRFV42VLM"
-      },
-      {
         "date": "Sept 28",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "weekday": "🔥&nbsp; Sun",
+        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥",
         "times": [
           "2:30 PM",
           "5:00 PM"
