@@ -1,31 +1,10 @@
 [
-  {
-    "name": "Kersey, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/927-928-kersey-pa/JKDMFU34B6YNLCOWBDEWUREP",
-    "date_range": "Sept 27 – Sept 28",
-    "date_range_text": "🎪 Sept 28th 🎪<br>Last Day!",
-    "address": [
-      "Elk County Fairgrounds",
-      "316 Dietz Rd, Kersey, PA 15846"
-    ],
-    "shows": [
-      {
-        "date": "Sept 28",
-        "weekday": "🔥&nbsp; Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/sept-28-kersey-pa/4PUZ6N2ROAVEJEVQ4TLNJGTZ"
-      }
-    ]
-  },
+
   {
     "name": "Brookville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/930-102-brookville-pa/XGJIIM2QCGI5ZRUJ35OJN2MU",
     "date_range": "Sept 30 – Oct 2",
-    "date_range_text": "Sept 30th – 2nd",
+    "date_range_text": "🎪 Sept 30th – 2nd 🎪",
     "address": [
       "Jefferson County Fairgrounds",
       "146 Strishock Ln, Brookville, PA 15825"
@@ -33,8 +12,8 @@
     "shows": [
       {
         "date": "Sept 30",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Tue",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
