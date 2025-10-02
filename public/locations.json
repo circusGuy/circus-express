@@ -4,25 +4,16 @@
     "name": "Brookville, PA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/930-102-brookville-pa/XGJIIM2QCGI5ZRUJ35OJN2MU",
     "date_range": "Sept 30 – Oct 2",
-    "date_range_text": "🎪 October 1st – 2nd 🎪",
+    "date_range_text": "🎪 October 2nd 🎪<br>Last Day!",
     "address": [
       "Jefferson County Fairgrounds",
       "146 Strishock Ln, Brookville, PA 15825"
     ],
     "shows": [
       {
-        "date": "Oct 1",
-        "weekday": "🔥&nbsp; Wed",
-        "formattedTimes": "6:00 PM &nbsp;🔥",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-1-brookville-pa/7BPNKGOHSQ5I45PMOXP4Y3NC"
-      },
-      {
         "date": "Oct 2",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Thu",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
