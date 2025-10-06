@@ -1,32 +1,9 @@
 [
-
-  {
-    "name": "Boswell, PA &<br>&nbsp; &nbsp; &nbsp; &nbsp; Somerset, PA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/104-105-boswell-pa/FO4ZUHD25C6SZWLH5TUQY3MY",
-    "date_range": "Oct 4 – Oct 5",
-    "date_range_text": "🎪 October 5th 🎪<br>Last Day!",
-    "address": [
-      "The Shake Shak",
-      "327 Alwine Rd, Boswell, PA 15531"
-    ],
-    "shows": [
-      {
-        "date": "Oct 5",
-        "weekday": "🔥&nbsp; Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM &nbsp;🔥",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-5-boswell-somerset-pa/2NXGEP5GKTVAWXL3YZERGYO4"
-      }
-    ]
-  },
   {
     "name": "Moundsville, WV",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/107-109-moundsville-wv/UQHKGQ6OPQP3OC6DT3YAJDLC",
     "date_range": "Oct 7 – Oct 9",
-    "date_range_text": "October 7th – 9th",
+    "date_range_text": "🎪 October 7th – 9th 🎪",
     "address": [
       "Marshall County Fairgrounds",
       "714 Myrtle Ave, Moundsville, WV 26041"
@@ -34,8 +11,8 @@
     "shows": [
       {
         "date": "Oct 7",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Tue",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
