@@ -59,7 +59,7 @@ h1 {
 body {
     position: relative;
     background-color: purple;
-    background-image: url("/Images/bg-1280.jpg");
+    background-image: url("/Images/queen-web-bkgd.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -859,7 +859,7 @@ textarea { height: 100%; }
     /* CSS styles for phone screens */
     body {
         font-size: 16px; /* Adjust text size for smaller screens */
-        background-image: url("/Images/bg-768.jpg");
+        background-image: url("/Images/queen-mobile-bkgd.jpg");
     }
 
     #topBtn {
