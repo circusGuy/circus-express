@@ -235,6 +235,7 @@ for (let link of all_links) {
     all_shows.push(s);
   } catch (e) {
     console.error("shows missing or error");
+    console.error(e);
     continue;
   }
 }
