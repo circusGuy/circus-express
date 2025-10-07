@@ -860,6 +860,9 @@ textarea { height: 100%; }
     body {
         font-size: 16px; /* Adjust text size for smaller screens */
         background-image: url("/Images/queen-mobile-bkgd.jpg");
+        background-size: cover;       /* Ensures full coverage */
+        background-position: center;  /* Keeps focal point centered */
+        background-repeat: no-repeat; /* Prevents tiling */    
     }
 
     #topBtn {
