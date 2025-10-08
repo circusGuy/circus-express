@@ -337,7 +337,7 @@ body {
         text-align: center;
 
         .city {
-            display: inline-block;
+            display: block;
             font-size: 2.5em;
             font-weight: bold;
             text-shadow: 0 0 5px purple,    /* Inner glow */
@@ -348,7 +348,7 @@ body {
         }
 
         .address {
-            display: inline-block;
+            display: block;
             font-size: 1.8em;
             color: white;
             font-weight: bold;
@@ -359,7 +359,7 @@ body {
         
         }
         .dates {
-            display: inline-block;
+            display: block;
             font-size: 2.4em;
             font-weight: bold;
             margin-top: .5em;
