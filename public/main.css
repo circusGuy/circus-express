@@ -126,6 +126,7 @@ body {
     text-decoration: none;
     display: inline-block; /* Ensures proper width of the underline */
     border-bottom: 3px solid #fcc613; /* Sets the underline's color and thickness */
+    will-change: color, border-bottom-color, text-shadow;
 }
 
 .navbar a:hover {
@@ -158,6 +159,7 @@ body {
     padding: .2em .2em .075em .2em;
     color: white;
     border-bottom: 3px solid transparent;
+    will-change: border-width, border-color, border-bottom-color;
 }
 
 .navbar .socials a:hover {
@@ -178,6 +180,7 @@ body {
     cursor: pointer;
     position: relative;
     border: 2px solid transparent;
+    will-change: border, background-color;
 
 }
 
@@ -198,6 +201,7 @@ body {
 /* Transform the bars to form an "X" when active */
 .menuBtn.active .bar:nth-of-type(1) {
     transform: translateY(10px) rotate(45deg);
+    will-change: transform;
 }
 
 .menuBtn.active .bar:nth-of-type(2) {
@@ -206,6 +210,7 @@ body {
 
 .menuBtn.active .bar:nth-of-type(3) {
     transform: translateY(-10px) rotate(-45deg);
+    will-change: transform;
 }
 
 .circus {
@@ -293,6 +298,7 @@ body {
         0 0 20px black,   /* Bigger glow */
         0 0 30px black,   /* Even bigger glow */
         0 0 40px black;   /* Outermost glow */
+        will-change: color;
     }
     a:hover {
         color: white;
@@ -377,6 +383,7 @@ body {
         .showTimes a {
             color: #efc524;
             text-decoration: none;
+            will-change: color, text-shadow;
         }
         .showTimes a:hover {
             color: white;
@@ -392,6 +399,7 @@ body {
         background-color: #434173;
         border: 3px solid #efc524;
         transition: transform 0.2s, background-color 0.2s;
+        will-change: transform, background-color, border;
     }
 }
 
@@ -430,6 +438,7 @@ h1.faqTitle {
         0 0 20px black,   /* Bigger glow */
         0 0 30px black,   /* Even bigger glow */
         0 0 40px black;   /* Outermost glow */
+        will-change: color;
     }
     a:hover {
         color: white;
@@ -443,6 +452,7 @@ h1.faqTitle {
     0 0 20px purple,   /* Bigger glow */
     0 0 30px purple,   /* Even bigger glow */
     0 0 40px purple;   /* Outermost glow */
+    will-change: color;
 }
 
 .faq-contact-us a:hover {
@@ -468,6 +478,7 @@ button {
     font-size: 2.6em;
     padding: .2em .4em;
     font-family: Carnival;
+    will-change: cursor, background-color, border;
 }
 
 button:hover {
@@ -630,6 +641,7 @@ footer a, .socials {
     font-size: 16px;
     outline: 1px solid #005ea2;
     border: 3px solid white;
+    will-change: border, background-color;
 }
 
 #topBtn:hover {
@@ -649,14 +661,14 @@ footer a, .socials {
     filter: brightness(0) invert(1);
     width: 100px;
     height: 100px;
-    transform: scale(3.5);
     transform-origin: left top;
-    transform: scale(6);
     position: absolute;
     top: -16px;
     left: 50%;
     transform: translateX(-50%);
+    will-change: transform;
 }
+
 .player {
     margin-left: 5em;
     margin-right: 5em;
