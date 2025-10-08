@@ -973,6 +973,9 @@ textarea { height: 100%; }
 
     .location-container {
         transition: none;
+        will-change: background-color, border;
+        backface-visibility: hidden;
+        transform: translateZ(0);
     }
     
     .locations a:last-child .location-container {
