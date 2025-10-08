@@ -1,5 +1,69 @@
 // The Kingdom Of Wonders
 
+// hide content until fully loaded to prevent FOUC
+window.addEventListener('load', () => {
+  document.body.style.visibility = 'visible';
+});
+
+// Background image changes based on screen size using CSS media queries
+const desktopImages = [
+  'bkgd-juggling-desktop.jpg',
+  'bkgd-queen-desktop.jpg',
+  'bkgd-viper1-desktop.jpg',
+  'bkgd-viper2-desktop.jpg'
+];
+
+const mobileImages = [
+  'bkgd-juggling-mobile.jpg',
+  'bkgd-queen-mobile.jpg',
+  'bkgd-viper1-mobile.jpg',
+  'bkgd-viper2-mobile.jpg'
+];
+
+// Preload images for smoother transitions
+[...desktopImages, ...mobileImages].forEach(src => {
+  const img = new Image();
+  img.src = `/Images/${src}`;
+});
+
+
+
+let currentIndex = Math.floor(Math.random() * desktopImages.length);
+
+function updateBackgrounds() {
+  const desktopUrl = `/Images/${desktopImages[currentIndex]}`;
+  const mobileUrl = `/Images/${mobileImages[currentIndex]}`;
+
+  // Apply desktop background to body
+  document.body.style.backgroundImage = `url('${desktopUrl}')`;
+
+  // Apply mobile background to body::before using a dynamic style tag
+  const styleTag = document.getElementById('mobileBackgroundStyle') || document.createElement('style');
+  styleTag.id = 'mobileBackgroundStyle';
+  styleTag.innerHTML = `
+    @media only screen and (max-width: 768px) {
+      body::before {
+        background-image: url('${mobileUrl}');
+      }
+    }
+  `;
+  document.head.appendChild(styleTag);
+
+  currentIndex = (currentIndex + 1) % desktopImages.length;
+}
+
+// Initial load
+updateBackgrounds();
+
+// Cycle every 5 seconds
+setInterval(updateBackgrounds, 6000);
+
+
+
+
+
+
+
 // Get the current path 
 const currentPath = window.location.pathname;
 // Get all anchor tags 
