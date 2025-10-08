@@ -982,6 +982,10 @@ textarea { height: 100%; }
         margin-bottom: 0;
     }
 
+    .showTimes a:hover {
+        text-shadow: none !important;
+    }
+
     button {
         font-size: 1.9em;
     }
