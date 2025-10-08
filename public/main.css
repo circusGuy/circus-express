@@ -335,6 +335,8 @@ body {
         padding: 1.5em;
         margin-bottom: 1.5em;
         text-align: center;
+        position: relative;
+        z-index: 1;
 
         .city {
             display: block;
@@ -860,6 +862,7 @@ textarea { height: 100%; }
     body {
         font-size: 16px; /* Adjust text size for smaller screens */
         background-image: none; /* Remove background image for better performance */
+        background-attachment: scroll; /* Prevent fixed background on mobile */
 
     }
     body::before {
