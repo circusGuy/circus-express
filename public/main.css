@@ -859,6 +859,7 @@ textarea { height: 100%; }
     /* CSS styles for phone screens */
     body {
         font-size: 16px; /* Adjust text size for smaller screens */
+        background-image: none; /* Remove background image for better performance */
 
     }
     body::before {
