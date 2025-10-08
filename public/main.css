@@ -973,6 +973,7 @@ textarea { height: 100%; }
     
     .locations a:last-child .location-container {
         margin-bottom: 0;
+        transition: none;
     }
 
     button {
