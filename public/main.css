@@ -970,10 +970,13 @@ textarea { height: 100%; }
             padding: 1em;
         }
     }
+
+    .location-container {
+        transition: none;
+    }
     
     .locations a:last-child .location-container {
         margin-bottom: 0;
-        transition: none;
     }
 
     button {
