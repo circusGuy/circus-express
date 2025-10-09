@@ -6,10 +6,12 @@ async function load_locations(){
 
  function isToday(date) {
   const today = new Date();
+  const normalized = new Date(date);
+  normalized.setFullYear(today.getFullYear());  
   return (
-    date.getDate() === today.getDate() &&
-    date.getMonth() === today.getMonth() &&
-    date.getFullYear() === today.getFullYear()
+    normalized.getDate() === today.getDate() &&
+    normalized.getMonth() === today.getMonth() &&
+    normalized.getFullYear() === today.getFullYear()
   );
 }
 function isDateMoreThan7DaysAway(dateString) {
@@ -77,13 +79,24 @@ load_locations().then(data => {
         // Create the dates div
         const datesDiv = document.createElement('div');
         datesDiv.className = 'reading';
-        datesDiv.innerHTML = '<span>' + location.date_range_text + '</span>';
+        if (index === 0) { // Highlight first location
+            datesDiv.innerHTML = '<span>🎪 ' + location.date_range_text + ' 🎪</span>';
+        } else {
+            datesDiv.innerHTML = '<span>' + location.date_range_text + '</span>';
+        }
+
         locationDiv.appendChild(datesDiv);
         
         location.shows.forEach((show, i) => {
             const showTimesDiv = document.createElement('div');
             showTimesDiv.className = 'showTimes';
-            showTimesDiv.innerHTML = `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + '</a>';
+            if (index === 0 && i === 0) { // Highlight first location's first show
+                showTimesDiv.innerHTML = `🔥&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($18)" + '</a> &nbsp;🔥';
+            } else if (index === 0) { // Highlight first location's other shows
+                showTimesDiv.innerHTML = `&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($15)" + '</a> &nbsp;';
+            } else {
+                showTimesDiv.innerHTML = `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + '</a>';
+            }
             locationDiv.appendChild(showTimesDiv);
         });
 
@@ -91,18 +104,22 @@ load_locations().then(data => {
         if (isDateMoreThan7DaysAway(location.shows[0].date)) {
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Buy Early & Save!";
+            promo.innerHTML = "The circus is coming!<br>Reserve tickets now!";
             locationDiv.appendChild(promo);
         } else if (isToday(new Date(location.shows[0].date)) || location.shows.length === 1) {
             // "The show is today!"
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Final Chance<br>Tickets Selling Fast!";
+            if (isToday(new Date(location.shows[0].date)) && location.shows.length === 1) {
+                promo.innerHTML = "Last Show… Today<br>Don't Miss — Buy Now!";
+            } else {
+                promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
+            }
             locationDiv.appendChild(promo);
         } else {
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Final Chance<br>Tickets Selling Fast!";
+            promo.innerHTML = "Only a few days remain!<br>Tickets Selling Fast!";
             locationDiv.appendChild(promo);
         }
 

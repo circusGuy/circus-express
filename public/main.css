@@ -135,7 +135,8 @@ body::before {
     display: inline-block;
     width: auto; 
     flex: 1 1 auto; 
-    background-color: purple;
+    background: linear-gradient(to bottom, purple 0%, purple 40%, #c84dbe 70%, #fcc613 100%);
+
     border: 3px solid #fcc613;
     margin-top: 12px;
     margin-bottom: 8px;
@@ -298,7 +299,7 @@ body::before {
 }
 
 .termsAndConditions {
-    margin: 1em 12em;
+    margin: 2.5em 12em;
     padding: 1em 3em;
     font-size: 1em;
     color: white;
@@ -407,9 +408,10 @@ body::before {
         
         }
 
-        .showTimes, .showTimes1, .showTimes2, .showTimes3, .showTimes4, .showTimes5, .showTimes6, .showTimes7 {
+        .showTimes {
             font-size: 1.6em;
             font-weight: bold;
+            margin-bottom: .25em;
         }
 
         .showTimes a {
@@ -504,7 +506,7 @@ button {
     text-align: center; 
     white-space: nowrap; 
     background-color: #efc524;
-    border: 4px solid purple;
+    border: 5px solid purple;
     color: purple;
     border-radius: 12px;
     font-size: 2.6em;
@@ -745,7 +747,7 @@ footer a, .socials {
     }
 
     .menu {
-        background-color: purple;
+        background-color: transparent;
     }
 
     .navbar .socials {
@@ -954,7 +956,7 @@ textarea { height: 100%; }
     }
 
     .termsAndConditions {
-        margin: 1em .5em;
+        margin: 2.5em .5em;
         padding: 1em;
         font-size: .8em;
         text-align: left;
