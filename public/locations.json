@@ -3,25 +3,16 @@
     "name": "Moundsville, WV",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/107-109-moundsville-wv/UQHKGQ6OPQP3OC6DT3YAJDLC",
     "date_range": "Oct 7 – Oct 9",
-    "date_range_text": "🎪 October 8th – 9th 🎪",
+    "date_range_text": "🎪 October 8th – 9th 🎪<br>Last Day!",
     "address": [
       "Marshall County Fairgrounds",
       "714 Myrtle Ave, Moundsville, WV 26041"
     ],
     "shows": [
       {
-        "date": "Oct 8",
-        "weekday": "🔥&nbsp; Wed",
-        "formattedTimes": "6:00 PM &nbsp;🔥",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-8-moundsville-wv/2FQGVB5QERHYGHLSYSIJASVC"
-      },
-      {
         "date": "Oct 9",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "weekday": "🔥&nbsp; Thu",
+        "formattedTimes": "6:00 PM &nbsp;🔥",
         "times": [
           "6:00 PM"
         ],
