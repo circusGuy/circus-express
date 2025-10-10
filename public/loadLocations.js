@@ -1,4 +1,4 @@
-// 🎪 🔥 👑 🏰 ✨
+// 🎪 🔥 👑 🏰 ✨ ⏳
 async function load_locations(){
     const data = await fetch(`./locations.json?cacheBust=${Date.now()}`);
     return await data.json();
@@ -63,7 +63,7 @@ load_locations().then(data => {
 
         const cityDiv = document.createElement('div');
         cityDiv.className = 'city';
-        cityDiv.innerHTML = `<span>✨ &nbsp; ` + location.name + ` &nbsp; ✨</span>`;
+        cityDiv.innerHTML = `<span>✨ &nbsp;` + location.name + `&nbsp; ✨</span>`;
         locationDiv.appendChild(cityDiv);
 
 

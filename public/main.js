@@ -1,11 +1,6 @@
 // The Kingdom Of Wonders
 
-// hide content until fully loaded to prevent FOUC
-window.addEventListener('load', () => {
-  document.body.style.visibility = 'visible';
-});
-
-// Background image changes based on screen size using CSS media queries
+// Background image arrays
 const desktopImages = [
   'bkgd-juggling-desktop.jpg',
   'bkgd-queen-desktop.jpg',
@@ -34,46 +29,42 @@ const mobileImages = [
   'bkgd-viper2-mobile.jpg'
 ];
 
-// Preload images for smoother transitions
+// Preload all images
 [...desktopImages, ...mobileImages].forEach(src => {
   const img = new Image();
   img.src = `/Images/${src}`;
 });
 
-
-
 let currentIndex = Math.floor(Math.random() * desktopImages.length);
 
 function updateBackgrounds() {
+  const isMobile = window.innerWidth <= 768;
   const desktopUrl = `/Images/${desktopImages[currentIndex]}`;
   const mobileUrl = `/Images/${mobileImages[currentIndex]}`;
+  const chosenUrl = isMobile ? mobileUrl : desktopUrl;
 
-  // Apply desktop background to body
-  document.body.style.backgroundImage = `url('${desktopUrl}')`;
-
-  // Apply mobile background to body::before using a dynamic style tag
-  const styleTag = document.getElementById('mobileBackgroundStyle') || document.createElement('style');
-  styleTag.id = 'mobileBackgroundStyle';
-  styleTag.innerHTML = `
-    @media only screen and (max-width: 768px) {
-      body::before {
-        background-image: url('${mobileUrl}');
-      }
-    }
-  `;
-  document.head.appendChild(styleTag);
+  document.body.style.backgroundImage = `url('${chosenUrl}')`;
 
   currentIndex = (currentIndex + 1) % desktopImages.length;
 }
 
-// Initial load
-updateBackgrounds();
+// Initial load — wait for correct image before showing content to prevent FOUC (glitch)
+window.addEventListener('load', () => {
+  const isMobile = window.innerWidth <= 768;
+  const chosenUrl = isMobile
+    ? `/Images/${mobileImages[currentIndex]}`
+    : `/Images/${desktopImages[currentIndex]}`;
 
-// Cycle every 5 seconds
-setInterval(updateBackgrounds, 6000);
+  const img = new Image();
+  img.onload = () => {
+    document.body.style.backgroundImage = `url('${chosenUrl}')`;
+    document.body.style.visibility = 'visible';
 
-
-
+    // Start cycling only after initial image is loaded
+    setInterval(updateBackgrounds, 6000);
+  };
+  img.src = chosenUrl;
+});
 
 
 
