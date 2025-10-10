@@ -58,7 +58,9 @@ window.addEventListener('load', () => {
   const img = new Image();
   img.onload = () => {
     document.body.style.backgroundImage = `url('${chosenUrl}')`;
-    document.body.style.visibility = 'visible';
+    // document.body.style.visibility = 'visible';
+    document.body.style.opacity = '1';
+
 
     // Start cycling only after initial image is loaded
     setInterval(updateBackgrounds, 6000);
