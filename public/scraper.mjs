@@ -209,7 +209,7 @@ for (let link of all_links) {
     const startDate = new Date(shows[0].date + ", " + currentYear);
     const endDate = new Date(shows[shows.length - 1].date + ", " + currentYear);
 
-    const date_range_text = `${startDate.toLocaleString('default', { month: 'long' })} ${getOrdinalSuffix(startDate.getDate())} – ${getOrdinalSuffix(endDate.getDate())}`;
+    const date_range_text = `${startDate.toLocaleString('default', { month: 'short' })} ${getOrdinalSuffix(startDate.getDate())} – ${getOrdinalSuffix(endDate.getDate())}`;
 
     // // Extract the shared "PM" suffix
     // const suffix = shows.times[0].split(" ")[1];
