@@ -163,12 +163,12 @@ document.getElementById('topBtn').addEventListener('click', () => {
 });
 
 // Smoothly scroll to the top when the button is clicked
-function topFunction() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-}
+// function topFunction() {
+//     window.scrollTo({
+//         top: 0,
+//         behavior: "smooth"
+//     });
+// }
   
 
 // Keep this method and uncomment the footer insert when this gets fixed.
