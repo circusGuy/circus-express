@@ -137,18 +137,30 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 // Show the button when the user scrolls away from the top of the webpage
-window.onscroll = function() {
-    toggleButtonVisibility();
-};
+// window.onscroll = function() {
+//     toggleButtonVisibility();
+// };
 
-function toggleButtonVisibility() {
-    const topBtn = document.getElementById("topBtn");
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        topBtn.style.display = "block";
-    } else {
-        topBtn.style.display = "none";
-    }
-}
+// function toggleButtonVisibility() {
+//     const topBtn = document.getElementById("topBtn");
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         topBtn.style.display = "block";
+//     } else {
+//         topBtn.style.display = "none";
+//     }
+// }
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('topBtn');
+  if (window.scrollY > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+});
+
+document.getElementById('topBtn').addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 // Smoothly scroll to the top when the button is clicked
 function topFunction() {
