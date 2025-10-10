@@ -246,6 +246,7 @@ body {
     text-align: left;
     color: #efc524;
     font-size: 2.8em;
+    will-change: text-shadow;
     text-shadow: 0 5px 6px purple;
     padding: 0;
     margin: 0;
@@ -262,7 +263,7 @@ body {
     color: #efc524;
     font-size: 1.2em;
     text-shadow: 0 5px 6px purple;
-
+    will-change: text-shadow;
 }
 
 .story {
@@ -302,6 +303,7 @@ body {
         margin-bottom: .25em;
         color: white;
         font-size: 1.6em;
+        will-change: text-shadow;
         text-shadow: 0 0 5px black,    /* Inner glow */
         0 0 10px black,   /* Slightly bigger glow */
         0 0 20px black,   /* Bigger glow */
@@ -320,7 +322,7 @@ body {
         0 0 20px black,   /* Bigger glow */
         0 0 30px black,   /* Even bigger glow */
         0 0 40px black;   /* Outermost glow */
-        will-change: color;
+        will-change: color, text-shadow;
     }
     a:hover {
         color: white;
@@ -343,6 +345,7 @@ body {
     }
 
     .lastDay {
+        will-change: text-shadow, animation;
         text-shadow: 0 0 5px purple,    /* Inner glow */
         0 0 10px purple,   /* Slightly bigger glow */
         0 0 20px purple,   /* Bigger glow */
@@ -367,6 +370,7 @@ body {
         z-index: 1;
 
         .city {
+            will-change: text-shadow;
             display: block;
             font-size: 2.5em;
             font-weight: bold;
@@ -410,6 +414,7 @@ body {
         }
         .showTimes a:hover {
             color: white;
+            will-change: text-shadow;
             text-shadow: 0 0 5px purple,    /* Inner glow */
             0 0 10px purple,   /* Slightly bigger glow */
             0 0 20px purple,   /* Bigger glow */
@@ -431,6 +436,7 @@ h1.faqTitle {
     font-family: 'Carnival', sans-serif;
     color: #efc524;
     font-size: 3.2em;
+    will-change: text-shadow;
     text-shadow: 0 0 5px purple,    /* Inner glow */
     0 0 10px purple,   /* Slightly bigger glow */
     0 0 20px purple,   /* Bigger glow */
@@ -461,7 +467,7 @@ h1.faqTitle {
         0 0 20px black,   /* Bigger glow */
         0 0 30px black,   /* Even bigger glow */
         0 0 40px black;   /* Outermost glow */
-        will-change: color;
+        will-change: color, text-shadow;
     }
     a:hover {
         color: white;
@@ -475,7 +481,7 @@ h1.faqTitle {
     0 0 20px purple,   /* Bigger glow */
     0 0 30px purple,   /* Even bigger glow */
     0 0 40px purple;   /* Outermost glow */
-    will-change: color;
+    will-change: color, text-shadow;
 }
 
 .faq-contact-us a:hover {
@@ -523,6 +529,7 @@ button:hover {
 
     span { 
         font-size: 2.2em;
+        will-change: text-shadow;
         text-shadow: 0 0 5px white,    /* Inner glow */
             0 0 10px white,   /* Slightly bigger glow */
             0 0 20px white,   /* Bigger glow */
@@ -532,6 +539,7 @@ button:hover {
     span:nth-of-type(2), span:nth-of-type(2) span { 
         font-size: 2.8em; 
         color: purple; /* Change color */
+        will-change: text-shadow;
         text-shadow: 0 0 5px #00ff00,    /* Inner glow */
                 0 0 10px #00ff00,   /* Slightly bigger glow */
                 0 0 20px #00ff00,   /* Bigger glow */
@@ -556,6 +564,7 @@ button:hover {
 
     span { 
         font-size: 2.2em;
+        will-change: text-shadow;
         text-shadow: 0 0 5px white,    /* Inner glow */
             0 0 10px white,   /* Slightly bigger glow */
             0 0 20px white,   /* Bigger glow */
@@ -568,6 +577,7 @@ button:hover {
     font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 1em;
+    will-change: text-shadow;
     text-shadow: 0 0 5px white,    /* Inner glow */
         0 0 10px white,   /* Slightly bigger glow */
         0 0 20px white,   /* Bigger glow */
@@ -576,6 +586,7 @@ button:hover {
         span {
             color: #fcc613;
             font-size: 1.3em;
+            will-change: text-shadow;
             text-shadow: 0 0 10px purple,    /* Inner glow */
                 0 0 10px purple,   /* Slightly bigger glow */
                 0 0 20px purple,   /* Bigger glow */
@@ -596,6 +607,7 @@ button:hover {
     font-family: Carnival;
     font-size: 2em;
     color: purple;
+    will-change: text-shadow;
     text-shadow: 0 0 5px white,    /* Inner glow */
                 0 0 10px white,   /* Slightly bigger glow */
                 0 0 20px white,   /* Bigger glow */
@@ -604,6 +616,7 @@ button:hover {
 }
 
 .promo.animate {
+    will-change: animation, text-shadow;
     animation: textShadowSwitch 3s infinite; /* Adjust duration as needed */
 }
 
@@ -1007,6 +1020,7 @@ textarea { height: 100%; }
     }
 
     .showTimes a:hover {
+        will-change: text-shadow;
         text-shadow: none !important;
     }
 
