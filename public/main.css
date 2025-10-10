@@ -983,6 +983,10 @@ textarea { height: 100%; }
         padding: 0 .5em;
     }
 
+    .promo {
+        font-size: 1.6em;
+    }
+
     .locations {
         margin: 0;
         .location-container {
