@@ -61,7 +61,7 @@ h1 {
 
 body {
   will-change: transition, background-image;;
-  background-color: transparent;
+  background-color: #030301;
   opacity: 0;
   transition: opacity 0.3s ease;
 
