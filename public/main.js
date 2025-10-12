@@ -28,6 +28,12 @@ const mobileImages = [
   'bkgd-dance-mobile.jpg',
   'bkgd-viper2-mobile.jpg'
 ];
+window.addEventListener('resize', () => {
+  clearTimeout(window.bgResizeTimeout);
+  window.bgResizeTimeout = setTimeout(() => {
+    swapBackground(getImageUrl(currentIndex));
+  }, 500);
+});
 
 // Preload all images
 [...desktopImages, ...mobileImages].forEach(src => {
@@ -37,35 +43,44 @@ const mobileImages = [
 
 let currentIndex = Math.floor(Math.random() * desktopImages.length);
 
-function updateBackgrounds() {
+function getImageUrl(index) {
   const isMobile = window.innerWidth <= 768;
-  const desktopUrl = `/Images/${desktopImages[currentIndex]}`;
-  const mobileUrl = `/Images/${mobileImages[currentIndex]}`;
-  const chosenUrl = isMobile ? mobileUrl : desktopUrl;
-
-  document.body.style.backgroundImage = `url('${chosenUrl}')`;
-
-  currentIndex = (currentIndex + 1) % desktopImages.length;
+  return `/Images/${isMobile ? mobileImages[index] : desktopImages[index]}`;
 }
 
-// Initial load — wait for correct image before showing content to prevent FOUC (glitch)
-window.addEventListener('load', () => {
-  const isMobile = window.innerWidth <= 768;
-  const chosenUrl = isMobile
-    ? `/Images/${mobileImages[currentIndex]}`
-    : `/Images/${desktopImages[currentIndex]}`;
+function swapBackground(newUrl) {
+  const nextLayer = document.querySelector('.bg-layer.next');
+  const currentLayer = document.querySelector('.bg-layer.current');
 
   const img = new Image();
   img.onload = () => {
-    document.body.style.backgroundImage = `url('${chosenUrl}')`;
-    // document.body.style.visibility = 'visible';
+    nextLayer.style.backgroundImage = `url('${newUrl}')`;
+    nextLayer.style.opacity = 1;
+    currentLayer.style.opacity = 0;
+
+    setTimeout(() => {
+      currentLayer.classList.remove('current');
+      currentLayer.classList.add('next');
+      nextLayer.classList.remove('next');
+      nextLayer.classList.add('current');
+    }, 1000);
+  };
+  img.src = newUrl;
+}
+
+window.addEventListener('load', () => {
+  const initialUrl = getImageUrl(currentIndex);
+  const img = new Image();
+  img.onload = () => {
+    document.querySelector('.bg-layer.current').style.backgroundImage = `url('${initialUrl}')`;
     document.body.style.opacity = '1';
 
-
-    // Start cycling only after initial image is loaded
-    setInterval(updateBackgrounds, 6000);
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % desktopImages.length;
+      swapBackground(getImageUrl(currentIndex));
+    }, 6000);
   };
-  img.src = chosenUrl;
+  img.src = initialUrl;
 });
 
 
