@@ -1,27 +1,5 @@
 [
   {
-    "name": "Chillicothe, OH",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1011-1012-chillicothe-oh/ZYPCNUWFUVG4RIWSHGHX4PTL",
-    "date_range": "Oct 11 – Oct 12",
-    "date_range_text": "Oct 12th",
-    "address": [
-      "Ross County Fairgrounds",
-      "344 Fairgrounds Rd, Chillicothe, OH 45601"
-    ],
-    "shows": [
-      {
-        "date": "Oct 12",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-12-chillicothe-oh/AYI6P2NXQXU37T7V2EHAWGQG"
-      }
-    ]
-  },
-  {
     "name": "Wellston, OH",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1014-1016-wellston-oh/IJ6VGQMNBEXTWSSYREWFJZVS",
     "date_range": "Oct 14 – Oct 16",
