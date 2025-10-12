@@ -48,25 +48,45 @@ function getImageUrl(index) {
   return `/Images/${isMobile ? mobileImages[index] : desktopImages[index]}`;
 }
 
+let isTransitioning = false;
+
 function swapBackground(newUrl) {
+  if (isTransitioning) return;
+  isTransitioning = true;
+
   const nextLayer = document.querySelector('.bg-layer.next');
   const currentLayer = document.querySelector('.bg-layer.current');
+
+  // Reset next layer
+  nextLayer.style.opacity = 0;
+  nextLayer.style.backgroundImage = 'none';
+  void nextLayer.offsetWidth; // force reflow
 
   const img = new Image();
   img.onload = () => {
     nextLayer.style.backgroundImage = `url('${newUrl}')`;
-    nextLayer.style.opacity = 1;
-    currentLayer.style.opacity = 0;
 
-    setTimeout(() => {
+    // Listen for transition end once
+    const onTransitionEnd = () => {
       currentLayer.classList.remove('current');
       currentLayer.classList.add('next');
       nextLayer.classList.remove('next');
       nextLayer.classList.add('current');
-    }, 1000);
+
+      nextLayer.removeEventListener('transitionend', onTransitionEnd);
+      isTransitioning = false;
+    };
+
+    nextLayer.addEventListener('transitionend', onTransitionEnd);
+
+    // Trigger transition
+    nextLayer.style.opacity = 1;
+    currentLayer.style.opacity = 0;
   };
+
   img.src = newUrl;
 }
+
 
 window.addEventListener('load', () => {
   const initialUrl = getImageUrl(currentIndex);

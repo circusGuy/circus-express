@@ -105,7 +105,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: opacity 1.5s ease;
+  transition: opacity 2.5s ease;
 }
 
 .bg-layer.next {
@@ -114,7 +114,7 @@ body {
 /* Fade-in effect when page loads */
 .bg-layer.current {
   opacity: 0;
-  animation: fadeIn 1.5s forwards;
+  animation: fadeIn 2.5s forwards;
 }
 
 @keyframes fadeIn {
