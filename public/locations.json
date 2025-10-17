@@ -1,26 +1,5 @@
 [
   {
-    "name": "Wellston, OH",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1014-1016-wellston-oh/IJ6VGQMNBEXTWSSYREWFJZVS",
-    "date_range": "Oct 14 – Oct 16",
-    "date_range_text": "Oct 16th",
-    "address": [
-      "Jackson County Fairgrounds",
-      "96 Meadow Run Rd, Wellston, OH 45692"
-    ],
-    "shows": [
-      {
-        "date": "Oct 16",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-16-wellston-oh/M35PIIP2MBE2UKW6F57BMM7E"
-      }
-    ]
-  },
-  {
     "name": "Hillsboro, OH",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1018-1019-hillsboro-oh/BDGDP6MSLMQI4U763KPTXLFO",
     "date_range": "Oct 18 – Oct 19",
