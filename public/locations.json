@@ -1,37 +1,5 @@
 [
   {
-    "name": "Hillsboro, OH",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1018-1019-hillsboro-oh/BDGDP6MSLMQI4U763KPTXLFO",
-    "date_range": "Oct 18 – Oct 19",
-    "date_range_text": "Oct 18th – 19th",
-    "address": [
-      "Highland County Fairgrounds",
-      "604 John St #1030, Hillsboro, OH 45133"
-    ],
-    "shows": [
-      {
-        "date": "Oct 18",
-        "weekday": "Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-18-hillsboro-oh/GOK7OQTK6PC43PCQ6PGCYF42"
-      },
-      {
-        "date": "Oct 19",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-19-hillsboro-oh/BLEWM3FYIGCBNHJOTJKIZGK3"
-      }
-    ]
-  },
-  {
     "name": "Wheelersburg, OH",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1021-1023-wheelersburg-oh/MMNQRHSUSAGMRVEHLH7SK4NE",
     "date_range": "Oct 21 – Oct 23",
