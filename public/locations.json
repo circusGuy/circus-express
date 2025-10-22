@@ -1,5 +1,4 @@
 [
-
   {
     "name": "Wheelersburg, OH",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1021-1023-wheelersburg-oh/MMNQRHSUSAGMRVEHLH7SK4NE",
@@ -10,15 +9,6 @@
       "7918 Ohio River Rd, Wheelersburg, OH 45694"
     ],
     "shows": [
-      {
-        "date": "Oct 21",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-21-wheelersburg-oh/O52U64AEKVOVWUQ42OKXO2L2"
-      },
       {
         "date": "Oct 22",
         "weekday": "Wed",
