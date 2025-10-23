@@ -3,21 +3,12 @@
     "name": "Wheelersburg, OH",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1021-1023-wheelersburg-oh/MMNQRHSUSAGMRVEHLH7SK4NE",
     "date_range": "Oct 21 – Oct 23",
-    "date_range_text": "Oct 21st – 23rd",
+    "date_range_text": "Oct 23rd",
     "address": [
       "Wheelersburg Flea Market",
       "7918 Ohio River Rd, Wheelersburg, OH 45694"
     ],
     "shows": [
-      {
-        "date": "Oct 22",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-22-wheelersburg-oh/SHFEQTNDR6U2CPTSZWFRDPZT"
-      },
       {
         "date": "Oct 23",
         "weekday": "Thu",
