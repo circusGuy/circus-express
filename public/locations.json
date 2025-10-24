@@ -13,7 +13,7 @@
       {
         "date": "Oct 25",
         "weekday": "Sat",
-        "formattedTimes": "2:30 PM<span style='color: red;'>(FULL)</span><hr />",
+        "formattedTimes": "2:30 PM &nbsp;<span style='color: red;'>(FULL)</span><hr />",
         "times": [
           "2:30 PM"
         ],
