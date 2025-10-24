@@ -13,7 +13,7 @@
       {
         "date": "Oct 25",
         "weekday": "Sat",
-        "formattedTimes": "2:30 PM",
+        "formattedTimes": "2:30 PM<hr />",
         "times": [
           "2:30 PM"
         ],
@@ -22,7 +22,7 @@
       {
         "date": "Oct 25",
         "weekday": "Sat",
-        "formattedTimes": "5:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
@@ -31,7 +31,7 @@
       {
         "date": "Oct 26",
         "weekday": "Sun",
-        "formattedTimes": "2:30 PM",
+        "formattedTimes": "2:30 PM<hr />",
         "times": [
           "2:30 PM"
         ],
@@ -40,7 +40,7 @@
       {
         "date": "Oct 26",
         "weekday": "Sun",
-        "formattedTimes": "5:00 PM &nbsp;<span style='color: red;'>(FULL)</span>",
+        "formattedTimes": "5:00 PM &nbsp;<span style='color: red;'>(FULL)</span><hr />",
         "times": [
           "5:00 PM"
         ],
@@ -62,7 +62,7 @@
       {
         "date": "Oct 28",
         "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
@@ -71,7 +71,7 @@
       {
         "date": "Oct 29",
         "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
@@ -80,7 +80,7 @@
       {
         "date": "Oct 30",
         "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
@@ -102,7 +102,7 @@
       {
         "date": "Nov 1",
         "weekday": "Sat",
-        "formattedTimes": "2:30 PM",
+        "formattedTimes": "2:30 PM<hr />",
         "times": [
           "2:30 PM"
         ],
@@ -111,7 +111,7 @@
       {
         "date": "Nov 1",
         "weekday": "Sat",
-        "formattedTimes": "5:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
@@ -120,7 +120,7 @@
       {
         "date": "Nov 2",
         "weekday": "Sun",
-        "formattedTimes": "2:30 PM",
+        "formattedTimes": "2:30 PM<hr />",
         "times": [
           "2:30 PM"
         ],
@@ -129,7 +129,7 @@
       {
         "date": "Nov 2",
         "weekday": "Sun",
-        "formattedTimes": "5:00 PM",
+        "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
@@ -151,7 +151,7 @@
       {
         "date": "Nov 4",
         "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
@@ -160,7 +160,7 @@
       {
         "date": "Nov 5",
         "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
@@ -169,7 +169,7 @@
       {
         "date": "Nov 6",
         "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],

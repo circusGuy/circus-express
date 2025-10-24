@@ -476,6 +476,13 @@ body {
             0 0 30px purple,   /* Even bigger glow */
             0 0 40px purple;   /* Outermost glow */
         }
+        .showTimes a hr {
+            border: none;
+            width: 50%;
+            border-top: 2px solid #efc524;
+            border-bottom: 2px solid #fff;
+            border-radius: 4px;
+        }
     }
 
     .location-container:hover {
