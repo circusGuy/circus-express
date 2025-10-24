@@ -432,7 +432,7 @@ body {
         .sponsor {
             display: block;
             font-size: 1.4em;
-            color: #efc524;
+            color: #fff;
             font-weight: bold;
             margin-top: .5em;
             margin-bottom: .5em;
@@ -443,6 +443,7 @@ body {
         
         }
         .sponsor > :first-child {
+            color: #efc524;
             font-size: 0.9em;
         }   
 
