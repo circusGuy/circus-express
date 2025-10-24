@@ -12,22 +12,38 @@
       {
         "date": "Oct 25",
         "weekday": "Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "formattedTimes": "2:30 PM",
         "times": [
-          "2:30 PM",
+          "2:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/dry-ridge-ky-10-25-25-saturday-2-30-pm/3CJ3FBNCAJOAMMTHB54NHSRL"
+      },
+      {
+        "date": "Oct 25",
+        "weekday": "Sat",
+        "formattedTimes": "5:00 PM<hr style='width: 50%;'/>",
+        "times": [
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-25-dry-ridge-ky/C3UGRN6R7GG4Z7BAJTJXUUHQ"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/dry-ridge-ky-10-25-25-saturday-5-00-pm/6NL4N4STIGF4LPBQNWBC757Z"
       },
       {
         "date": "Oct 26",
         "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "formattedTimes": "2:30 PM",
         "times": [
-          "2:30 PM",
+          "2:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/dry-ridge-ky-10-26-25-sunday-2-30-pm/IIQLUTKM2E2KAHNIEZZ5RW2V"
+      },
+      {
+        "date": "Oct 26",
+        "weekday": "Sun",
+        "formattedTimes": "5:00 PM &nbsp;<span style='color: red;'>(FULL)</span>",
+        "times": [
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-26-dry-ridge-ky/NAUTW72AXWF6YXW4QGAB77CC"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/dry-ridge-ky-10-26-25-sunday-5-00-pm/LK7OVR2F4MGHMCUOVCLGRV3I"
       }
     ]
   },
@@ -44,7 +60,7 @@
       {
         "date": "Oct 28",
         "weekday": "Tue",
-        "formattedTimes": "6:00 PM",
+        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
         "times": [
           "6:00 PM"
         ],
@@ -53,7 +69,7 @@
       {
         "date": "Oct 29",
         "weekday": "Wed",
-        "formattedTimes": "6:00 PM",
+        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
         "times": [
           "6:00 PM"
         ],
@@ -62,7 +78,7 @@
       {
         "date": "Oct 30",
         "weekday": "Thu",
-        "formattedTimes": "6:00 PM",
+        "formattedTimes": "6:00 PM<hr style='width: 50%;'/>",
         "times": [
           "6:00 PM"
         ],
@@ -83,22 +99,38 @@
       {
         "date": "Nov 1",
         "weekday": "Sat",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "formattedTimes": "2:30 PM",
         "times": [
-          "2:30 PM",
+          "2:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-1-25-saturday-2-30-pm/CYOP3OZJGYIA4OFMY2XQ7KBR"
+      },
+      {
+        "date": "Nov 1",
+        "weekday": "Sat",
+        "formattedTimes": "5:00 PM<hr style='width: 50%;'/>",
+        "times": [
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/nov-1-maysville-ky/N7XSKFMGH7ZEV4AVFOKD3WGI"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-1-25-saturday-5-00-pm/FC2D6UOKWEXL4CQT57XDGLPO"
       },
       {
         "date": "Nov 2",
         "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM",
+        "formattedTimes": "2:30 PM",
         "times": [
-          "2:30 PM",
+          "2:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-2-25-sunday-2-30-pm/7N37Q4IGY3ZREKYUJMPS4ME4"
+      },
+      {
+        "date": "Nov 2",
+        "weekday": "Sun",
+        "formattedTimes": "5:00 PM",
+        "times": [
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/nov-2-maysville-ky/SEXNGADV6XEPBBUEDIQVJFWH"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-2-25-sunday-5-00-pm/D5447GQM6TLSRO5JWAUQJHQM"
       }
     ]
   },

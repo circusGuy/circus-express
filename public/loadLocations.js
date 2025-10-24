@@ -91,9 +91,11 @@ load_locations().then(data => {
             const showTimesDiv = document.createElement('div');
             showTimesDiv.className = 'showTimes';
             if (index === 0 && i === 0) { // Highlight first location's first show
-                showTimesDiv.innerHTML = `🔥&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($18)" + '</a> &nbsp;🔥';
+                // showTimesDiv.innerHTML = `🔥&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($18)" + '</a> &nbsp;🔥';
+                showTimesDiv.innerHTML = `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + '</a>';
             } else if (index === 0) { // Highlight first location's other shows
-                showTimesDiv.innerHTML = `&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($15)" + '</a> &nbsp;';
+                // showTimesDiv.innerHTML = `&nbsp; <a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + "&nbsp; ($15)" + '</a> &nbsp;';
+                showTimesDiv.innerHTML = `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + '</a>';
             } else {
                 showTimesDiv.innerHTML = `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">` + show.weekday + ": &nbsp; " + show.formattedTimes + '</a>';
             }
@@ -119,7 +121,7 @@ load_locations().then(data => {
         } else {
             const promo = document.createElement('div');
             promo.className = 'promo';
-            promo.innerHTML = "Only a few days remain!<br>Tickets Selling Fast!";
+            promo.innerHTML = "Reserve NOW!<br>Tickets Going Fast!";
             locationDiv.appendChild(promo);
         }
 
