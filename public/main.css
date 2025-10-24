@@ -428,6 +428,24 @@ body {
             }        
         
         }
+
+        .sponsor {
+            display: block;
+            font-size: 1.4em;
+            color: #efc524;
+            font-weight: bold;
+            margin-top: .5em;
+            margin-bottom: .5em;
+            div {
+                font-size: 1.2em;
+                margin-top: .2em;
+            }        
+        
+        }
+        .sponsor > :first-child {
+            font-size: 0.9em;
+        }   
+
         .dates {
             display: block;
             font-size: 2.4em;

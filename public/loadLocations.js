@@ -76,6 +76,13 @@ load_locations().then(data => {
         }
         locationDiv.appendChild(addressDiv);
 
+        if (location.sponsor) {
+            const sponsorDiv = document.createElement('div');
+            sponsorDiv.className = 'sponsor';
+            sponsorDiv.innerHTML = `<div>Sponsored by:</div><div>` + location.sponsor + `</div>`;
+            locationDiv.appendChild(sponsorDiv);
+        }
+
         // Create the dates div
         const datesDiv = document.createElement('div');
         datesDiv.className = 'reading';
