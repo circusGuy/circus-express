@@ -123,7 +123,7 @@ load_locations().then(data => {
                 promo.innerHTML = "Last Show… Today<br>Don't Miss — Buy Now!";
             } else {
                 // promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
-                promo.innerHTML = `😊 All Shows FULL.<br>Thank You Dry Ridge!`;
+                promo.innerHTML = `😊 All Shows are FULL.<br>Thank You Dry Ridge!`;
             }
             locationDiv.appendChild(promo);
         } else {
