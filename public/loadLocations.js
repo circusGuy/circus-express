@@ -122,7 +122,8 @@ load_locations().then(data => {
             if (isToday(new Date(location.shows[0].date)) && location.shows.length === 1) {
                 promo.innerHTML = "Last Show… Today<br>Don't Miss — Buy Now!";
             } else {
-                promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
+                // promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
+                promo.innerHTML = `⏳ Going FAST.<br>Get tickets Now!`;
             }
             locationDiv.appendChild(promo);
         } else {
