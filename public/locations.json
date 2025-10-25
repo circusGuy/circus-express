@@ -22,7 +22,7 @@
       {
         "date": "Oct 25",
         "weekday": "Sat",
-        "formattedTimes": "5:00 PM &nbsp;<span style='color: red;'>(FULL)</span><hr />",
+        "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
@@ -31,7 +31,7 @@
       {
         "date": "Oct 26",
         "weekday": "Sun",
-        "formattedTimes": "2:30 PM &nbsp;<span style='color: red;'>(FULL)</span><hr />",
+        "formattedTimes": "2:30 PM<hr />",
         "times": [
           "2:30 PM"
         ],
@@ -40,7 +40,7 @@
       {
         "date": "Oct 26",
         "weekday": "Sun",
-        "formattedTimes": "5:00 PM &nbsp;<span style='color: red;'>(FULL)</span><hr />",
+        "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
