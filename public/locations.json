@@ -1,25 +1,15 @@
 [
-
   {
     "name": "Winchester, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1028-1030-winchester-ky/KZNQFJYHZKHMSUXLFY6D6DVG",
     "date_range": "Oct 28 – Oct 30",
-    "date_range_text": "Oct 28th – 30th",
+    "date_range_text": "Oct 29th – 30th",
     "sponsor": "Winchester Clark Co.<br>Chamber of Commerce",
     "address": [
       "Clark County Fairgrounds",
       "4980 Ironworks Rd, Winchester, KY 40391"
     ],
     "shows": [
-      {
-        "date": "Oct 28",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/oct-28-winchester-ky/EKHXHG5UE75SNBAFISCZ4IKT"
-      },
       {
         "date": "Oct 29",
         "weekday": "Wed",
