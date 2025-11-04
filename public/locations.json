@@ -1,36 +1,5 @@
 [
   {
-    "name": "Maysville, KY",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/111-112-maysville-ky/5OFGYK7B4XPG5Y2SVGJWZ242",
-    "date_range": "Nov 1 – Nov 2",
-    "date_range_text": "Nov 1st – 2nd",
-    "sponsor": "The Old Reliable<br>Germantown Fair",
-    "address": [
-      "Germantown Fairgrounds",
-      "4088 KY-10, Maysville, KY 41056"
-    ],
-    "shows": [
-      {
-        "date": "Nov 2",
-        "weekday": "Sun",
-        "formattedTimes": "2:30 PM<hr />",
-        "times": [
-          "2:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-2-25-sunday-2-30-pm/7N37Q4IGY3ZREKYUJMPS4ME4"
-      },
-      {
-        "date": "Nov 2",
-        "weekday": "Sun",
-        "formattedTimes": "5:00 PM<hr />",
-        "times": [
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/maysville-ky-11-2-25-sunday-5-00-pm/D5447GQM6TLSRO5JWAUQJHQM"
-      }
-    ]
-  },
-  {
     "name": "Monticello, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/114-116-monticello-ky/IXY474IKMWJ6BYCX7RMAMCBA",
     "date_range": "Nov 4 – Nov 6",
@@ -75,6 +44,7 @@
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/118-119-williamsburg-ky/DK3LSCH3KALPBG3FM2OANGIB",
     "date_range": "Nov 8 – Nov 9",
     "date_range_text": "Nov 8th – 9th",
+    "sponsor": "Whitley County<br>Fiscal Court",
     "address": [
       "Whitley County Fairgrounds",
       "860 Savoy-Clear Creek Rd, Williamsburg, KY 40769"
