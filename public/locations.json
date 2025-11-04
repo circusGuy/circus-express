@@ -3,22 +3,13 @@
     "name": "Monticello, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/114-116-monticello-ky/IXY474IKMWJ6BYCX7RMAMCBA",
     "date_range": "Nov 4 – Nov 6",
-    "date_range_text": "Nov 4th – 6th",
+    "date_range_text": "Nov 5th – 6th",
     "sponsor": "Monticello Wayne Co.<br>Parks & Recreation",
     "address": [
       "MWC Park",
       "Park Rd 1, Monticello, KY 42633"
     ],
     "shows": [
-      {
-        "date": "Nov 4",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/nov-4-monticello-ky/ODNSM3X3L2UTQWDRTCYZFEAP"
-      },
       {
         "date": "Nov 5",
         "weekday": "Wed",
