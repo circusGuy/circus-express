@@ -662,7 +662,9 @@ button:hover {
         }
 
     }
-
+.responsive-break {
+    display: none;
+}
 
 .promo {
     margin-top: .5em;
@@ -1058,6 +1060,10 @@ textarea { height: 100%; }
     .earlyBird {
         font-size: 1.5em;
         padding: 0 .5em;
+    }
+
+    .responsive-break {
+        display: inline;
     }
 
     .promo {
