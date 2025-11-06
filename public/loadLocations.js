@@ -120,7 +120,7 @@ load_locations().then(data => {
             const promo = document.createElement('div');
             promo.className = 'promo';
             if (isToday(new Date(location.shows[0].date)) && location.shows.length === 1) {
-                promo.innerHTML = "Last Show… Today<br>Don't Miss — Buy Now!";
+                promo.innerHTML = "Last Show… Today<br>Reserve NOW!";
             } else {
                 // promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
                 promo.innerHTML = `😊<br>Thank You Monticello!<br>Tickets almost gone.<br>Hurry, Reserve NOW!`;
