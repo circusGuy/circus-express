@@ -648,7 +648,7 @@ button:hover {
         0 0 40px white;   /* Outermost glow */
         span {
             color: #fcc613;
-            font-size: 1.3em;
+            font-size: 1.4em;
             will-change: text-shadow;
             text-shadow: 0 0 10px purple,    /* Inner glow */
                 0 0 10px purple,   /* Slightly bigger glow */
