@@ -11,24 +11,6 @@
     ],
     "shows": [
       {
-        "date": "Nov 8",
-        "weekday": "Sat",
-        "formattedTimes": "2:30 PM<hr />",
-        "times": [
-          "2:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/williamsburg-ky-11-8-25-saturday-2-30-pm/S34KG3W6LHF2TR2IXYYRKSRE"
-      },
-      {
-        "date": "Nov 8",
-        "weekday": "Sat",
-        "formattedTimes": "5:00 PM<hr />",
-        "times": [
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/williamsburg-ky-11-8-25-saturday-5-00-pm/JOJI4KMNA6Y4H2VDE6V5OK3H"
-      },
-      {
         "date": "Nov 9",
         "weekday": "Sun",
         "formattedTimes": "2:30 PM<hr />",
