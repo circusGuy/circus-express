@@ -1,36 +1,5 @@
 [
   {
-    "name": "Williamsburg, KY",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/118-119-williamsburg-ky/DK3LSCH3KALPBG3FM2OANGIB",
-    "date_range": "Nov 8 – Nov 9",
-    "date_range_text": "Nov 8th – 9th",
-    "sponsor": "Whitley County<br>Fiscal Court",
-    "address": [
-      "Whitley County Fairgrounds",
-      "860 Savoy-Clear Creek Rd, Williamsburg, KY 40769"
-    ],
-    "shows": [
-      {
-        "date": "Nov 9",
-        "weekday": "Sun",
-        "formattedTimes": "2:30 PM<hr />",
-        "times": [
-          "2:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/williamsburg-ky-11-9-25-sunday-2-30-pm/MAR3HJINBP2ZW5DKPMK5TO2D"
-      },
-      {
-        "date": "Nov 9",
-        "weekday": "Sun",
-        "formattedTimes": "5:00 PM<hr />",
-        "times": [
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/williamsburg-ky-11-9-25-sunday-5-00-pm/D6KJW3AGWY7RMB77PXD2JCCY"
-      }
-    ]
-  },
-  {
     "name": "Evensville, TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1115-1116-evensville-tn/VNSUCQXVW3KCOQ5T532QKNTR",
     "date_range": "Nov 15 – Nov 16",

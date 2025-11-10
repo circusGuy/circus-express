@@ -123,7 +123,7 @@ load_locations().then(data => {
                 promo.innerHTML = "Last Show… Today<br>Reserve NOW!";
             } else {
                 // promo.innerHTML = `⏳ In ${location.shows.length} Days… We're Gone.<br>Get tickets Now!`;
-                promo.innerHTML = `😊<br>Thank You Williamsburg!<br>Tickets almost gone.<br>Hurry, Reserve NOW!`;
+                promo.innerHTML = `Tickets almost gone.<br>Hurry, Reserve NOW!`;
             }
             locationDiv.appendChild(promo);
         } else {
