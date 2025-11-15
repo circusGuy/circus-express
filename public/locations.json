@@ -10,24 +10,6 @@
     ],
     "shows": [
       {
-        "date": "Nov 15",
-        "weekday": "Sat",
-        "formattedTimes": "2:30 PM<hr />",
-        "times": [
-          "2:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/evensville-tn-11-15-25-saturday-2-30-pm/WHN3PCSLF3SRMDOTOOJDPEUB"
-      },
-      {
-        "date": "Nov 15",
-        "weekday": "Sat",
-        "formattedTimes": "5:00 PM<hr />",
-        "times": [
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/evensville-tn-11-15-25-saturday-5-00-pm/ZMDXCAW4CB4A3L6IZZGRN5QP"
-      },
-      {
         "date": "Nov 16",
         "weekday": "Sun",
         "formattedTimes": "2:30 PM<hr />",
