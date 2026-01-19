@@ -197,7 +197,7 @@ for (let link of all_links) {
     shows = shows.map((s) => ({
       date: s.date,
       weekday: new Date(s.date + `, ${currentYear}`).toLocaleDateString('en-US', { weekday: 'short' }),
-      formattedTimes: formatTimes(s.times),
+      formattedTimes: formatTimes(s.times) + "<hr />",
       times: s.times,
       link: s.link.split('?')[0],
     }));

@@ -1,31 +1,41 @@
 [
   {
-    "name": "Dayton / Evensville, TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1115-1116-evensville-tn/VNSUCQXVW3KCOQ5T532QKNTR",
-    "date_range": "Nov 15 – Nov 16",
-    "date_range_text": "Nov 16th",
+    "name": "Macclenny FL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/213-215-macclenny-fl/3BDX4VKQFNLVIDBD5YEL2CAQ",
+    "date_range": "Feb 13 – Feb 15",
+    "date_range_text": "Feb 13th – 15th",
     "address": [
-      "Rhea County Fairgrounds",
-      "Harold Robbins Ln, Evensville, TN 37332"
+      "Baker County Fairgrounds",
+      "5567 Lauramore Rd, Macclenny, FL 37332"
     ],
     "shows": [
       {
-        "date": "Nov 16",
-        "weekday": "Sun",
-        "formattedTimes": "2:30 PM<hr />",
+        "date": "Feb 13",
+        "weekday": "Fri",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
-          "2:30 PM"
+          "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/evensville-tn-11-16-25-sunday-2-30-pm/DORRWJTRNJVQIZG4Z75EK5U3"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-13-macclenny-fl/UUJA3QHJK5HUUBGYAICNQCT6"
       },
       {
-        "date": "Nov 16",
+        "date": "Feb 14",
+        "weekday": "Sat",
+        "formattedTimes": "5:00&nbsp; &amp; &nbsp;7:30 PM<hr />",
+        "times": [
+          "5:00 PM",
+          "7:30 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-14-macclenny-fl/COMMTQ63Z6UWEFT6EFE7SNWM"
+      },
+      {
+        "date": "Feb 15",
         "weekday": "Sun",
         "formattedTimes": "5:00 PM<hr />",
         "times": [
           "5:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/product/evensville-tn-11-16-25-sunday-5-00-pm/GSXFYIOAVJX6IEQGY2WB7INI"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-15-macclenny-fl/WC75LJDJKXRLFFL4COVLKA23"
       }
     ]
   }
