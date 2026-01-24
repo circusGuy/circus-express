@@ -70,7 +70,7 @@ load_locations().then(data => {
         const addressDiv = document.createElement('div');
         addressDiv.className = 'address';
         if (location.address.length === 1) {
-            addressDiv.innerHTML = `<div>` + location.address[1] + `</div>`;
+            addressDiv.innerHTML = `<div>` + location.address[0] + `</div>`;
         } else {
             addressDiv.innerHTML = location.address[0] + `<div>` + location.address[1] + `</div>`;
         }

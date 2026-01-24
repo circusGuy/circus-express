@@ -1,6 +1,5 @@
 import puppeteer from "puppeteer";
 import fs from "fs";
-import { format } from "path";
 
 const HOME_LINK =
   "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/archived-items/ECUFJ46U6WBV74PK5YWMRHTJ";
@@ -49,21 +48,20 @@ async function scrape_address(address_link, addressPage) {
     `.text-component.w-product-description p`
   );
 
-  let toggle_loc = false;
   let address = [];
 
-  for (let i of product_description) {
-    const textContent = await (await i.getProperty("textContent")).jsonValue();
-    if (textContent === "Event Location") {
-      toggle_loc = true;
-      continue;
-    }
-
-    if (toggle_loc) {
-      const cleanedText = textContent.replace("📍", "").trim();
-      if (cleanedText !== "") {
-        address.push(cleanedText);
+  for (let i = 0; i < product_description.length; i++) {
+    let textContent = await (await product_description[i].getProperty("textContent")).jsonValue();
+    if (textContent.includes("Event Location")) {
+      i += 1;
+      textContent = await (await product_description[i].getProperty("textContent")).jsonValue(); // first line of address
+      while (textContent.trim() !== ""){ // while address lines are not empty
+        address.push(textContent.trim());
+        console.log('\x1b[32m%s\x1b[0m %s','SUCCESSFULLY SCRAPED ADDRESS LINE:', textContent);
+        i += 1;
+        textContent = await (await product_description[i].getProperty("textContent")).jsonValue();
       }
+      break; // address scraped, exit
     }
   }
 

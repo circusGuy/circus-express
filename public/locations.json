@@ -6,7 +6,7 @@
     "date_range_text": "Feb 13th – 15th",
     "address": [
       "Baker County Fairgrounds",
-      "5567 Lauramore Rd, Macclenny, FL 32063"
+      "5567 Lauramore Road, Macclenny, FL 32063"
     ],
     "shows": [
       {
@@ -36,6 +36,44 @@
           "5:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-15-macclenny-fl/WC75LJDJKXRLFFL4COVLKA23"
+      }
+    ]
+  },
+  {
+    "name": "Homeland GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/217-219-homeland-ga/KQSPCCPVXTJSZYOAFKXBPGEP",
+    "date_range": "Feb 17 – Feb 19",
+    "date_range_text": "Feb 17th – 19th",
+    "address": [
+      "170 Bowery Ln, Homeland, GA 31537"
+    ],
+    "shows": [
+      {
+        "date": "Feb 17",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-17-homeland-ga/L4Q6XV2KBH7NQA3XR5SSPDBD"
+      },
+      {
+        "date": "Feb 18",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-18-homeland-ga/MU6A4SMBYE2HVA2KCS6BCVIZ"
+      },
+      {
+        "date": "Feb 19",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-19-homeland-ga/JSPRWZRN7T5GSP2HBNXJ6XI2"
       }
     ]
   }
