@@ -160,7 +160,7 @@ body {
     display: inline-block;
     width: auto; 
     flex: 1 1 auto; 
-    background: linear-gradient(to bottom, purple 0%, purple 40%, #c84dbe 70%, #fcc613 100%);
+    background: linear-gradient(to bottom, #4d2849 0%, purple 55%, #c84dbe 100%);
 
     border: 3px solid #fcc613;
     margin-top: 12px;
