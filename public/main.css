@@ -90,10 +90,9 @@ body {
 /* Background layers for crossfade effect */
 #bg-wrapper {
   position: fixed;
-  inset: 0;
-  background-color: black;
+  inset: -1px;
   top: -1px; left: 0;
-  width: 100%;
+  width: calc(100% + 2px);
   height: calc(100svh + 2px); /* dynamic viewport height for mobile */
   z-index: -1;
   overflow: hidden;
