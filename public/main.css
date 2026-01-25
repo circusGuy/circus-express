@@ -92,7 +92,7 @@ body {
   position: fixed;
   top: -2px; left: -2px;
   width: calc(100% + 4px);
-  height: calc(100svh + 4px); /* dynamic viewport height for mobile */
+  height: calc(100svh + 6px); /* dynamic viewport height for mobile */
   z-index: -1;
   overflow: hidden;
 }
@@ -128,6 +128,7 @@ body {
     padding-bottom: 0;
     z-index: 1;
     position: relative;
+    overflow: hidden;
 }
 .overlay {
     position: fixed;
