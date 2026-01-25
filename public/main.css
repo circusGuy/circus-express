@@ -125,6 +125,7 @@ body {
 
 .main {
     margin: .5em .5em 0 .5em;
+    padding-bottom: 0;
     z-index: 1;
     position: relative;
 }
@@ -698,6 +699,7 @@ footer {
     border-top: 1px solid #ffffff80;
     bottom: 0;
     color: #fff;
+    margin-top: 0;
     padding-bottom: .4rem;
     padding-top: .4rem;
     width: 100%;
