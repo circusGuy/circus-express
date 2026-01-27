@@ -103,18 +103,11 @@ window.addEventListener('load', () => {
   img.src = initialUrl;
 });
 
-
-
-
-// Get the current path 
+// If currentPath, make active
 const currentPath = window.location.pathname;
-// Get all anchor tags 
 const links = document.querySelectorAll('nav a');
-// Loop through each anchor tag 
 links.forEach(link => {
-    // Check if the href matches the current path 
     if (link.getAttribute('href') === currentPath) {
-        // Add the active class 
         link.classList.add('active');
     }
 });
@@ -155,8 +148,6 @@ function handleMediaQueryChange(event) {
   if (event.matches) {
     // Media query matches, remove the class
     closeNav();
-    // console.log("Class removed: Media query matched");
-    
   } else {
     // Media query no longer matches, optional action
     console.log("Media query no longer matches");
@@ -171,19 +162,6 @@ document.addEventListener('DOMContentLoaded', () => {
     handleMediaQueryChange(mediaQuery);
   });
 
-// Show the button when the user scrolls away from the top of the webpage
-// window.onscroll = function() {
-//     toggleButtonVisibility();
-// };
-
-// function toggleButtonVisibility() {
-//     const topBtn = document.getElementById("topBtn");
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         topBtn.style.display = "block";
-//     } else {
-//         topBtn.style.display = "none";
-//     }
-// }
 window.addEventListener('scroll', () => {
   const btn = document.getElementById('topBtn');
   if (window.scrollY > 300) {
@@ -196,26 +174,3 @@ window.addEventListener('scroll', () => {
 document.getElementById('topBtn').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
-// Smoothly scroll to the top when the button is clicked
-// function topFunction() {
-//     window.scrollTo({
-//         top: 0,
-//         behavior: "smooth"
-//     });
-// }
-  
-
-// Keep this method and uncomment the footer insert when this gets fixed.
-function insertFile (file) {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', file, true);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            document.querySelector('footer').innerHTML = xhr.responseText;
-        }
-    };
-    xhr.send();
-}
-
-// insertFile('includes/footer.html');

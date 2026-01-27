@@ -17,28 +17,13 @@
 
 @keyframes textShadowSwitch {
     0% {
-        text-shadow: 
-            0 0 5px white,
-            0 0 10px white,
-            0 0 20px white,
-            0 0 30px white,
-            0 0 40px white;
+        text-shadow: 0 0 10px white, 0 0 24px white;
     }
     50% {
-        text-shadow: 
-            0 0 5px #00ff00,
-            0 0 10px #00ff00,
-            0 0 20px #00ff00,
-            0 0 30px #00ff00,
-            0 0 40px #00ff00;
+        text-shadow: 0 0 10px #00ff00, 0 0 24px #00ff00;
     }
     100% {
-        text-shadow: 
-            0 0 5px white,
-            0 0 10px white,
-            0 0 20px white,
-            0 0 30px white,
-            0 0 40px white;
+        text-shadow: 0 0 10px white, 0 0 24px white;
     }
 }
 
@@ -52,49 +37,21 @@ html, body {
     height: 100%; /* Ensures the viewport height is properly set */
 }
 
+body {
+  background-color: #030301;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     font-family: 'Carnival', sans-serif;
-}
-
-
-
-
-body {
-  /* will-change: transition, background-image;; */
-  background-color: #030301;
-  /* opacity: 0;
-  transition: opacity 0.3s ease;
-
-  background-attachment: fixed; */
-  font-family: Arial, Helvetica, sans-serif;
-  /* overflow-x: hidden;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background-image 1s ease-in-out;
-  z-index: 0; */
-}
-/* @media only screen and (max-width: 768px) {
-    body {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        transition: background-image 1s ease-in-out;
-        will-change: transition, background-image;
-    }
-
-} */
-
+}    
 
 /* Background layers for crossfade effect */
 #bg-wrapper {
   position: fixed;
   top: -2px; left: -2px;
   width: calc(100% + 4px);
-  /* height: calc(100svh + 6px); dynamic viewport height for mobile */
 
-  /* The magic combination */ 
   height: 100vh; /* covers the visual viewport */ 
   height: 100svh; /* covers the stable viewport */ 
   height: calc(100vh + 4px); /* ensures no bottom seam */
@@ -134,7 +91,7 @@ body {
     padding-bottom: 0;
     z-index: 1;
     position: relative;
-    overflow: hidden;
+    overflow: visible !important;
 }
 .overlay {
     position: fixed;
@@ -192,17 +149,12 @@ body {
     text-decoration: none;
     display: inline-block; /* Ensures proper width of the underline */
     border-bottom: 3px solid #fcc613; /* Sets the underline's color and thickness */
-    will-change: color, border-bottom-color, text-shadow;
 }
 
 .navbar a:hover {
     color: white;
     border-bottom-color: white;
-    text-shadow: 0 0 5px #efc524,    /* Inner glow */
-    0 0 10px #efc524,   /* Slightly bigger glow */
-    0 0 20px #efc524,   /* Bigger glow */
-    0 0 30px #efc524,   /* Even bigger glow */
-    0 0 40px #efc524;   /* Outermost glow */
+    text-shadow: 0 0 10px #efc524, 0 0 24px #efc524;
 }
 
 .navbar .socials {
@@ -219,17 +171,13 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: transparent;
-
-    /* border: 3px solid transparent; */
     border-radius: 12px;
     padding: .2em .2em .075em .2em;
     color: white;
     border-bottom: 3px solid transparent;
-    will-change: border-width, border-color, border-bottom-color;
 }
 
 .navbar .socials a:hover {
-    /* border: 3px solid white; */
     border-width: 3px;
     border-color: white;
     border-bottom: 3px solid white;
@@ -246,7 +194,6 @@ body {
     cursor: pointer;
     position: relative;
     border: 2px solid transparent;
-    will-change: border, background-color;
 
 }
 
@@ -267,7 +214,6 @@ body {
 /* Transform the bars to form an "X" when active */
 .menuBtn.active .bar:nth-of-type(1) {
     transform: translateY(10px) rotate(45deg);
-    will-change: transform;
 }
 
 .menuBtn.active .bar:nth-of-type(2) {
@@ -276,7 +222,6 @@ body {
 
 .menuBtn.active .bar:nth-of-type(3) {
     transform: translateY(-10px) rotate(-45deg);
-    will-change: transform;
 }
 
 .circus {
@@ -290,7 +235,6 @@ body {
     text-align: left;
     color: #efc524;
     font-size: 2.8em;
-    will-change: text-shadow;
     text-shadow: 0 5px 6px purple;
     padding: 0;
     margin: 0;
@@ -307,7 +251,6 @@ body {
     color: #efc524;
     font-size: 1.2em;
     text-shadow: 0 5px 6px purple;
-    will-change: text-shadow;
 }
 
 .story {
@@ -329,7 +272,6 @@ body {
     text-align: left;
     padding-bottom: 0;
     margin: 0;
-    text-shadow: 0 5px 6px black;
 }
 
 .termsAndConditions {
@@ -347,12 +289,7 @@ body {
         margin-bottom: .25em;
         color: white;
         font-size: 1.6em;
-        will-change: text-shadow;
-        text-shadow: 0 0 5px black,    /* Inner glow */
-        0 0 10px black,   /* Slightly bigger glow */
-        0 0 20px black,   /* Bigger glow */
-        0 0 30px black,   /* Even bigger glow */
-        0 0 40px black;   /* Outermost glow */
+        text-shadow: 0 2px 3px black;
     }
 
     div {
@@ -361,12 +298,7 @@ body {
 
     a {
         color: #efc524;
-        text-shadow: 0 0 5px black,    /* Inner glow */
-        0 0 10px black,   /* Slightly bigger glow */
-        0 0 20px black,   /* Bigger glow */
-        0 0 30px black,   /* Even bigger glow */
-        0 0 40px black;   /* Outermost glow */
-        will-change: color, text-shadow;
+        text-shadow: 0 0 10px black, 0 0 24px black;
     }
     a:hover {
         color: white;
@@ -389,12 +321,7 @@ body {
     }
 
     .lastDay {
-        will-change: text-shadow, animation;
-        text-shadow: 0 0 5px purple,    /* Inner glow */
-        0 0 10px purple,   /* Slightly bigger glow */
-        0 0 20px purple,   /* Bigger glow */
-        0 0 30px purple,   /* Even bigger glow */
-        0 0 40px purple;   /* Outermost glow */
+        text-shadow: 0 0 10px purple, 0 0 24px purple;
         animation: blink 1.5s infinite; /* Apply the blink animation */
 }
     
@@ -414,15 +341,10 @@ body {
         z-index: 1;
 
         .city {
-            will-change: text-shadow;
             display: block;
             font-size: 2.5em;
             font-weight: bold;
-            text-shadow: 0 0 5px purple,    /* Inner glow */
-            0 0 10px purple,   /* Slightly bigger glow */
-            0 0 20px purple,   /* Bigger glow */
-            0 0 30px purple,   /* Even bigger glow */
-            0 0 40px purple;   /* Outermost glow */
+            text-shadow: 0 0 18px purple, 0 0 30px purple;
         }
 
         .address {
@@ -473,16 +395,10 @@ body {
         .showTimes a {
             color: #efc524;
             text-decoration: none;
-            will-change: color, text-shadow;
         }
         .showTimes a:hover {
             color: white;
-            will-change: text-shadow;
-            text-shadow: 0 0 5px purple,    /* Inner glow */
-            0 0 10px purple,   /* Slightly bigger glow */
-            0 0 20px purple,   /* Bigger glow */
-            0 0 30px purple,   /* Even bigger glow */
-            0 0 40px purple;   /* Outermost glow */
+            text-shadow: 0 0 18px purple, 0 0 30px purple;
         }
         .showTimes a hr {
             border: none;
@@ -497,7 +413,6 @@ body {
         background-color: #434173;
         border: 3px solid #efc524;
         transition: transform 0.2s, background-color 0.2s;
-        will-change: transform, background-color, border;
     }
 }
 
@@ -506,12 +421,7 @@ h1.faqTitle {
     font-family: 'Carnival', sans-serif;
     color: #efc524;
     font-size: 3.2em;
-    will-change: text-shadow;
-    text-shadow: 0 0 5px purple,    /* Inner glow */
-    0 0 10px purple,   /* Slightly bigger glow */
-    0 0 20px purple,   /* Bigger glow */
-    0 0 30px purple,   /* Even bigger glow */
-    0 0 40px purple;   /* Outermost glow */
+    text-shadow: 0 0 10px purple, 0 0 24px purple;
     padding: 0;
     margin: 0;
 }
@@ -532,12 +442,7 @@ h1.faqTitle {
 
     a {
         color: #efc524;
-        text-shadow: 0 0 5px black,    /* Inner glow */
-        0 0 10px black,   /* Slightly bigger glow */
-        0 0 20px black,   /* Bigger glow */
-        0 0 30px black,   /* Even bigger glow */
-        0 0 40px black;   /* Outermost glow */
-        will-change: color, text-shadow;
+        text-shadow: 0 0 10px black, 0 0 24px black;
     }
     a:hover {
         color: white;
@@ -546,12 +451,7 @@ h1.faqTitle {
 
 .faq-contact-us a {
     color: #efc524;
-    text-shadow: 0 0 5px purple,    /* Inner glow */
-    0 0 10px purple,   /* Slightly bigger glow */
-    0 0 20px purple,   /* Bigger glow */
-    0 0 30px purple,   /* Even bigger glow */
-    0 0 40px purple;   /* Outermost glow */
-    will-change: color, text-shadow;
+    text-shadow: 0 0 10px purple, 0 0 24px purple;
 }
 
 .faq-contact-us a:hover {
@@ -577,7 +477,6 @@ button {
     font-size: 2.6em;
     padding: .2em .4em;
     font-family: Carnival;
-    will-change: cursor, background-color, border;
 }
 
 button:hover {
@@ -600,23 +499,12 @@ button:hover {
 
     span { 
         font-size: 2.2em;
-        will-change: text-shadow;
-        text-shadow: 0 0 5px white,    /* Inner glow */
-            0 0 10px white,   /* Slightly bigger glow */
-            0 0 20px white,   /* Bigger glow */
-            0 0 30px white,   /* Even bigger glow */
-            0 0 40px white;   /* Outermost glow */
+        text-shadow: 0 0 10px white, 0 0 24px white;
     }
     span:nth-of-type(2), span:nth-of-type(2) span { 
         font-size: 2.8em; 
         color: purple; /* Change color */
-        will-change: text-shadow;
-        text-shadow: 0 0 5px #00ff00,    /* Inner glow */
-                0 0 10px #00ff00,   /* Slightly bigger glow */
-                0 0 20px #00ff00,   /* Bigger glow */
-                0 0 30px #00ff00,   /* Even bigger glow */
-                0 0 40px #00ff00;   /* Outermost glow */
-
+        text-shadow: 0 0 10px #00ff00, 0 0 24px #00ff00;
     }
 }
 
@@ -635,12 +523,7 @@ button:hover {
 
     span { 
         font-size: 2.2em;
-        will-change: text-shadow;
-        text-shadow: 0 0 5px white,    /* Inner glow */
-            0 0 10px white,   /* Slightly bigger glow */
-            0 0 20px white,   /* Bigger glow */
-            0 0 30px white,   /* Even bigger glow */
-            0 0 40px white;   /* Outermost glow */
+        text-shadow: 0 0 10px white, 0 0 24px white;
     }
 }
 
@@ -648,16 +531,10 @@ button:hover {
     font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 1em;
-    will-change: text-shadow;
-    text-shadow: 0 0 5px white,    /* Inner glow */
-        0 0 10px white,   /* Slightly bigger glow */
-        0 0 20px white,   /* Bigger glow */
-        0 0 30px white,   /* Even bigger glow */
-        0 0 40px white;   /* Outermost glow */
+    text-shadow: 0 0 10px white, 0 0 24px white;
         span {
             color: #fcc613;
             font-size: 1.4em;
-            will-change: text-shadow;
             text-shadow: 0 0 10px purple,    /* Inner glow */
                 0 0 10px purple,   /* Slightly bigger glow */
                 0 0 20px purple,   /* Bigger glow */
@@ -680,16 +557,10 @@ button:hover {
     font-family: Carnival;
     font-size: 2em;
     color: purple;
-    will-change: text-shadow;
-    text-shadow: 0 0 5px white,    /* Inner glow */
-                0 0 10px white,   /* Slightly bigger glow */
-                0 0 20px white,   /* Bigger glow */
-                0 0 30px white,   /* Even bigger glow */
-                0 0 40px white;
+    text-shadow: 0 0 10px white, 0 0 24px white;
 }
 
 .promo.animate {
-    will-change: animation, text-shadow;
     animation: textShadowSwitch 3s infinite; /* Adjust duration as needed */
 }
 
@@ -753,7 +624,6 @@ footer a, .socials {
     font-size: 16px;
     outline: 1px solid #005ea2;
     border: 3px solid white;
-    will-change: border, background-color;
 }
 
 #topBtn:hover {
@@ -778,7 +648,6 @@ footer a, .socials {
     top: -16px;
     left: 50%;
     transform: translateX(-50%);
-    will-change: transform;
 }
 
 .player {
@@ -964,11 +833,7 @@ textarea, input, select {
     color: #222222;
     border-radius: .25em;
     box-shadow: 2px 4px 6px #000000;
-    box-shadow: 0 0 5px black,    /* Inner glow */
-    0 0 10px black,   /* Slightly bigger glow */
-    0 0 20px black,   /* Bigger glow */
-    0 0 30px black,   /* Even bigger glow */
-    0 0 40px black;   /* Outermost glow */
+    box-shadow: 0 0 10px black, 0 0 24px black;
 }
 
 input, select {
@@ -1090,9 +955,6 @@ textarea { height: 100%; }
 
     .location-container {
         transition: none;
-        will-change: background-color, border;
-        backface-visibility: hidden;
-        transform: translateZ(0);
     }
     
     .locations a:last-child .location-container {
@@ -1100,7 +962,6 @@ textarea { height: 100%; }
     }
 
     .showTimes a:hover {
-        will-change: text-shadow;
         text-shadow: none !important;
     }
 

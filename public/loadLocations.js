@@ -1,4 +1,148 @@
 // 🎪 🔥 👑 🏰 ✨ ⏳
+// Fetch JSON with cache-busting
+async function load_locations() {
+    const data = await fetch(`./locations.json?cacheBust=${Date.now()}`);
+    return await data.json();
+}
+
+// Utility: is the given date today?
+function isToday(date) {
+    const today = new Date();
+    const normalized = new Date(date);
+    normalized.setFullYear(today.getFullYear());
+    return (
+        normalized.getDate() === today.getDate() &&
+        normalized.getMonth() === today.getMonth() &&
+        normalized.getFullYear() === today.getFullYear()
+    );
+}
+
+// Utility: is the date more than 7 days away?
+function isDateMoreThan7DaysAway(dateString) {
+    const monthMap = {
+        Jan: "January", Feb: "February", Mar: "March", Apr: "April",
+        May: "May", Jun: "June", Jul: "July", Aug: "August",
+        Sep: "September", Sept: "September", Oct: "October",
+        Nov: "November", Dec: "December"
+    };
+
+    const match = dateString.match(/^([A-Za-z]+)\s+(\d{1,2})$/);
+    if (!match) return false;
+
+    const monthAbbrev = match[1];
+    const day = match[2];
+    const fullMonth = monthMap[monthAbbrev];
+    if (!fullMonth) return false;
+
+    const currentYear = new Date().getFullYear();
+    const targetDate = new Date(`${fullMonth} ${day}, ${currentYear}`);
+    const today = new Date();
+
+    targetDate.setHours(0, 0, 0, 0);
+    today.setHours(0, 0, 0, 0);
+
+    const diffInDays = (targetDate - today) / (1000 * 60 * 60 * 24);
+    return diffInDays > 7;
+}
+
+// MAIN EXECUTION — fully optimized for mobile
+load_locations().then(data => {
+
+    const locationsContainer = document.querySelector('.locations');
+
+    // Build everything off-DOM
+    const frag = document.createDocumentFragment();
+
+    data.forEach((location, index) => {
+
+        // <a>
+        const linkElement = document.createElement('a');
+        linkElement.href = location.link;
+        linkElement.title = `Get Tickets — ${location.name} shows`;
+
+        // wrapper
+        const locationDiv = document.createElement('div');
+        locationDiv.className = 'location-container';
+        locationDiv.id = `location-${index + 1}`;
+
+        // City
+        const cityDiv = document.createElement('div');
+        cityDiv.className = 'city';
+        cityDiv.innerHTML = `<span>✨ &nbsp;${location.name}&nbsp; ✨</span>`;
+        locationDiv.appendChild(cityDiv);
+
+        // Address
+        const addressDiv = document.createElement('div');
+        addressDiv.className = 'address';
+        if (location.address.length === 1) {
+            addressDiv.innerHTML = `<div>${location.address[0]}</div>`;
+        } else {
+            addressDiv.innerHTML = `${location.address[0]}<div>${location.address[1]}</div>`;
+        }
+        locationDiv.appendChild(addressDiv);
+
+        // Sponsor
+        if (location.sponsor) {
+            const sponsorDiv = document.createElement('div');
+            sponsorDiv.className = 'sponsor';
+            sponsorDiv.innerHTML = `<div>Sponsored by:</div><div>${location.sponsor}</div>`;
+            locationDiv.appendChild(sponsorDiv);
+        }
+
+        // Dates
+        const datesDiv = document.createElement('div');
+        datesDiv.className = 'reading';
+        if (index === 0) { // Highlight first location
+            datesDiv.innerHTML = `<span>🎪 ${location.date_range_text} 🎪</span>`;
+        } else {
+            datesDiv.innerHTML = `<span>${location.date_range_text}</span>`;
+        }
+        locationDiv.appendChild(datesDiv);
+
+        // Show times
+        location.shows.forEach((show, i) => {
+            const showTimesDiv = document.createElement('div');
+            showTimesDiv.className = 'showTimes';
+
+            showTimesDiv.innerHTML =
+                `<a href="${show.link}" title="Get Tickets — ${show.weekday}, ${show.date} show times">${show.weekday}: &nbsp; ${show.formattedTimes}</a>`;
+
+            locationDiv.appendChild(showTimesDiv);
+        });
+
+        // Promo logic
+        const firstShowDate = new Date(location.shows[0].date);
+        const promo = document.createElement('div');
+        promo.className = 'promo';
+
+        if (isDateMoreThan7DaysAway(location.shows[0].date)) {
+            promo.innerHTML = "The circus is coming!<br>Reserve tickets now!";
+        } else if (isToday(firstShowDate) || location.shows.length === 1) {
+            if (isToday(firstShowDate) && location.shows.length === 1) {
+                promo.innerHTML = "Last Show… Today<br>Reserve NOW!";
+            } else {
+                promo.innerHTML = "Tickets almost gone.<br>Hurry, Reserve NOW!";
+            }
+        } else {
+            promo.innerHTML = "Reserve NOW!<br>Tickets Going Fast!";
+        }
+
+        locationDiv.appendChild(promo);
+
+        // Assemble
+        linkElement.appendChild(locationDiv);
+        frag.appendChild(linkElement);
+    });
+
+    // ONE DOM WRITE — zero jank
+    locationsContainer.appendChild(frag);
+});
+
+
+
+
+/*
+// 🎪 🔥 👑 🏰 ✨ ⏳
 async function load_locations(){
     const data = await fetch(`./locations.json?cacheBust=${Date.now()}`);
     return await data.json();
@@ -141,4 +285,4 @@ load_locations().then(data => {
     });
     
 })
-
+*/
