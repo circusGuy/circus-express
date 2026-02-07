@@ -107,5 +107,81 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-22-sumner-ga/26QBWREXZHFJVXXY4OVIJRTT"
       }
     ]
+  },
+  {
+    "name": "Adel GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/224-226-adel-ga/OXANBQ3LF7CQUNYFBDMPEJF6",
+    "date_range": "Feb 24 – Feb 26",
+    "date_range_text": "Feb 24th – 26th",
+    "address": [
+      "1200 N. Hutchinson Ave, Adel, GA 31620"
+    ],
+    "shows": [
+      {
+        "date": "Feb 24",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-24-adel-ga/3IZEGDIMASU6OWOGTBD4HAKN"
+      },
+      {
+        "date": "Feb 25",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-25-adel-ga/SFNP4YDY2JTX5FKIMWN2WWEO"
+      },
+      {
+        "date": "Feb 26",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-26-adel-ga/WP46IFA7SNIRHQHGXEE2C4CS"
+      }
+    ]
+  },
+  {
+    "name": "Donalsonville GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/33-35-donalsonville-ga/GE6KZM2CY6QLCTV7NICFOR3N",
+    "date_range": "Mar 3 – Mar 5",
+    "date_range_text": "Mar 3rd – 5th",
+    "address": [
+      "100 W Crawford St, Donalsonville, GA 39845"
+    ],
+    "shows": [
+      {
+        "date": "Mar 3",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-3-donalsonville-ga/JFHN2EN2XEOWOPENMUKACIMB"
+      },
+      {
+        "date": "Mar 4",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-4-donalsonville-ga/33TXLY6KYL25ITGWY3Y7K45J"
+      },
+      {
+        "date": "Mar 5",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-5-donalsonville-ga/IH7KXAOCHTPG2EIPBSR7SMQW"
+      }
+    ]
   }
 ]
