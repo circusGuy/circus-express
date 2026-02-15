@@ -10,16 +10,6 @@
     ],
     "shows": [
       {
-        "date": "Feb 14",
-        "weekday": "Sat",
-        "formattedTimes": "5:00&nbsp; &amp; &nbsp;7:30 PM<hr />",
-        "times": [
-          "5:00 PM",
-          "7:30 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-14-macclenny-fl/COMMTQ63Z6UWEFT6EFE7SNWM"
-      },
-      {
         "date": "Feb 15",
         "weekday": "Sun",
         "formattedTimes": "5:00 PM<hr />",
