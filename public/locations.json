@@ -1,25 +1,5 @@
 [
   {
-    "name": "Homeland GA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/217-219-homeland-ga/KQSPCCPVXTJSZYOAFKXBPGEP",
-    "date_range": "Feb 17 – Feb 19",
-    "date_range_text": "Feb 17th – 19th",
-    "address": [
-      "170 Bowery Ln, Homeland, GA 31537"
-    ],
-    "shows": [
-      {
-        "date": "Feb 19",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-19-homeland-ga/JSPRWZRN7T5GSP2HBNXJ6XI2"
-      }
-    ]
-  },
-  {
     "name": "Sumner GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/221-222-sumner-ga/GPREUFLIQILTAZ5B7TENGZWA",
     "date_range": "Feb 21 – Feb 22",
