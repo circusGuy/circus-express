@@ -1,26 +1,5 @@
 [
   {
-    "name": "Sumner GA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/221-222-sumner-ga/GPREUFLIQILTAZ5B7TENGZWA",
-    "date_range": "Feb 21 – Feb 22",
-    "date_range_text": "Feb 21st – 22nd",
-    "address": [
-      "413 Main St., Sumner, GA 31789"
-    ],
-    "shows": [
-      {
-        "date": "Feb 22",
-        "weekday": "Sun",
-        "formattedTimes": "2:30&nbsp; &amp; &nbsp;5:00 PM<hr />",
-        "times": [
-          "2:30 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-22-sumner-ga/26QBWREXZHFJVXXY4OVIJRTT"
-      }
-    ]
-  },
-  {
     "name": "Adel GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/224-226-adel-ga/OXANBQ3LF7CQUNYFBDMPEJF6",
     "date_range": "Feb 24 – Feb 26",
