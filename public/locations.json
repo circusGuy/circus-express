@@ -1,25 +1,5 @@
 [
   {
-    "name": "Adel GA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/224-226-adel-ga/OXANBQ3LF7CQUNYFBDMPEJF6",
-    "date_range": "Feb 24 – Feb 26",
-    "date_range_text": "Feb 24th – 26th",
-    "address": [
-      "1200 N. Hutchinson Ave, Adel, GA 31620"
-    ],
-    "shows": [
-      {
-        "date": "Feb 26",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/feb-26-adel-ga/WP46IFA7SNIRHQHGXEE2C4CS"
-      }
-    ]
-  },
-  {
     "name": "Pelham GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/228-31-pelham-ga/4VJ7FAEEMHEBAKWXKVV6KFDX",
     "date_range": "Feb 28 – Mar 1",
