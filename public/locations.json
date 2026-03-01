@@ -1,26 +1,5 @@
 [
   {
-    "name": "Pelham GA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/228-31-pelham-ga/4VJ7FAEEMHEBAKWXKVV6KFDX",
-    "date_range": "Feb 28 – Mar 1",
-    "date_range_text": "Feb 28th – 1st",
-    "address": [
-      "220 Cotton Ave SE, Pelham, GA 31779"
-    ],
-    "shows": [
-      {
-        "date": "Mar 1",
-        "weekday": "Sun",
-        "formattedTimes": "2:00&nbsp; &amp; &nbsp;5:00 PM<hr />",
-        "times": [
-          "2:00 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-1-pelham-ga/N6JJZJNYNB6TRAFW47MBQXFZ"
-      }
-    ]
-  },
-  {
     "name": "Donalsonville GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/33-35-donalsonville-ga/GE6KZM2CY6QLCTV7NICFOR3N",
     "date_range": "Mar 3 – Mar 5",
