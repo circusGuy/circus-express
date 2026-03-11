@@ -64,7 +64,7 @@ async function scrape_address(address_link, addressPage) {
       break; // address scraped, exit
     }
   }
-
+  
   return address;
 }
 
@@ -77,7 +77,7 @@ async function scrape_showtimes(date_link, page, addressPage, first) {
   await page.waitForSelector(".content-grid");
 
   const items = await page.$$(".content-grid a");
-  for (let i of items) {
+  for (const i of items) {
     const textContent = await (await i.getProperty("textContent")).jsonValue();
 
     if (first) {
