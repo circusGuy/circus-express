@@ -1,26 +1,5 @@
 [
   {
-    "name": "Monroeville AL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/310-312-monroeville-al/CHTE3G7O6LOJ32GMMCPUHFMJ",
-    "date_range": "Mar 11 – Mar 12",
-    "date_range_text": "Mar 11th – 12th",
-    "address": [
-      "Monroeville Veterans Park",
-      "2041 S Mt Pleasant Ave, Monroeville, AL 36460"
-    ],
-    "shows": [
-      {
-        "date": "Mar 12",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-12-monroeville-al/V5FC4L7KJZYGNV3SEY435ZNE"
-      }
-    ]
-  },
-  {
     "name": "Creola AL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/314-315-creola-al/GECOMVIK256NMAWUJVQ2QTZE",
     "date_range": "Mar 14 – Mar 15",
