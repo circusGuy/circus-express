@@ -238,16 +238,16 @@ h1 {
 .circus > :first-child {
     letter-spacing: 0.08em;
     color: #ff9f00;
-    font-size: 2.2em; 
+    font-size: 2.1em; 
 }
 .circus :nth-child(2) {
     letter-spacing: 0.08em;
     color: #efc524;
-    font-size: 2em; 
+    font-size: 1.9em; 
 }
 .circus > :nth-child(2)::first-letter {
     letter-spacing: 0.08em;
-    font-size: 1.15em;
+    font-size: 1.1em;
     font-weight: bold;
     color: crimson;
 }
