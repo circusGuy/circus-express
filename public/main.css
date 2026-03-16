@@ -225,11 +225,33 @@ h1 {
 }
 
 .circus {
-    display: inline-block;
-    font-family: 'Circus';
-    font-size: 1.4em;
-    letter-spacing: 0.08em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.3em;
+    /* display: inline-block; */
+    font-family: 'Carnival';
+    /* font-size: 1.5em; */
+    color: #efc524;
+    text-shadow: 0 5px 6px purple;
 }
+.circus > :first-child {
+    letter-spacing: 0.08em;
+    color: #ff9f00;
+    font-size: 2.2em; 
+}
+.circus :nth-child(2) {
+    letter-spacing: 0.08em;
+    color: #efc524;
+    font-size: 2em; 
+}
+.circus > :nth-child(2)::first-letter {
+    letter-spacing: 0.08em;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: crimson;
+}
+
 
 .titleText {
     text-align: left;
@@ -889,9 +911,9 @@ textarea { height: 100%; }
         font-size: 1.8em;
     }
 
-    .story span:nth-of-type(2) {
+    /* .story span:nth-of-type(2) {
         font-size: .8em;
-    }
+    } */
 
     .homeDesc {
         line-height: 1.3;
