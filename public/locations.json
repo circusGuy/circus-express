@@ -1,27 +1,5 @@
 [
   {
-    "name": "Creola AL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/314-315-creola-al/GECOMVIK256NMAWUJVQ2QTZE",
-    "date_range": "Mar 14 – Mar 15",
-    "date_range_text": "Mar 14th – 15th",
-    "address": [
-      "Creola City Park",
-      "9617 Old Hwy 43, Creola, AL 36525"
-    ],
-    "shows": [
-      {
-        "date": "Mar 15",
-        "weekday": "Sun",
-        "formattedTimes": "2:00&nbsp; &amp; &nbsp;5:00 PM<hr />",
-        "times": [
-          "2:00 PM",
-          "5:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-15-creola-al/ZCKTCDSKNPOGT3TVV5SYU6Z4"
-      }
-    ]
-  },
-  {
     "name": "Evergreen AL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/317-319-evergreen-al/R3S3RUV2GSB2HWOS7FCINHEK",
     "date_range": "Mar 17 – Mar 19",
