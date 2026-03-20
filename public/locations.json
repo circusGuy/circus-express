@@ -1,26 +1,5 @@
 [
   {
-    "name": "Evergreen AL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/317-319-evergreen-al/R3S3RUV2GSB2HWOS7FCINHEK",
-    "date_range": "Mar 17 – Mar 19",
-    "date_range_text": "Mar 17th – 19th",
-    "address": [
-      "Middleton Air Field",
-      "14134 US-84, Evergreen, AL 36401"
-    ],
-    "shows": [
-      {
-        "date": "Mar 19",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-19-evergreen-al/U27AB7TATTY2EFP5K7KHDEBY"
-      }
-    ]
-  },
-  {
     "name": "Cordova AL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/321-322-cordova-al/B3IQHWFFV5Z47VGTTEEKUQM6",
     "date_range": "Mar 21 – Mar 22",
@@ -88,6 +67,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-26-louisville-ms/AS3FDBFBKVFFJGFXWN37LGCQ"
+      }
+    ]
+  },
+  {
+    "name": "Bruce MS",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/328-329-bruce-ms/2ISRO6COQQNP6XNVYH5CTRU3",
+    "date_range": "Mar 28 – Mar 29",
+    "date_range_text": "Mar 28th – 29th",
+    "address": [
+      "Bruce Park",
+      "Calhoun St, Bruce, MS 38915"
+    ],
+    "shows": [
+      {
+        "date": "Mar 28",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-28-bruce-ms/XYX5VSU5KMVMMY6UWK4BW7ME"
+      },
+      {
+        "date": "Mar 29",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-29-bruce-ms/MJKPCYUDRHAHTYEDNBXMGHWG"
       }
     ]
   }
