@@ -10,16 +10,6 @@
     ],
     "shows": [
       {
-        "date": "Mar 21",
-        "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-21-cordova-al/46N3AQP7PD5F4YH67HQ6TFP2"
-      },
-      {
         "date": "Mar 22",
         "weekday": "Sun",
         "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
