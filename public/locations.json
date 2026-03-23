@@ -1,27 +1,5 @@
 [
   {
-    "name": "Cordova AL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/321-322-cordova-al/B3IQHWFFV5Z47VGTTEEKUQM6",
-    "date_range": "Mar 21 – Mar 22",
-    "date_range_text": "Mar 21st – 22nd",
-    "address": [
-      "Indian Head Mill Park",
-      "School St, Cordova, AL 35550"
-    ],
-    "shows": [
-      {
-        "date": "Mar 22",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-22-cordova-al/4EPGRV3IDXTOVUZEBBQURZGD"
-      }
-    ]
-  },
-  {
     "name": "Louisville MS",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/324-326-louisville-ms/MLG6P4FBQ36GFLTJYANNK4LO",
     "date_range": "Mar 24 – Mar 26",
