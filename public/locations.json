@@ -1,26 +1,5 @@
 [
   {
-    "name": "Louisville MS",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/324-326-louisville-ms/MLG6P4FBQ36GFLTJYANNK4LO",
-    "date_range": "Mar 24 – Mar 26",
-    "date_range_text": "Mar 24th – 26th",
-    "address": [
-      "Ivy Park",
-      "201 Ivy Ave, Louisville, MS 30339"
-    ],
-    "shows": [
-      {
-        "date": "Mar 26",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-26-louisville-ms/AS3FDBFBKVFFJGFXWN37LGCQ"
-      }
-    ]
-  },
-  {
     "name": "Bruce MS",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/328-329-bruce-ms/2ISRO6COQQNP6XNVYH5CTRU3",
     "date_range": "Mar 28 – Mar 29",
