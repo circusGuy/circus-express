@@ -1,27 +1,5 @@
 [
   {
-    "name": "Bruce MS",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/328-329-bruce-ms/2ISRO6COQQNP6XNVYH5CTRU3",
-    "date_range": "Mar 28 – Mar 29",
-    "date_range_text": "Mar 28th – 29th",
-    "address": [
-      "Bruce Park",
-      "Calhoun St, Bruce, MS 38915"
-    ],
-    "shows": [
-      {
-        "date": "Mar 29",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/mar-29-bruce-ms/MJKPCYUDRHAHTYEDNBXMGHWG"
-      }
-    ]
-  },
-  {
     "name": "Henderson TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/47-49-henderson-tn/VTDI4QUY5BBS63KTTPSHGW6M",
     "date_range": "Apr 7 – Apr 9",
