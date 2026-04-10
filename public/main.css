@@ -523,7 +523,7 @@ button:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin: .25em auto;
+    margin: .75em auto .25em auto;
     font-family: Carnival;
     font-size: 4.4em;
     color: black;
@@ -962,7 +962,7 @@ textarea { height: 100%; }
     }
 
     span:nth-of-type(2), span:nth-of-type(2) span { 
-        font-size: .9em; 
+        font-size: .8em; 
     }
     
     .kowTitle {
