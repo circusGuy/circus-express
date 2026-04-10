@@ -1,26 +1,5 @@
 [
   {
-    "name": "Henderson TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/47-49-henderson-tn/VTDI4QUY5BBS63KTTPSHGW6M",
-    "date_range": "Apr 7 – Apr 9",
-    "date_range_text": "Apr 7th – 9th",
-    "address": [
-      "Chester County Fairgrounds",
-      "575 E. 4th St, Henderson, TN 38340"
-    ],
-    "shows": [
-      {
-        "date": "Apr 9",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-9-henderson-tn/XP345FOL662GLGXTH2DBU7FR"
-      }
-    ]
-  },
-  {
     "name": "Dyer TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/411-412-dyer-tn/SEPRPHNZA2INAG7OP3BNDHDG",
     "date_range": "Apr 11 – Apr 12",
