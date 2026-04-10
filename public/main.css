@@ -274,7 +274,13 @@ h1 {
     font-size: 1.2em;
     text-shadow: 0 5px 6px purple;
 }
-
+.kowTitle {
+    color: purple;
+    font-size: 2.6em;
+    margin-bottom: 0;
+    text-shadow: 0 0 24px #fcc613, 0 0 24px #fcc613;
+    text-align: center;
+}
 .story {
     margin-top: 1em;
     padding: 1em 3em 1em 3em;
@@ -331,6 +337,10 @@ h1 {
     display: inline-block;
     text-align: center;
     margin: 1.5em auto;
+}
+
+.flex-ctr {
+    justify-content: center;
 }
 
 .locations {
@@ -508,23 +518,23 @@ button:hover {
 
 .price {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin: .25em auto .5em auto;
+    margin: .25em auto;
     font-family: Carnival;
-    font-size: 2.0em;
+    font-size: 4.4em;
     color: black;
     align-items: center;
     line-height: 1;
 
     span { 
-        font-size: 2.2em;
+        /* font-size: 2.2em; */
         text-shadow: 0 0 10px white, 0 0 24px white;
     }
     span:nth-of-type(2), span:nth-of-type(2) span { 
-        font-size: 2.8em; 
+        font-size: 1.3em; 
         color: purple; /* Change color */
         text-shadow: 0 0 10px #00ff00, 0 0 24px #00ff00;
     }
@@ -550,8 +560,9 @@ button:hover {
 }
 
 .earlyBird {
-    font-size: 1.9em;
+    font-size: 1.6em;
     font-weight: bold;
+    margin-top: 0;
     margin-bottom: 1em;
     text-shadow: 0 0 10px white, 0 0 24px white;
         span {
