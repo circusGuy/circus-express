@@ -277,7 +277,7 @@ h1 {
 .kowTitle {
     color: purple;
     font-size: 2.6em;
-    margin-top: .5em;
+    margin-top: 1em;
     margin-bottom: .25em;
     text-shadow: 0 0 24px #fcc613, 0 0 24px #fcc613;
     text-align: center;
@@ -966,7 +966,7 @@ textarea { height: 100%; }
     }
     
     .kowTitle {
-        font-size: 1.85em;
+        font-size: 1.8em;
     }
     
     .reading {
