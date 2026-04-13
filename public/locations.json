@@ -1,27 +1,5 @@
 [
   {
-    "name": "Dyer TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/411-412-dyer-tn/SEPRPHNZA2INAG7OP3BNDHDG",
-    "date_range": "Apr 11 – Apr 12",
-    "date_range_text": "Apr 11th – 12th",
-    "address": [
-      "Dyer City Park",
-      "230 Freemont St, Dyer, TN 38330"
-    ],
-    "shows": [
-      {
-        "date": "Apr 12",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-12-dyer-tn/THERZ6PJ72WODKXWPG7XADFL"
-      }
-    ]
-  },
-  {
     "name": "Hohenwald TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/414-416-hohenwald-tn/6XRII4BUPWANRI6WNBKK5MMF",
     "date_range": "Apr 14 – Apr 16",
