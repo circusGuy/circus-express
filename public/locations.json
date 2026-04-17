@@ -1,26 +1,5 @@
 [
   {
-    "name": "Hohenwald TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/414-416-hohenwald-tn/6XRII4BUPWANRI6WNBKK5MMF",
-    "date_range": "Apr 14 – Apr 16",
-    "date_range_text": "Apr 14th – 16th",
-    "address": [
-      "Hohenwald Memorial Park",
-      "115 Smith Ave, Hohenwald, TN 38462"
-    ],
-    "shows": [
-      {
-        "date": "Apr 16",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-16-hohenwald-tn/2UYOWPF3PPQJQZ66NRWPTKF4"
-      }
-    ]
-  },
-  {
     "name": "Lexington, TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/418-419-lexington-tn/BJS4GTWVJM46EUI4YPLCVPYX",
     "date_range": "Apr 18 – Apr 19",
