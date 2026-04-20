@@ -1,27 +1,5 @@
 [
   {
-    "name": "Lexington, TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/418-419-lexington-tn/BJS4GTWVJM46EUI4YPLCVPYX",
-    "date_range": "Apr 18 – Apr 19",
-    "date_range_text": "Apr 18th – 19th",
-    "address": [
-      "Lexington, TN Farmers Market",
-      "68 1st Street, Lexington, TN 38351"
-    ],
-    "shows": [
-      {
-        "date": "Apr 19",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-19-lexington-tn/7BB4MSQICYL3KDAL67RHZWK7"
-      }
-    ]
-  },
-  {
     "name": "Calvert City, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/421-423-calvert-city-ky/EG566QQTOP4PZD2NTEXVCHK4",
     "date_range": "Apr 21 – Apr 23",
