@@ -140,5 +140,44 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-3-boonville-in/O5E2C2Y3LEJIF5QWTJ2S2UUJ"
       }
     ]
+  },
+  {
+    "name": "Winchester, IN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/512-514-winchester-in/U5AK2UV27X6Z4WWOD3YWT4KX",
+    "date_range": "May 12 – May 14",
+    "date_range_text": "May 12th – 14th",
+    "address": [
+      "Winchester Community High School Field",
+      "700 N Union St, Winchester, IN, 47394"
+    ],
+    "shows": [
+      {
+        "date": "May 12",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-12-winchester-in/UDZ7XQRROXW3O3VOWGQSF54Y"
+      },
+      {
+        "date": "May 13",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-13-winchester-in/3W4SL2JJO5EALJFGE4SAR7K4"
+      },
+      {
+        "date": "May 14",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-14-winchester-in/OPVP37J7QFGLHVA766RRWZFU"
+      }
+    ]
   }
 ]
