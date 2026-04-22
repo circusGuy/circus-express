@@ -163,6 +163,38 @@
     ]
   },
   {
+    "name": "Oakland City, IN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/59-510-oakland-city-in/YNLL6PKJKDIDUZAD7SSBXSQB",
+    "date_range": "May 9 – May 10",
+    "date_range_text": "May 9th – 10th",
+    "address": [
+      "Wirth Park",
+      "W Morton St, Oakland City, IN 47660"
+    ],
+    "shows": [
+      {
+        "date": "May 9",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-9-oakland-city-in/CQVNMX3TES4L3MGLRPHQZ3QG"
+      },
+      {
+        "date": "May 10",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-10-oakland-city-in/2WRMBH5TBWSF3QVGEAA6JRHP"
+      }
+    ]
+  },
+  {
     "name": "Winchester, IN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/512-514-winchester-in/U5AK2UV27X6Z4WWOD3YWT4KX",
     "date_range": "May 12 – May 14",
