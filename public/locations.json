@@ -142,6 +142,45 @@
     ]
   },
   {
+    "name": "Jasonville, IN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/55-57-jasonville-in/FXZ55QPXC3E5UBRD6HJC3ZWH",
+    "date_range": "May 5 – May 7",
+    "date_range_text": "May 5th – 7th",
+    "address": [
+      "Hanna Field",
+      "799 Burr Oak St, Jasonville, IN, 47438"
+    ],
+    "shows": [
+      {
+        "date": "May 5",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-5-jasonville-in/IPVNBLXB772E5KCNQQWVPZZB"
+      },
+      {
+        "date": "May 6",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-6-jasonville-in/CLS2DC7D26PQZQXWIYHCX6QE"
+      },
+      {
+        "date": "May 7",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-7-jasonville-in/BZ5XLS2EJ5D4J4TTE74DPUJ7"
+      }
+    ]
+  },
+  {
     "name": "Winchester, IN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/512-514-winchester-in/U5AK2UV27X6Z4WWOD3YWT4KX",
     "date_range": "May 12 – May 14",
