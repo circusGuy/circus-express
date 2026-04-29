@@ -1,23 +1,14 @@
 [
   {
     "name": "Leitchfield, KY",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/428-430-leitchfield-ky/7OXRQ7R4R2QEOUFZRQXXE3WF",
-    "date_range": "Apr 28 – Apr 30",
-    "date_range_text": "Apr 28th – 30th",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/428-53-leitchfield-ky/7OXRQ7R4R2QEOUFZRQXXE3WF",
+    "date_range": "Apr 28 – May 3",
+    "date_range_text": "Apr 28th – 3rd",
     "address": [
       "Logsdon Valley Amphitheater",
       "500 Carroll Gibson Blvd, Leitchfield, KY 42754"
     ],
     "shows": [
-      {
-        "date": "Apr 28",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-28-leitchfield-ky/75EVJIDHIKYE45QFJ5XJ5APO"
-      },
       {
         "date": "Apr 29",
         "weekday": "Wed",
@@ -35,38 +26,33 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-30-leitchfield-ky/EQYG4VK24XAWJXQYIGJDO6IS"
-      }
-    ]
-  },
-  {
-    "name": "Boonville, IN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/52-53-boonville-in/EZETVFUJYGI2XYURM5P6DKVH",
-    "date_range": "May 2 – May 3",
-    "date_range_text": "May 2nd – 3rd",
-    "address": [
-      "City Lake Park",
-      "Moore St, Boonville, IN 47601"
-    ],
-    "shows": [
+      },
+      {
+        "date": "May 1",
+        "weekday": "Fri",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-1-leitchfield-ky/IUW4EMQBJB7T5J7S3WQQAWKS"
+      },
       {
         "date": "May 2",
         "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
-          "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-2-boonville-in/OFC6WYNUKBW5NWAPSPKR4ECB"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-2-leitchfield-ky/WIDU6GVEWOW7EVPSWXT5OA4M"
       },
       {
         "date": "May 3",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM<hr />",
         "times": [
-          "3:00 PM",
-          "6:00 PM"
+          "3:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-3-boonville-in/O5E2C2Y3LEJIF5QWTJ2S2UUJ"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-3-leitchfield-ky/CHOUUJBCDJK7UGC4TVZNUSFE"
       }
     ]
   },
