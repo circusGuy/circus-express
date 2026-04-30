@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "Apr 29",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/apr-29-leitchfield-ky/IOCLOOGNMZCBWNIGWFQBIKVJ"
-      },
-      {
         "date": "Apr 30",
         "weekday": "Thu",
         "formattedTimes": "6:00 PM<hr />",
@@ -163,6 +154,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-14-winchester-in/OPVP37J7QFGLHVA766RRWZFU"
+      }
+    ]
+  },
+  {
+    "name": "Portland, IN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/516-517-portland-in/HRK2WP6JXZLMEMOZUJXF5ND2",
+    "date_range": "May 16 – May 17",
+    "date_range_text": "May 16th – 17th",
+    "address": [
+      "Hudson Park",
+      "509 S Wayne St, Portland, IN 47371"
+    ],
+    "shows": [
+      {
+        "date": "May 16",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-16-portland-in/Z5AYLRCQWHF4A57Z6FU2SRP4"
+      },
+      {
+        "date": "May 17",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-17-portland-in/LVMYIRLKWEW4TYBMHFPTLDXG"
       }
     ]
   }
