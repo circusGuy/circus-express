@@ -2,30 +2,36 @@
 
 // Background image arrays
 const desktopImages = [
-  'bkgd-juggling-desktop.jpg',
-  'bkgd-queen-desktop.jpg',
-  'bkgd-princess1-desktop.jpg',
+  'bkgd-sktl-desktop.png',
+  'bkgd-yoyo-desktop.png',
+  'bkgd-handstand-desktop.png',
+  // 'bkgd-juggling-desktop.jpg',
+  // 'bkgd-queen-desktop.jpg',
+  // 'bkgd-princess1-desktop.jpg',
   'bkgd-witch1-desktop.jpg',
-  'bkgd-escape-desktop.jpg',
+  // 'bkgd-escape-desktop.jpg',
   'bkgd-viper1-desktop.jpg',
-  'bkgd-dance-desktop.jpg',
-  'bkgd-princess2-desktop.jpg',
-  'bkgd-aerial-desktop.jpg',
-  'bkgd-dance-desktop.jpg',
+  // 'bkgd-dance-desktop.jpg',
+  // 'bkgd-princess2-desktop.jpg',
+  // 'bkgd-aerial-desktop.jpg',
+  // 'bkgd-dance-desktop.jpg',
   'bkgd-viper2-desktop.jpg'
 ];
 
 const mobileImages = [
-  'bkgd-juggling-mobile.jpg',
-  'bkgd-queen-mobile.jpg',
-  'bkgd-princess1-mobile.jpg',
+  'bkgd-sktl-mobile.png',
+  'bkgd-yoyo2-mobile.png',
+  'bkgd-handstand-mobile.png',
+  // 'bkgd-juggling-mobile.jpg',
+  // 'bkgd-queen-mobile.jpg',
+  // 'bkgd-princess1-mobile.jpg',
   'bkgd-witch1-mobile.jpg',
-  'bkgd-escape-mobile.jpg',
+  // 'bkgd-escape-mobile.jpg',
   'bkgd-viper1-mobile.jpg',
-  'bkgd-dance-mobile.jpg',
-  'bkgd-princess2-mobile.jpg',
-  'bkgd-aerial-mobile.jpg',
-  'bkgd-dance-mobile.jpg',
+  // 'bkgd-dance-mobile.jpg',
+  // 'bkgd-princess2-mobile.jpg',
+  // 'bkgd-aerial-mobile.jpg',
+  // 'bkgd-dance-mobile.jpg',
   'bkgd-viper2-mobile.jpg'
 ];
 window.addEventListener('resize', () => {
