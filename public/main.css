@@ -639,7 +639,7 @@ footer a, .socials {
 
 .banner-logo img {
     margin-top: 1em;
-    width: 380px;
+    width: 300px;
     height: auto;
 }
 
@@ -695,7 +695,7 @@ footer a, .socials {
 @media (max-width: 64.99em) {
     .banner-logo img {
         margin-top: 1em;
-        width: 330px;
+        width: 280px;
         height: auto;
     }
 }
@@ -790,7 +790,7 @@ footer a, .socials {
 @media (max-width: 47.99em) {
     .banner-logo img {
         width: auto; /* Allows it to scale down naturally */
-        max-width: 100%; /* Prevents it from exceeding container width */
+        max-width: 80%; /* Prevents it from exceeding container width */
     }
 
     .navbar a {
@@ -905,7 +905,7 @@ textarea { height: 100%; }
 
     .banner-logo img {
         width: auto;
-        max-width: 50%;
+        max-width: 40%;
         margin-top: 0;
     }
     

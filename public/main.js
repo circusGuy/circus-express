@@ -2,20 +2,24 @@
 
 // Background image arrays (NO extension here)
 const desktopImages = [
+  'bkgd-cast-desktop',
   'bkgd-sktl-desktop',
   'bkgd-yoyo-desktop',
   'bkgd-handstand-desktop',
   'bkgd-witch1-desktop',
   'bkgd-viper1-desktop',
+  'bkgd-queen-desktop',
   'bkgd-viper2-desktop'
 ];
 
 const mobileImages = [
+  'bkgd-cast-mobile',
   'bkgd-sktl-mobile',
   'bkgd-yoyo-mobile',
   'bkgd-handstand-mobile',
   'bkgd-witch1-mobile',
   'bkgd-viper1-mobile',
+  'bkgd-queen-mobile',
   'bkgd-viper2-mobile'
 ];
 
