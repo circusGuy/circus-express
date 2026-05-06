@@ -1,58 +1,64 @@
 // The Kingdom Of Wonders
 
-// Background image arrays
+// Background image arrays (NO extension here)
 const desktopImages = [
-  'bkgd-sktl-desktop.png',
-  'bkgd-yoyo-desktop.png',
-  'bkgd-handstand-desktop.png',
-  // 'bkgd-juggling-desktop.jpg',
-  // 'bkgd-queen-desktop.jpg',
-  // 'bkgd-princess1-desktop.jpg',
-  'bkgd-witch1-desktop.jpg',
-  // 'bkgd-escape-desktop.jpg',
-  'bkgd-viper1-desktop.jpg',
-  // 'bkgd-dance-desktop.jpg',
-  // 'bkgd-princess2-desktop.jpg',
-  // 'bkgd-aerial-desktop.jpg',
-  // 'bkgd-dance-desktop.jpg',
-  'bkgd-viper2-desktop.jpg'
+  'bkgd-sktl-desktop',
+  'bkgd-yoyo-desktop',
+  'bkgd-handstand-desktop',
+  'bkgd-witch1-desktop',
+  'bkgd-viper1-desktop',
+  'bkgd-viper2-desktop'
 ];
 
 const mobileImages = [
-  'bkgd-sktl-mobile.png',
-  'bkgd-yoyo2-mobile.png',
-  'bkgd-handstand-mobile.png',
-  // 'bkgd-juggling-mobile.jpg',
-  // 'bkgd-queen-mobile.jpg',
-  // 'bkgd-princess1-mobile.jpg',
-  'bkgd-witch1-mobile.jpg',
-  // 'bkgd-escape-mobile.jpg',
-  'bkgd-viper1-mobile.jpg',
-  // 'bkgd-dance-mobile.jpg',
-  // 'bkgd-princess2-mobile.jpg',
-  // 'bkgd-aerial-mobile.jpg',
-  // 'bkgd-dance-mobile.jpg',
-  'bkgd-viper2-mobile.jpg'
+  'bkgd-sktl-mobile',
+  'bkgd-yoyo-mobile',
+  'bkgd-handstand-mobile',
+  'bkgd-witch1-mobile',
+  'bkgd-viper1-mobile',
+  'bkgd-viper2-mobile'
 ];
+
+// Detect WebP support
+let imageExt = 'jpg'; // fallback default
+
+function detectWebP(callback) {
+  const img = new Image();
+  img.onload = () => callback(img.width === 1);
+  img.onerror = () => callback(false);
+  img.src =
+    "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IC4AAACwAgCdASoCAAIALmk0mk0iIiIiIgBoSywA";
+}
+
+detectWebP(supported => {
+  imageExt = supported ? 'webp' : 'jpg';
+
+  // After detection, preload images
+  preloadImages();
+});
+
+// Preload images AFTER we know the extension
+function preloadImages() {
+  [...desktopImages, ...mobileImages].forEach(name => {
+    const img = new Image();
+    img.src = `/Images/${name}.${imageExt}`;
+  });
+}
+
+let currentIndex = Math.floor(Math.random() * desktopImages.length);
+
+function getImageUrl(index) {
+  const isMobile = window.innerWidth <= 768;
+  const baseName = isMobile ? mobileImages[index] : desktopImages[index];
+  return `/Images/${baseName}.${imageExt}`;
+}
+
 window.addEventListener('resize', () => {
   clearTimeout(window.bgResizeTimeout);
   window.bgResizeTimeout = setTimeout(() => {
     swapBackground(getImageUrl(currentIndex));
   }, 500);
 });
-
-// Preload all images
-[...desktopImages, ...mobileImages].forEach(src => {
-  const img = new Image();
-  img.src = `/Images/${src}`;
-});
-
-let currentIndex = Math.floor(Math.random() * desktopImages.length);
-
-function getImageUrl(index) {
-  const isMobile = window.innerWidth <= 768;
-  return `/Images/${isMobile ? mobileImages[index] : desktopImages[index]}`;
-}
 
 let isTransitioning = false;
 
@@ -63,16 +69,14 @@ function swapBackground(newUrl) {
   const nextLayer = document.querySelector('.bg-layer.next');
   const currentLayer = document.querySelector('.bg-layer.current');
 
-  // Reset next layer
   nextLayer.style.opacity = 0;
   nextLayer.style.backgroundImage = 'none';
-  void nextLayer.offsetWidth; // force reflow
+  void nextLayer.offsetWidth;
 
   const img = new Image();
   img.onload = () => {
     nextLayer.style.backgroundImage = `url('${newUrl}')`;
 
-    // Listen for transition end once
     const onTransitionEnd = () => {
       currentLayer.classList.remove('current');
       currentLayer.classList.add('next');
@@ -85,14 +89,12 @@ function swapBackground(newUrl) {
 
     nextLayer.addEventListener('transitionend', onTransitionEnd);
 
-    // Trigger transition
     nextLayer.style.opacity = 1;
     currentLayer.style.opacity = 0;
   };
 
   img.src = newUrl;
 }
-
 
 window.addEventListener('load', () => {
   const initialUrl = getImageUrl(currentIndex);
@@ -109,72 +111,58 @@ window.addEventListener('load', () => {
   img.src = initialUrl;
 });
 
-// If currentPath, make active
+// Navigation highlighting
 const currentPath = window.location.pathname;
-const links = document.querySelectorAll('nav a');
-links.forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
-        link.classList.add('active');
-    }
+document.querySelectorAll('nav a').forEach(link => {
+  if (link.getAttribute('href') === currentPath) {
+    link.classList.add('active');
+  }
 });
 
-
+// Mobile nav
 function showNav() { 
-    const menuBtn = document.getElementById('menuBtn');
-    const navbar = document.getElementById('navbar');
-    navbar.classList.add('show');
-    const overlay = document.getElementById('overlay');
-    overlay.classList.add('overlay');
-    menuBtn.removeEventListener('click', showNav);
-    menuBtn.addEventListener('click', closeNav);
-    menuBtn.classList.add('active');
-    document.body.classList.add('removeScrollbar');
+  const menuBtn = document.getElementById('menuBtn');
+  const navbar = document.getElementById('navbar');
+  navbar.classList.add('show');
+  const overlay = document.getElementById('overlay');
+  overlay.classList.add('overlay');
+  menuBtn.removeEventListener('click', showNav);
+  menuBtn.addEventListener('click', closeNav);
+  menuBtn.classList.add('active');
+  document.body.classList.add('removeScrollbar');
 }
 
 function closeNav() { 
-    const menuBtn = document.getElementById('menuBtn');
-    const navbar = document.getElementById('navbar');
-    navbar.classList.remove('show');
-    const overlay = document.getElementById('overlay');
-    overlay.classList.remove('overlay');
-    menuBtn.removeEventListener('click', closeNav);
-    menuBtn.addEventListener('click', showNav);
-    menuBtn.classList.remove('active');
-    document.body.classList.remove('removeScrollbar');
+  const menuBtn = document.getElementById('menuBtn');
+  const navbar = document.getElementById('navbar');
+  navbar.classList.remove('show');
+  const overlay = document.getElementById('overlay');
+  overlay.classList.remove('overlay');
+  menuBtn.removeEventListener('click', closeNav);
+  menuBtn.addEventListener('click', showNav);
+  menuBtn.classList.remove('active');
+  document.body.classList.remove('removeScrollbar');
 }
 
-
-// Define the media query
+// Media query
 const mediaQuery = window.matchMedia("(min-width: 54em)");
 
-// Function to handle media query changes
 function handleMediaQueryChange(event) {
-  const element = document.getElementById("overlay"); // Target element's ID
-  
   if (event.matches) {
-    // Media query matches, remove the class
     closeNav();
-  } else {
-    // Media query no longer matches, optional action
-    console.log("Media query no longer matches");
   }
 }
 
-// Attach the event listener to the media query
 mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-// Initial check
 document.addEventListener('DOMContentLoaded', () => {
-    handleMediaQueryChange(mediaQuery);
-  });
+  handleMediaQueryChange(mediaQuery);
+});
 
+// Scroll to top button
 window.addEventListener('scroll', () => {
   const btn = document.getElementById('topBtn');
-  if (window.scrollY > 300) {
-    btn.style.display = 'block';
-  } else {
-    btn.style.display = 'none';
-  }
+  btn.style.display = window.scrollY > 300 ? 'block' : 'none';
 });
 
 document.getElementById('topBtn').addEventListener('click', () => {
