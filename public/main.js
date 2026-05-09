@@ -10,7 +10,8 @@ const desktopImages = [
   'bkgd-viper1-desktop',
   'bkgd-queen-desktop',
   'bkgd-ring-desktop',
-  'bkgd-viper2-desktop'
+  'bkgd-viper2-desktop',
+  'bkgd-witch2-desktop'
 ];
 
 const mobileImages = [
@@ -22,7 +23,8 @@ const mobileImages = [
   'bkgd-viper1-mobile',
   'bkgd-queen-mobile',
   'bkgd-ring-mobile',
-  'bkgd-viper2-mobile'
+  'bkgd-viper2-mobile',
+  'bkgd-witch2-mobile'
 ];
 
 // Detect WebP support
