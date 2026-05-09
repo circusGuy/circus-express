@@ -9,6 +9,7 @@ const desktopImages = [
   'bkgd-witch1-desktop',
   'bkgd-viper1-desktop',
   'bkgd-queen-desktop',
+  'bkgd-ring-desktop',
   'bkgd-viper2-desktop'
 ];
 
@@ -20,6 +21,7 @@ const mobileImages = [
   'bkgd-witch1-mobile',
   'bkgd-viper1-mobile',
   'bkgd-queen-mobile',
+  'bkgd-ring-mobile',
   'bkgd-viper2-mobile'
 ];
 
