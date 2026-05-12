@@ -108,5 +108,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-21-angola-in/RJAKYAOUIGP7QYSFY7PJA2QN"
       }
     ]
+  },
+  {
+    "name": "South Haven, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/530-531-south-haven-mi/2HKDAIKRTCFHQLFV6ZSNFKKH",
+    "date_range": "May 30 – May 31",
+    "date_range_text": "May 30th – 31st",
+    "address": [
+      "Michigan Flywheelers Museum",
+      "06285 68th St, South Haven, MI 49090"
+    ],
+    "shows": [
+      {
+        "date": "May 30",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-30-south-haven-mi/A2ZJNGKOPIAODEQ34MOJ2LGG"
+      },
+      {
+        "date": "May 31",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-31-south-haven-mi/YC4NN2HPRAFXMV3RN26TEK2H"
+      }
+    ]
   }
 ]
