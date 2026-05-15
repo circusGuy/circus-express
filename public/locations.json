@@ -1,26 +1,5 @@
 [
   {
-    "name": "Winchester, IN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/512-514-winchester-in/U5AK2UV27X6Z4WWOD3YWT4KX",
-    "date_range": "May 12 – May 14",
-    "date_range_text": "May 12th – 14th",
-    "address": [
-      "Winchester Community High School Field",
-      "700 N Union St, Winchester, IN, 47394"
-    ],
-    "shows": [
-      {
-        "date": "May 14",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-14-winchester-in/OPVP37J7QFGLHVA766RRWZFU"
-      }
-    ]
-  },
-  {
     "name": "Portland, IN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/516-517-portland-in/HRK2WP6JXZLMEMOZUJXF5ND2",
     "date_range": "May 16 – May 17",
