@@ -71,6 +71,72 @@
     ]
   },
   {
+    "name": "Hillsdale, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/523-528-hillsdale-mi/U3UUZ4FI7UODG5G7JPIEICZS",
+    "date_range": "May 23 – May 28",
+    "date_range_text": "May 23rd – 28th",
+    "address": [
+      "Hillsdale County Fairgrounds",
+      "115 S Broad St, Hillsdale, MI 49242"
+    ],
+    "shows": [
+      {
+        "date": "May 23",
+        "weekday": "Sat",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-23-hillsdale-mi/D5FKOWS2EK23ZDLNVE7IEFIX"
+      },
+      {
+        "date": "May 24",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-24-hillsdale-mi/EWCDGBTYEA2RNA66GU3LQT4A"
+      },
+      {
+        "date": "May 25",
+        "weekday": "Mon",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-25-hillsdale-mi/Y5PIH7EQJ6VMLLVPC5JN27IR"
+      },
+      {
+        "date": "May 26",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-26-hillsdale-mi/CW6WTQ2KHXSGJPJSVTGZ7L6H"
+      },
+      {
+        "date": "May 27",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-27-hillsdale-mi/UJALA4DSFJEQDIWKJVQUQWTR"
+      },
+      {
+        "date": "May 28",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-28-hillsdale-mi/OXPTRSWF7YCN4IHLIDTWNP4L"
+      }
+    ]
+  },
+  {
     "name": "South Haven, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/530-531-south-haven-mi/2HKDAIKRTCFHQLFV6ZSNFKKH",
     "date_range": "May 30 – May 31",
