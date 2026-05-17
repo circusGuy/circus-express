@@ -1,27 +1,5 @@
 [
   {
-    "name": "Portland, IN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/516-517-portland-in/HRK2WP6JXZLMEMOZUJXF5ND2",
-    "date_range": "May 16 – May 17",
-    "date_range_text": "May 16th – 17th",
-    "address": [
-      "Hudson Park",
-      "509 S Wayne St, Portland, IN 47371"
-    ],
-    "shows": [
-      {
-        "date": "May 17",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-17-portland-in/LVMYIRLKWEW4TYBMHFPTLDXG"
-      }
-    ]
-  },
-  {
     "name": "Angola, IN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/519-521-angola-in/O2IBPCPSKUEE6D3DS7NAFYEW",
     "date_range": "May 19 – May 21",
