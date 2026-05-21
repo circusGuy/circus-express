@@ -2,31 +2,13 @@
   {
     "name": "Angola, IN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/519-521-angola-in/O2IBPCPSKUEE6D3DS7NAFYEW",
-    "date_range": "May 19 – May 21",
-    "date_range_text": "May 19th – 21st",
+    "date_range": "May 21 – May 21",
+    "date_range_text": "May 21st – 21st",
     "address": [
       "Steuben County Event Center",
       "100 Lane 101b Crooked Lk, Angola, IN, 46703"
     ],
     "shows": [
-      {
-        "date": "May 19",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-19-angola-in/VOM6M3IJEAFMSOV7TJYQQVY4"
-      },
-      {
-        "date": "May 20",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-20-angola-in/XE5BPZ7KMP424LYQKR6H6DNQ"
-      },
       {
         "date": "May 21",
         "weekday": "Thu",
@@ -172,6 +154,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-11-marlette-mi/RDQOVQPKI3K7SUF5C7EF5DZO"
+      }
+    ]
+  },
+  {
+    "name": "St. Ignace, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/620-621-st-ignace-mi/QMO3P2CJFTFXSYZWMC4Q2PLQ",
+    "date_range": "June 20 – June 21",
+    "date_range_text": "Jun 20th – 21st",
+    "address": [
+      "Little Bear East Arena",
+      "275 Marquette Street, St. Ignace, MI 49781"
+    ],
+    "shows": [
+      {
+        "date": "June 20",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-20-st-ignace-mi/YJTFHJWUYQCZYFZLHNBGW34I"
+      },
+      {
+        "date": "June 21",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-21-st-ignace-mi/UAFSTCDTJ7HH7VBFCHGWKYHJ"
       }
     ]
   }
