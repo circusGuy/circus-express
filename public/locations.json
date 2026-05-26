@@ -10,24 +10,6 @@
     ],
     "shows": [
       {
-        "date": "May 25",
-        "weekday": "Mon",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-25-hillsdale-mi/Y5PIH7EQJ6VMLLVPC5JN27IR"
-      },
-      {
-        "date": "May 26",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-26-hillsdale-mi/CW6WTQ2KHXSGJPJSVTGZ7L6H"
-      },
-      {
         "date": "May 27",
         "weekday": "Wed",
         "formattedTimes": "6:00 PM<hr />",
@@ -76,6 +58,45 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-31-south-haven-mi/YC4NN2HPRAFXMV3RN26TEK2H"
+      }
+    ]
+  },
+  {
+    "name": "Fennville, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/62-64-fennville-mi/GEH2XUC5ERSD7W77BS6UPJEI",
+    "date_range": "June 2 – June 4",
+    "date_range_text": "Jun 2nd – 4th",
+    "address": [
+      "Grass Field by Brew Sisters",
+      "203 W Main Street, Fennville, MI, 49408"
+    ],
+    "shows": [
+      {
+        "date": "June 2",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-2-fennville-mi/GKPYXECDLWGSS3SXDYIKPKLU"
+      },
+      {
+        "date": "June 3",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-3-fennville-mi/VXFI256F7CCKXR4LAWHNLSAY"
+      },
+      {
+        "date": "June 4",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-4-fennville-mi/SV4AHDNPTJPM45RJQPTFSVE7"
       }
     ]
   },
