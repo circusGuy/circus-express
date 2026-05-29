@@ -1,26 +1,5 @@
 [
   {
-    "name": "Hillsdale, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/523-528-hillsdale-mi/U3UUZ4FI7UODG5G7JPIEICZS",
-    "date_range": "May 23 – May 28",
-    "date_range_text": "May 23rd – 28th",
-    "address": [
-      "Hillsdale County Fairgrounds",
-      "115 S Broad St, Hillsdale, MI 49242"
-    ],
-    "shows": [
-      {
-        "date": "May 28",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/may-28-hillsdale-mi/OXPTRSWF7YCN4IHLIDTWNP4L"
-      }
-    ]
-  },
-  {
     "name": "South Haven, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/530-531-south-haven-mi/2HKDAIKRTCFHQLFV6ZSNFKKH",
     "date_range": "May 30 – May 31",
@@ -127,6 +106,45 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-11-marlette-mi/RDQOVQPKI3K7SUF5C7EF5DZO"
+      }
+    ]
+  },
+  {
+    "name": "Clare, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/616-618-clare-mi/MTIIMPP57EKRHVZBDFRJFWEB",
+    "date_range": "June 16 – June 18",
+    "date_range_text": "Jun 16th – 18th",
+    "address": [
+      "Witbeck's Family Foods",
+      "1026 N McEwan Street, Clare, MI, 48617"
+    ],
+    "shows": [
+      {
+        "date": "June 16",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-16-clare-mi/N5WYUT35EPBEEYG5CADHF3B3"
+      },
+      {
+        "date": "June 17",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-17-clare-mi/L63V4UZCA4ANCPX5C2HMZT4R"
+      },
+      {
+        "date": "June 18",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-18-clare-mi/XFNA2CF6AA7AWI22DGY2M56B"
       }
     ]
   },
