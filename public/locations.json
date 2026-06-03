@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "June 2",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-2-fennville-mi/GKPYXECDLWGSS3SXDYIKPKLU"
-      },
-      {
         "date": "June 3",
         "weekday": "Wed",
         "formattedTimes": "6:00 PM<hr />",
@@ -110,6 +101,38 @@
     ]
   },
   {
+    "name": "Sandusky, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/613-614-sandusky-mi/VWYORICTBHJ6IIB2QPCXYRAV",
+    "date_range": "June 13 – June 14",
+    "date_range_text": "Jun 13th – 14th",
+    "address": [
+      "Sandusky Fairgrounds",
+      "210 N Dawson St, Sandusky, MI 48471"
+    ],
+    "shows": [
+      {
+        "date": "June 13",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-13-sandusky-mi/HQXAFUBJGAESAGMD46XUZ7BX"
+      },
+      {
+        "date": "June 14",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-14-sandusky-mi/GYUWSIXVTLYHJLRSYFN67YZP"
+      }
+    ]
+  },
+  {
     "name": "Clare, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/616-618-clare-mi/MTIIMPP57EKRHVZBDFRJFWEB",
     "date_range": "June 16 – June 18",
@@ -177,6 +200,73 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-21-st-ignace-mi/UAFSTCDTJ7HH7VBFCHGWKYHJ"
+      }
+    ]
+  },
+  {
+    "name": "Houghton, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/74-79-houghton-mi/I6MUT2ZFJHVSVSOZXX6R5JAG",
+    "date_range": "July 4 – July 9",
+    "date_range_text": "Jul 4th – 9th",
+    "address": [
+      "Kestner Waterfront Park",
+      "1100 W Lakeshore Dr, Houghton, MI 49931"
+    ],
+    "shows": [
+      {
+        "date": "July 4",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-4-houghton-mi/6IWROVMZAOP7DPXQPRZRMNUT"
+      },
+      {
+        "date": "July 5",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-5-houghton-mi/JIZJDWXBFGQDUFQEO3SQBHA2"
+      },
+      {
+        "date": "July 6",
+        "weekday": "Mon",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-6-houghton-mi/F5SUDMIEWMDDNWYLJ42BNPJ7"
+      },
+      {
+        "date": "July 7",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-7-houghton-mi/37TVRB4IPCOHPUC47KD5UU6R"
+      },
+      {
+        "date": "July 8",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-8-houghton-mi/SMPZT4GRQJ7UBTBA7LKPNWYT"
+      },
+      {
+        "date": "July 9",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-9-houghton-mi/3CRHF46KPCJJPJ3KUBQBRCZJ"
       }
     ]
   }
