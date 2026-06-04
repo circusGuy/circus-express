@@ -1,26 +1,5 @@
 [
   {
-    "name": "Fennville, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/62-64-fennville-mi/GEH2XUC5ERSD7W77BS6UPJEI",
-    "date_range": "June 2 – June 4",
-    "date_range_text": "Jun 2nd – 4th",
-    "address": [
-      "Grass Field by Brew Sisters",
-      "203 W Main Street, Fennville, MI, 49408"
-    ],
-    "shows": [
-      {
-        "date": "June 4",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-4-fennville-mi/SV4AHDNPTJPM45RJQPTFSVE7"
-      }
-    ]
-  },
-  {
     "name": "Ionia, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/66-67-ionia-mi/H7CVFHECXC2MUGCG2VOW3LPQ",
     "date_range": "June 6 – June 7",
