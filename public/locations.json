@@ -10,24 +10,6 @@
     ],
     "shows": [
       {
-        "date": "June 9",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-9-marlette-mi/WI3ARHHJ5QKN3KIXILEX4AYV"
-      },
-      {
-        "date": "June 10",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-10-marlette-mi/2G56S55KX3JJ5D27SAEDG2JL"
-      },
-      {
         "date": "June 11",
         "weekday": "Thu",
         "formattedTimes": "6:00 PM<hr />",
@@ -142,6 +124,45 @@
     ]
   },
   {
+    "name": "Sault Ste. Marie, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/623-625-sault-ste-marie-mi/MCUWXZUUTLDLFLDP3GMJWBDD",
+    "date_range": "June 23 – June 25",
+    "date_range_text": "Jun 23rd – 25th",
+    "address": [
+      "Famous Soo Locks Boat Tours",
+      "515 E Portage Ave, Sault Ste. Marie, MI 49783"
+    ],
+    "shows": [
+      {
+        "date": "June 23",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-23-sault-ste-marie-mi/RYXJXJHVTRDDL7POBVXAP2M7"
+      },
+      {
+        "date": "June 24",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-24-sault-ste-marie-mi/L2VVSWSBUV35LRFHGRGZVL7Q"
+      },
+      {
+        "date": "June 25",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-25-sault-ste-marie-mi/KNXLXSSKXNJQUHHQRG2Q546L"
+      }
+    ]
+  },
+  {
     "name": "Houghton, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/74-79-houghton-mi/I6MUT2ZFJHVSVSOZXX6R5JAG",
     "date_range": "July 4 – July 9",
@@ -205,6 +226,77 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-9-houghton-mi/3CRHF46KPCJJPJ3KUBQBRCZJ"
+      }
+    ]
+  },
+  {
+    "name": "Eagle River, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/714-716-eagle-river-wi/UCJSJMOIWHJJ7VA5XPXWHNUA",
+    "date_range": "July 14 – July 16",
+    "date_range_text": "Jul 14th – 16th",
+    "address": [
+      "Vilas County Fairgrounds",
+      "164 S Forrest St, Eagle River, WI 54521"
+    ],
+    "shows": [
+      {
+        "date": "July 14",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-14-eagle-river-wi/XXIHZPVJWT3PMJOPVEGMRPMX"
+      },
+      {
+        "date": "July 15",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-15-eagle-river-wi/L6BDJUAPAFRSO6KTNUOMGKXQ"
+      },
+      {
+        "date": "July 16",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-16-eagle-river-wi/5XU2FORXF4JBKELWP3AFHAY5"
+      }
+    ]
+  },
+  {
+    "name": "Marion, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/718-719-marion-wi/WKB2H5EH5AZ4ZEYTXSORL6S4",
+    "date_range": "July 18 – July 19",
+    "date_range_text": "Jul 18th – 19th",
+    "address": [
+      "Lion's Point",
+      "420 W Ramsdell Street, Marion, WI, 54950"
+    ],
+    "shows": [
+      {
+        "date": "July 18",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-18-marion-wi/JKN3UVXMQ6DINWHRF36I2BBT"
+      },
+      {
+        "date": "July 19",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-19-marion-wi/LVRZSXT6R4NCZGXFAYTHAJHE"
       }
     ]
   }
