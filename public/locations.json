@@ -278,5 +278,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-19-marion-wi/LVRZSXT6R4NCZGXFAYTHAJHE"
       }
     ]
+  },
+  {
+    "name": "Ladysmith, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/725-726-ladysmith-wi/JE6O5Z6ESVSNDTKQLLHWTP6Y",
+    "date_range": "July 25 – July 26",
+    "date_range_text": "Jul 25th – 26th",
+    "address": [
+      "Field on N Jez Road in Ladysmith Industrial Park",
+      "N Jez Road, Ladysmith, WI, 54848"
+    ],
+    "shows": [
+      {
+        "date": "July 25",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-25-ladysmith-wi/TINSI6PV5QI3XLRBHBZU5SUA"
+      },
+      {
+        "date": "July 26",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-26-ladysmith-wi/KF22YKL3WIGM7Q6GGXIEIQ76"
+      }
+    ]
   }
 ]
