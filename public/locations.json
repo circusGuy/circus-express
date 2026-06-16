@@ -61,10 +61,9 @@
       {
         "date": "June 21",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM<hr />",
         "times": [
-          "3:00 PM",
-          "6:00 PM"
+          "3:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-21-st-ignace-mi/UAFSTCDTJ7HH7VBFCHGWKYHJ"
       }
