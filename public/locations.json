@@ -109,6 +109,73 @@
     ]
   },
   {
+    "name": "Escanaba, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/627-72-escanaba-mi/EYZMHM4SVW4AUFTFKGZQTE7D",
+    "date_range": "June 27 – July 2",
+    "date_range_text": "Jun 27th – Jul 2nd",
+    "address": [
+      "Upper Peninsula State Fairgrounds",
+      "2401 12th Ave N, Escanaba, MI 49829"
+    ],
+    "shows": [
+      {
+        "date": "June 27",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-27-escanaba-mi/WEVQML72RDA5CRVLMN5MMFFB"
+      },
+      {
+        "date": "June 28",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-28-escanaba-mi/73ILYLWU7JD56XWGWKDT7DZS"
+      },
+      {
+        "date": "June 29",
+        "weekday": "Mon",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-29-escanaba-mi/AGHV6GCG36EDYSEMWZK5TA77"
+      },
+      {
+        "date": "June 30",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-30-escanaba-mi/JH44QP46DDO6ZJSEKDUNL6BU"
+      },
+      {
+        "date": "July 1",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-1-escanaba-mi/GQEM6LUMX7XZAT2LUYJG6WS5"
+      },
+      {
+        "date": "July 2",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-2-escanaba-mi/WQ4AI3Q4XXCOBFWTTM5CZLKY"
+      }
+    ]
+  },
+  {
     "name": "Houghton, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/74-79-houghton-mi/I6MUT2ZFJHVSVSOZXX6R5JAG",
     "date_range": "July 4 – July 9",
@@ -172,6 +239,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-9-houghton-mi/3CRHF46KPCJJPJ3KUBQBRCZJ"
+      }
+    ]
+  },
+  {
+    "name": "Kingsford, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/711-712-kingsford-mi/FHFLTTLBKW52PLVM4H6WNUPE",
+    "date_range": "July 11 – July 12",
+    "date_range_text": "Jul 11th – 12th",
+    "address": [
+      "Lodal Park",
+      "1806 W Breitung Ave, Kingsford, MI 49802"
+    ],
+    "shows": [
+      {
+        "date": "July 11",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-11-kingsford-mi/K4WFKAYI4YNTUXGSLQZB4E2W"
+      },
+      {
+        "date": "July 12",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-12-kingsford-mi/IQBAHTJRN3WL7KBXYFNEZQ7K"
       }
     ]
   },
