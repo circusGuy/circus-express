@@ -10,24 +10,6 @@
     ],
     "shows": [
       {
-        "date": "June 16",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-16-clare-mi/N5WYUT35EPBEEYG5CADHF3B3"
-      },
-      {
-        "date": "June 17",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-17-clare-mi/L63V4UZCA4ANCPX5C2HMZT4R"
-      },
-      {
         "date": "June 18",
         "weekday": "Thu",
         "formattedTimes": "6:00 PM<hr />",
