@@ -1,26 +1,5 @@
 [
   {
-    "name": "Clare, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/616-618-clare-mi/MTIIMPP57EKRHVZBDFRJFWEB",
-    "date_range": "June 16 – June 18",
-    "date_range_text": "Jun 16th – 18th",
-    "address": [
-      "Witbeck's Family Foods",
-      "1026 N McEwan Street, Clare, MI, 48617"
-    ],
-    "shows": [
-      {
-        "date": "June 18",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-18-clare-mi/XFNA2CF6AA7AWI22DGY2M56B"
-      }
-    ]
-  },
-  {
     "name": "St. Ignace, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/620-621-st-ignace-mi/QMO3P2CJFTFXSYZWMC4Q2PLQ",
     "date_range": "June 20 – June 21",
