@@ -1,26 +1,5 @@
 [
   {
-    "name": "St. Ignace, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/620-621-st-ignace-mi/QMO3P2CJFTFXSYZWMC4Q2PLQ",
-    "date_range": "June 20 – June 21",
-    "date_range_text": "Jun 20th – 21st",
-    "address": [
-      "Little Bear East Arena",
-      "275 Marquette Street, St. Ignace, MI 49781"
-    ],
-    "shows": [
-      {
-        "date": "June 21",
-        "weekday": "Sun",
-        "formattedTimes": "3:00 PM<hr />",
-        "times": [
-          "3:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-21-st-ignace-mi/UAFSTCDTJ7HH7VBFCHGWKYHJ"
-      }
-    ]
-  },
-  {
     "name": "Sault Ste. Marie, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/623-625-sault-ste-marie-mi/MCUWXZUUTLDLFLDP3GMJWBDD",
     "date_range": "June 23 – June 25",
