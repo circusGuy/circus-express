@@ -1,30 +1,9 @@
 [
   {
-    "name": "Sault Ste. Marie, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/623-625-sault-ste-marie-mi/MCUWXZUUTLDLFLDP3GMJWBDD",
-    "date_range": "June 23 – June 25",
-    "date_range_text": "Jun 23rd – 25th",
-    "address": [
-      "Famous Soo Locks Boat Tours",
-      "515 E Portage Ave, Sault Ste. Marie, MI 49783"
-    ],
-    "shows": [
-      {
-        "date": "June 25",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-25-sault-ste-marie-mi/KNXLXSSKXNJQUHHQRG2Q546L"
-      }
-    ]
-  },
-  {
     "name": "Escanaba, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/627-72-escanaba-mi/EYZMHM4SVW4AUFTFKGZQTE7D",
     "date_range": "June 27 – July 2",
-    "date_range_text": "Jun 27th – Jul 2nd",
+    "date_range_text": "Jun 27th – 2nd",
     "address": [
       "Upper Peninsula State Fairgrounds",
       "2401 12th Ave N, Escanaba, MI 49829"
@@ -286,6 +265,77 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-26-ladysmith-wi/KF22YKL3WIGM7Q6GGXIEIQ76"
+      }
+    ]
+  },
+  {
+    "name": "Osseo, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/728-730-osseo-wi/AJMBIBH47W6ESXTLQQEGB2IS",
+    "date_range": "July 28 – July 30",
+    "date_range_text": "Jul 28th – 30th",
+    "address": [
+      "Ward Field",
+      "51012 Rose Ln, Osseo, WI 54758"
+    ],
+    "shows": [
+      {
+        "date": "July 28",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-28-osseo-wi/IXM2E7XIYG2N6VPKAZB6AB47"
+      },
+      {
+        "date": "July 29",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-29-osseo-wi/SYJFVGCEVT5MSXTYEXN5I7M3"
+      },
+      {
+        "date": "July 30",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-30-osseo-wi/DSJPTUMWNHNOWW2CLGOFWIYT"
+      }
+    ]
+  },
+  {
+    "name": "Marathon City, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon-city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
+    "date_range": "August 1 – August 2",
+    "date_range_text": "Aug 1st – 2nd",
+    "address": [
+      "County Materials Sports Complex",
+      "304 County Road NN, Marathon City, WI, 54448"
+    ],
+    "shows": [
+      {
+        "date": "August 1",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon-city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
+      },
+      {
+        "date": "August 2",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon-city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
       }
     ]
   }
