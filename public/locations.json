@@ -10,25 +10,6 @@
     ],
     "shows": [
       {
-        "date": "June 27",
-        "weekday": "Sat",
-        "formattedTimes": "3:00 PM<hr />",
-        "times": [
-          "3:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-27-escanaba-mi/WEVQML72RDA5CRVLMN5MMFFB"
-      },
-      {
-        "date": "June 28",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-28-escanaba-mi/73ILYLWU7JD56XWGWKDT7DZS"
-      },
-      {
         "date": "June 29",
         "weekday": "Mon",
         "formattedTimes": "6:00 PM<hr />",
