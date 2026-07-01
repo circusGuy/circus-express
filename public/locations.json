@@ -1,6 +1,6 @@
 [
   {
-    "name": "Escanaba, MIc",
+    "name": "Escanaba, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/627-72-escanaba-mi/EYZMHM4SVW4AUFTFKGZQTE7D",
     "date_range": "June 27 – July 2",
     "date_range_text": "Jun 27th – Jul 2nd",
@@ -9,15 +9,6 @@
       "2401 12th Ave N, Escanaba, MI 49829"
     ],
     "shows": [
-      {
-        "date": "June 30",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/june-30-escanaba-mi/JH44QP46DDO6ZJSEKDUNL6BU"
-      },
       {
         "date": "July 1",
         "weekday": "Wed",
@@ -60,7 +51,7 @@
       {
         "date": "July 5",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -118,7 +109,7 @@
       {
         "date": "July 11",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -128,7 +119,7 @@
       {
         "date": "July 12",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -189,7 +180,7 @@
       {
         "date": "July 18",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -199,7 +190,7 @@
       {
         "date": "July 19",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -221,7 +212,7 @@
       {
         "date": "July 25",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -231,7 +222,7 @@
       {
         "date": "July 26",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -292,7 +283,7 @@
       {
         "date": "August 1",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -302,7 +293,7 @@
       {
         "date": "August 2",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM / 6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
