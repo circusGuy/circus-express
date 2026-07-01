@@ -1,223 +1,247 @@
-import dotenv from "dotenv";
+import puppeteer from "puppeteer";
 import fs from "fs";
 
 const startTime = new Date();
 
-dotenv.config();
+const HOME_LINK =
+  "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/archived-items/ECUFJ46U6WBV74PK5YWMRHTJ";
 
-const accessToken = process.env.SQUARE_ACCESS_TOKEN;
-const url = "https://connect.squareup.com/v2/catalog/list";
+async function get_links() {
+  let links = [];
 
-let allData = [];
-let cursor = null;
+  // const browser = await puppeteer.launch();
+  // Uncomment the line below to run in non-headless mode for debugging
+  // Displays browser window
+    const browser = await puppeteer.launch({headless: false});
 
-const response = await fetch(
-  "https://connect.squareup.com/v2/catalog/list?types=category",
-  {
-    method: "GET",
-    headers: {
-      "Square-Version": "2026-05-20",
-      Authorization: `Bearer ${process.env.SQUARE_ACCESS_TOKEN}`,
-      "Content-Type": "application/json",
-    },
-  },
-);
+  const page = await browser.newPage();
 
-const buildParentMap = (categories) => {
-  return categories.reduce((map, item) => {
-    const id = item.id;
-    const parentId =
-      item?.category_data?.parent_category?.id ||
-      item?.category_data?.name ||
-      null;
+  await page.goto(HOME_LINK);
 
-    map[id] = parentId;
-    return map;
-  }, {});
-};
+  await page.waitForSelector(".category-page-grid a");
 
-const parentData = await response.json();
-const parentMap = buildParentMap(parentData.objects);
+  const items = await page.$$(".category-page-grid a");
+  for (let i of items) {
+    const textContent = (
+      await (await i.getProperty("textContent")).jsonValue()
+    ).trim();
 
-console.log("Parent category map:", parentMap);
-function formatDate(input) {
-  const date = new Date(input);
+    const pattern =
+      /^(\d{1,2}\/\d{1,2})\s–\s(\d{1,2}\/\d{1,2}):\s([\w\s'.-]+),\s([A-Z]{2})$/;
 
-  return date.toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-  });
+    if (pattern.test(textContent)) {
+      const href = (await (await i.getProperty("href")).jsonValue()).split(
+        "?"
+      )[0];
+      links.push(href);
+    }
+  }
+
+  await page.close();
+  await browser.close();
+  return links;
+}
+
+async function scrape_address(address_link, addressPage) {
+  await addressPage.goto(address_link);
+  await addressPage.waitForSelector(".text-component.w-product-description");
+
+  const product_description = await addressPage.$$(
+    `.text-component.w-product-description p`
+  );
+
+  let address = [];
+
+  for (let i = 0; i < product_description.length; i++) {
+    let textContent = await (await product_description[i].getProperty("textContent")).jsonValue();
+    if (textContent.includes("Event Location")) {
+      i += 1;
+      textContent = await (await product_description[i].getProperty("textContent")).jsonValue(); // first line of address
+      while (textContent.trim() !== ""){ // while address lines are not empty
+        address.push(textContent.trim());
+        console.log('\x1b[32m%s\x1b[0m %s','SUCCESSFULLY SCRAPED ADDRESS LINE:', textContent);
+        i += 1;
+        textContent = await (await product_description[i].getProperty("textContent")).jsonValue();
+      }
+      break; // address scraped, exit
+    }
+  }
+  
+  return address;
+}
+
+async function scrape_showtimes(date_link, page, addressPage, first) {
+  let showtimes = [];
+  let address = [];
+
+  await page.goto(date_link);
+
+  await page.waitForSelector(".content-grid");
+
+  const items = await page.$$(".content-grid a");
+  for (const i of items) {
+    const textContent = await (await i.getProperty("textContent")).jsonValue();
+
+    if (first) {
+      const href = await (await i.getProperty("href")).jsonValue();
+      address = await scrape_address(href, addressPage);
+    }
+
+    const match = textContent.match(/\b\d{1,2}:\d{2}\s?(?:AM|PM)\b/i);
+    const time = match ? match[0] : null;
+
+    if (time !== null) {
+      showtimes.push(time);
+    }
+  }
+  
+  return { times: showtimes, address: address };
+}
+
+async function scrape_location(show_link) {
+  let shows = [];
+
+  const browser = await puppeteer.launch({headless: false});
+  const page = await browser.newPage();
+  const timePage = await browser.newPage();
+  const addressPage = await browser.newPage();
+
+  await page.goto(show_link);
+
+  let show_address = [];
+
+  await page.waitForSelector(".content-grid");
+
+  const items = await page.$$(".content-grid a");
+  let first = true;
+  for (let i of items) {
+    const textContent = await (await i.getProperty("textContent")).jsonValue();
+
+    const href = await (await i.getProperty("href")).jsonValue();
+
+    const rawDate = textContent.split(" – ")[0] || "";
+    const rawLocation = textContent.split(" – ")[1] || "";
+
+    const date = rawDate.replace(/\s+/g, " ").trim();
+    const location = rawLocation.replace(/\s+/g, " ").trim();
+
+    const { times, address } = await scrape_showtimes(
+      href,
+      timePage,
+      addressPage,
+      first
+    );
+
+    if (address.length > 0) {
+      show_address = address;
+    }
+
+    if (first) {
+      first = false;
+    }
+
+    const show = {
+      name: location,
+      address: show_address,
+      date: date,
+      times: times,
+      link: href,
+    };
+
+    if (show.name !== "") {
+      shows.push(show);
+    }
+  }
+
+await timePage.close();
+await addressPage.close();
+await page.close();
+await browser.close();
+
+  return shows;
+}
+
+// Helper function to get the ordinal suffix
+function getOrdinalSuffix(day) {
+    if (day === 1 || day === 21 || day === 31) return `${day}st`;
+    if (day === 2 || day === 22) return `${day}nd`;
+    if (day === 3 || day === 23) return `${day}rd`;
+    return `${day}th`;
 }
 
 function formatTimes(times) {
-  let timeString = "";
-  for (let i = 0; i < times.length; i++) {
-    const time = times[i];
-    if (i > 0) {
-      timeString += "&nbsp; &amp; &nbsp;";
-    }
-    timeString += time;
-  }
-  timeString += "<hr />";
-  return timeString;
+    if (times.length === 0) return "";
+    if (times.length === 1) return times[0];
+    
+    // Extract the shared "AM" or "PM" suffix
+    const suffix = times[0].split(" ")[1];
+    
+    // Remove the "AM" or "PM" part from each time
+    const strippedTimes = times.map(time => time.split(" ")[0]);
+    
+    // Join the times with commas and an ampersand before the last one
+    return strippedTimes.slice(0, -1).join(", &nbsp;") + "&nbsp; &amp; &nbsp;" + strippedTimes.slice(-1) + " " + suffix;
 }
 
-function getOrdinalSuffix(date) {
-  const datePrefix = date.split(" ")[0].substring(0, 3);
-  const day = parseInt(date.split(" ")[1]);
+const all_links = await get_links();
+let all_shows = [];
 
-  if (day === 1 || day === 21 || day === 31) return `${datePrefix} ${day}st`;
-  if (day === 2 || day === 22) return `${datePrefix} ${day}nd`;
-  if (day === 3 || day === 23) return `${datePrefix} ${day}rd`;
-  return `${datePrefix} ${day}th`;
-}
+for (let link of all_links) {
+  try {
+    let shows = await scrape_location(link);
 
-function transform_item(item) {
-  const day_time = item.time.split(", ");
-  const weekday = day_time[0];
-  const time = day_time[1];
+    const location = shows[0].name;
+    const final_address = shows[0].address;
+    const currentYear = new Date().getFullYear();
 
-  const address = item.description
-    .split("Event Location (link)\n")[1]
-    .split("\n");
+    shows = shows.map((s) => ({
+      date: s.date,
+      weekday: new Date(s.date + `, ${currentYear}`).toLocaleDateString('en-US', { weekday: 'short' }),
+      formattedTimes: formatTimes(s.times) + "<hr />",
+      times: s.times,
+      link: s.link.split('?')[0],
+    }));
 
-  return {
-    name: item.name,
-    date: item.date,
-    time: time,
-    weekday: weekday.substring(0, 3),
-    id: item.categories[0].id,
-    category_id: parentMap[item.categories[0].id] || null,
-    address: address,
-  };
-}
+    console.log(shows);
 
-function truncate_item(item) {
-  const name_data = item.item_data.name.split(" – ");
+    const date_range = shows[0].date + " – " + shows[shows.length - 1].date;
 
-  const location_name = name_data[0];
-  const date = name_data[1];
-  const time = name_data[2];
+    const startDate = new Date(shows[0].date + ", " + currentYear);
+    const endDate = new Date(shows[shows.length - 1].date + ", " + currentYear);
 
-  return {
-    date_reference: new Date(date),
-    name: location_name,
-    date: date,
-    time: time,
-    id: item.id,
-    description: item.item_data.description,
-    categories: item.item_data.categories,
-  };
-}
+    const date_range_text = `${startDate.toLocaleString('default', { month: 'short' })} ${getOrdinalSuffix(startDate.getDate())} – ${getOrdinalSuffix(endDate.getDate())}`;
 
-console.log("Fetching data from Square...");
+    // // Extract the shared "PM" suffix
+    // const suffix = shows.times[0].split(" ")[1];
 
-do {
-  const response = await fetch(url + (cursor ? `?cursor=${cursor}` : ""), {
-    method: "GET",
-    headers: {
-      "Square-Version": "2026-05-20",
-      Authorization: `Bearer ${accessToken}`,
-      "Content-Type": "application/json",
-    },
-  });
+    // // Remove the "PM" part from each time
+    // const strippedTimes = shows.times.map(time => time.split(" ")[0]);
 
-  if (!response.ok) {
-    console.error(
-      `Error fetching data: ${response.status} ${response.statusText}`,
-    );
-    break;
-  }
+    // // Join the times with commas and an ampersand before the last one
+    // const formattedTimes = strippedTimes.slice(0, -1).join(", ") + "&nbsp;&amp;&nbsp;" + strippedTimes.slice(-1) + " " + suffix;
 
-  const data = await response.json();
-  const filtered = data.objects.filter((obj) =>
-    obj.item_data?.hasOwnProperty("description_plaintext"),
-  );
-  const mapped = filtered.map((obj) => truncate_item(obj));
 
-  const now = new Date();
-  now.setHours(0, 0, 0, 0); // Set to midnight for accurate comparison
-  const dateFiltered = mapped
-    .filter((item) => new Date(item.date_reference).getTime() >= now)
-    .sort((a, b) => new Date(a.date_reference) - new Date(b.date_reference));
 
-  allData.push(...dateFiltered);
-  cursor = data.cursor;
-} while (cursor);
-
-console.log(`Successfully retrieved ${allData.length} shows!`);
-console.log("Writing to locations.json...");
-
-allData = allData.map((item) => transform_item(item));
-
-let data = [];
-
-for (let i = 0; i < allData.length; i++) {
-  const item = allData[i];
-
-  const link =
-    "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop";
-
-  const formattedDate = formatDate(item.date);
-  const linkDate = formattedDate.replace(" ", "-").toLowerCase();
-  const linkLoc = item.name.replace(", ", "-").toLowerCase();
-  const showLink = link + `/${linkDate}-${linkLoc}/${item.id}`;
-
-  if (data.some((d) => d.name === item.name)) {
-    const existingItem = data.find((d) => d.name === item.name);
-
-    if (existingItem.shows.some((s) => s.date === item.date)) {
-      const show = existingItem.shows.find((s) => s.date === item.date);
-      show.times.push(item.time);
-
-      show.formattedTimes = formatTimes(show.times);
-    } else {
-      existingItem.shows.push({
-        date: formattedDate,
-        weekday: item.weekday,
-        times: [item.time],
-        link: showLink,
-      });
-    }
-  } else {
-    const categoryName = parentMap[item.category_id];
-    let categoryLink =
-      "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop";
-    const categoryDateRange = categoryName.split(":")[0]?.split(" – ");
-    const categoryLinkDate =
-      categoryDateRange[0].replace("/", "") +
-      "-" +
-      categoryDateRange[1].replace("/", "");
-
-    const formattedFirstDate = formatDate(categoryDateRange[0]);
-    const formattedLastDate = formatDate(categoryDateRange[1]);
-
-    const DateRangeText = `${getOrdinalSuffix(formattedFirstDate)} – ${getOrdinalSuffix(formattedLastDate)}`;
-
-    const newItem = {
-      name: item.name,
-      link:
-        categoryLink +
-        `/${categoryLinkDate}-${item.name.replace(", ", "-").toLowerCase()}/${item.category_id}`,
-      date_range: `${formattedFirstDate} – ${formattedLastDate}`,
-      date_range_text: `${DateRangeText}`,
-      address: item.address,
-      shows: [
-        {
-          date: formattedDate,
-          weekday: item.weekday,
-          formattedTimes: formatTimes([item.time]),
-          times: [item.time],
-          link: showLink,
-        },
-      ],
+    const s = {
+      name: location,
+      link: link.split('?')[0],
+      date_range: date_range,
+      date_range_text: date_range_text,
+      // formattedTimes: formattedTimes,
+      address: final_address,
+      shows: shows,
     };
 
-    data.push(newItem);
+    all_shows.push(s);
+  } catch (e) {
+    console.error("shows missing or error");
+    console.error(e);
+    continue;
   }
 }
 
-fs.writeFileSync("./public/locations.json", JSON.stringify(data, null, 2));
+fs.writeFileSync("./public/locations.json", JSON.stringify(all_shows, null, 2));
+
 
 const endTime = new Date();
 console.log(`Scraping completed in ${(endTime - startTime) / 1000} seconds.`);
