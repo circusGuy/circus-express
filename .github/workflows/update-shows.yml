@@ -3,8 +3,7 @@ name: Update Shows
 on:
   push:
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"
+
 
 permissions:
   contents: write
