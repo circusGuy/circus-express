@@ -2,7 +2,7 @@ name: Update Square Data
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,22 +22,24 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install dependencies
         run: npm install
 
       - name: Run script
-        run: node public/scraperv2.js
+        run: node public/scraperv2.mjs
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
-          git add .
-
-          # Only commit if something changed
-          git diff --quiet || git commit -m "Auto-update data"
-
+          
+          git add -A
+          
+          git status
+          git diff --cached
+          
+          git commit -m "Auto-update data" || echo "No changes to commit"
+          
           git push

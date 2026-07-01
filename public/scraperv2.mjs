@@ -55,7 +55,7 @@ function formatTimes(times) {
   for (let i = 0; i < times.length; i++) {
     const time = times[i];
     if (i > 0) {
-      timeString += "&nbsp; &amp; &nbsp;";
+      timeString += " / ";
     }
     timeString += time;
   }
