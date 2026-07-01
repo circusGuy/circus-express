@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: Run script
-        run: node public/scraperv2.js
+        run: node public/scraperv2.mjs
 
       - name: Commit & push if changed
         run: |
