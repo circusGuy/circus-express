@@ -51,7 +51,6 @@ function formatDate(input) {
 
 function formatTimes(times) {
   let timeString = "";
-  console.log("Formatting times:", times);
   for (let i = 0; i < times.length; i++) {
     const time = times[i];
     if (i > 0) {
@@ -60,7 +59,6 @@ function formatTimes(times) {
     timeString += time;
   }
   timeString += "<hr />";
-  console.log("Formatted times:", timeString);
   return timeString;
 }
 
@@ -137,8 +135,8 @@ do {
   );
   const mapped = filtered.map((obj) => truncate_item(obj));
 
-  const now = new Date();
-  now.setHours(0, 0, 0, 0); // Set to midnight for accurate comparison
+  const now = new Date(); // filter for shows after now
+
   const dateFiltered = mapped
     .filter((item) => new Date(item.date_reference).getTime() >= now)
     .sort((a, b) => new Date(a.date_reference) - new Date(b.date_reference));
@@ -167,8 +165,6 @@ for (let i = 0; i < allData.length; i++) {
 
   if (data.some((d) => d.name === item.name)) {
     const existingItem = data.find((d) => d.name === item.name);
-
-
 
     if (existingItem.shows.some((s) => s.date === formattedDate)) {
       const show = existingItem.shows.find((s) => s.date === formattedDate);
