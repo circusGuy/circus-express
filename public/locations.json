@@ -1,26 +1,5 @@
 [
   {
-    "name": "Escanaba, MI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/627-72-escanaba-mi/EYZMHM4SVW4AUFTFKGZQTE7D",
-    "date_range": "June 27 – July 2",
-    "date_range_text": "Jun 27th – Jul 2nd",
-    "address": [
-      "Upper Peninsula State Fairgrounds",
-      "2401 12th Ave N, Escanaba, MI 49829"
-    ],
-    "shows": [
-      {
-        "date": "July 2",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-2-escanaba-mi/WQ4AI3Q4XXCOBFWTTM5CZLKY"
-      }
-    ]
-  },
-  {
     "name": "Houghton, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/74-79-houghton-mi/I6MUT2ZFJHVSVSOZXX6R5JAG",
     "date_range": "July 4 – July 9",
