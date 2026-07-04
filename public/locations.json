@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "July 4",
-        "weekday": "Sat",
-        "formattedTimes": "3:00 PM<hr />",
-        "times": [
-          "3:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-4-houghton-mi/6IWROVMZAOP7DPXQPRZRMNUT"
-      },
-      {
         "date": "July 5",
         "weekday": "Sun",
         "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
