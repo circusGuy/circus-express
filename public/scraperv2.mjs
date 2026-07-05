@@ -58,7 +58,6 @@ async function getTimezone(city, state) {
       const tz = tzlookup(lat, lng);
       console.log(`Resolved timezone for ${key}: ${tz}`);
       return tz;
-
     } catch (err) {
       console.warn(`Failed timezone for ${key}:`, err.message);
       return null;
@@ -169,7 +168,6 @@ function truncate_item(item) {
   const city = city_state[0];
   const state = city_state[1];
 
-
   const timeOnly = time?.split(", ")[1] || null; // "6:00 PM"
 
   const dateReference = new Date(`${date} ${timeOnly}`);
@@ -215,8 +213,9 @@ do {
 
   const mapped = filtered.map((obj) => truncate_item(obj));
 
-  const today = new Date();
-  today.setHours(0, 0, 0, 0); // Set to midnight UTC
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  yesterday.setHours(0, 0, 0, 0);
 
   const todayFiltered = mapped
     .filter((item) => item.date_reference >= today)
@@ -238,12 +237,11 @@ do {
   cursor = data.cursor;
 } while (cursor);
 
-
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 for (const item of allData) {
   console.log(
-    `Show: ${item.name} on ${item.date} at ${item.time} (reference date: ${item.date_reference.toISOString()})`
+    `Show: ${item.name} on ${item.date} at ${item.time} (reference date: ${item.date_reference.toISOString()})`,
   );
 
   const [city, state] = item.name.split(", ");
@@ -256,13 +254,11 @@ for (const item of allData) {
 console.log(`Successfully retrieved ${allData.length} shows!`);
 console.log("Writing to locations.json...");
 
-  const now = new Date(); // in UTC
+const now = new Date(); // in UTC
 
-
- allData = allData
-    .filter((item) => createUTCDate(item.date_reference, item.timezone) >= now)
-    .sort((a, b) => a.date_reference - b.date_reference);
-
+allData = allData
+  .filter((item) => createUTCDate(item.date_reference, item.timezone) >= now)
+  .sort((a, b) => a.date_reference - b.date_reference);
 
 allData = allData.map((item) => transform_item(item));
 
