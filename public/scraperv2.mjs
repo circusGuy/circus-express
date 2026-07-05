@@ -100,10 +100,10 @@ function truncate_item(item) {
   const time = name_data[2];
 
   return {
-    date_reference: new Date(date),
+    date_reference: new Date(`${date} ${time}`),
     name: location_name,
-    date: date,
-    time: time,
+    date,
+    time,
     id: item.id,
     description: item.item_data.description,
     categories: item.item_data.categories,
