@@ -99,8 +99,16 @@ function truncate_item(item) {
   const date = name_data[1];
   const time = name_data[2];
 
+  const timeOnly = time?.split(", ")[1] || null; // "6:00 PM"
+
+  const dateReference = new Date(`${date} ${timeOnly}`);
+
+  console.log(
+    `Truncating item: ${location_name} on ${date} at ${time} (reference date: ${dateReference})`,
+  );
+
   return {
-    date_reference: new Date(`${date} ${time}`),
+    date_reference: dateReference,
     name: location_name,
     date,
     time,
@@ -135,11 +143,15 @@ do {
   );
   const mapped = filtered.map((obj) => truncate_item(obj));
 
-  const now = new Date(); // filter for shows after now
+  const now = new Date();
+
+  console.log(
+    `Retrieved ${mapped.length} shows from Square, filtering for shows after ${now.toISOString()}...`,
+  );
 
   const dateFiltered = mapped
-    .filter((item) => new Date(item.date_reference).getTime() >= now)
-    .sort((a, b) => new Date(a.date_reference) - new Date(b.date_reference));
+    .filter((item) => item.date_reference >= now)
+    .sort((a, b) => a.date_reference - b.date_reference);
 
   allData.push(...dateFiltered);
   cursor = data.cursor;
@@ -168,7 +180,9 @@ for (let i = 0; i < allData.length; i++) {
 
     if (existingItem.shows.some((s) => s.date === formattedDate)) {
       const show = existingItem.shows.find((s) => s.date === formattedDate);
-      console.log(`Adding time ${item.time} to existing show on ${formattedDate} for ${item.name}`);
+      console.log(
+        `Adding time ${item.time} to existing show on ${formattedDate} for ${item.name}`,
+      );
       show.times.push(item.time);
 
       show.formattedTimes = formatTimes(show.times);
