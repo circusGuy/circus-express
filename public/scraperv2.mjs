@@ -1,11 +1,77 @@
 import dotenv from "dotenv";
 import fs from "fs";
+import { fromZonedTime } from "date-fns-tz";
+import tzlookup from "tz-lookup";
+import NodeGeocoder from "node-geocoder";
 
 const startTime = new Date();
 
 dotenv.config();
 
+const TZDB_API_KEY = process.env.TIMEZONE_DB;
 const accessToken = process.env.SQUARE_ACCESS_TOKEN;
+
+const geocoder = NodeGeocoder({
+  provider: "openstreetmap",
+});
+
+async function getLatLng(city, state) {
+  const res = await geocoder.geocode(`${city}, ${state}`);
+
+  if (!res.length) {
+    throw new Error(`No results for ${city}, ${state}`);
+  }
+
+  const lat = res[0].latitude;
+  const lng = res[0].longitude;
+
+  console.log(lat, lng);
+
+  return { lat, lng }; // ✅ already numbers
+}
+const timezoneCache = {};
+
+async function getTimezone(city, state) {
+  const key = `${city},${state}`.toLowerCase();
+
+  // ✅ if already in cache (promise OR resolved), reuse it
+  if (timezoneCache[key]) {
+    console.log(`Using cached timezone for ${key}:`, timezoneCache[key]);
+    return timezoneCache[key];
+  }
+
+  // 🔥 store promise immediately (prevents parallel duplicates)
+  timezoneCache[key] = (async () => {
+    try {
+      const { lat, lng } = await getLatLng(city, state);
+
+      if (
+        typeof lat !== "number" ||
+        typeof lng !== "number" ||
+        isNaN(lat) ||
+        isNaN(lng)
+      ) {
+        console.warn(`Invalid coords for ${key}:`, lat, lng);
+        return null;
+      }
+
+      const tz = tzlookup(lat, lng);
+      console.log(`Resolved timezone for ${key}: ${tz}`);
+      return tz;
+
+    } catch (err) {
+      console.warn(`Failed timezone for ${key}:`, err.message);
+      return null;
+    }
+  })();
+
+  return timezoneCache[key];
+}
+
+function createUTCDate(localDateString, timeZone) {
+  return fromZonedTime(localDateString, timeZone);
+}
+
 const url = "https://connect.squareup.com/v2/catalog/list";
 
 let allData = [];
@@ -99,6 +165,11 @@ function truncate_item(item) {
   const date = name_data[1];
   const time = name_data[2];
 
+  const city_state = location_name.split(", ");
+  const city = city_state[0];
+  const state = city_state[1];
+
+
   const timeOnly = time?.split(", ")[1] || null; // "6:00 PM"
 
   const dateReference = new Date(`${date} ${timeOnly}`);
@@ -141,15 +212,25 @@ do {
   const filtered = data.objects.filter((obj) =>
     obj.item_data?.hasOwnProperty("description_plaintext"),
   );
+
   const mapped = filtered.map((obj) => truncate_item(obj));
 
-  const now = new Date();
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // Set to midnight UTC
+
+  const todayFiltered = mapped
+    .filter((item) => item.date_reference >= today)
+    .sort((a, b) => a.date_reference - b.date_reference);
+
+  const now = new Date(); // in UTC
+
+  // local time conversion for filtering
 
   console.log(
-    `Retrieved ${mapped.length} shows from Square, filtering for shows after ${now.toISOString()}...`,
+    `Retrieved ${todayFiltered.length} shows from Square, filtering for shows after ${now.toISOString()} UTC...`,
   );
 
-  const dateFiltered = mapped
+  const dateFiltered = todayFiltered
     .filter((item) => item.date_reference >= now)
     .sort((a, b) => a.date_reference - b.date_reference);
 
@@ -157,8 +238,31 @@ do {
   cursor = data.cursor;
 } while (cursor);
 
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+for (const item of allData) {
+  console.log(
+    `Show: ${item.name} on ${item.date} at ${item.time} (reference date: ${item.date_reference.toISOString()})`
+  );
+
+  const [city, state] = item.name.split(", ");
+
+  item.timezone = await getTimezone(city, state);
+
+  await sleep(3000); // ⏱️ 1 second delay between each request
+}
+
 console.log(`Successfully retrieved ${allData.length} shows!`);
 console.log("Writing to locations.json...");
+
+  const now = new Date(); // in UTC
+
+
+ allData = allData
+    .filter((item) => createUTCDate(item.date_reference, item.timezone) >= now)
+    .sort((a, b) => a.date_reference - b.date_reference);
+
 
 allData = allData.map((item) => transform_item(item));
 
