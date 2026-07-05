@@ -218,7 +218,7 @@ do {
   yesterday.setHours(0, 0, 0, 0);
 
   const todayFiltered = mapped
-    .filter((item) => item.date_reference >= today)
+    .filter((item) => item.date_reference >= yesterday)
     .sort((a, b) => a.date_reference - b.date_reference);
 
   const now = new Date(); // in UTC
