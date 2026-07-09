@@ -1,5 +1,26 @@
 [
   {
+    "name": "Houghton, MI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/74-79-houghton-mi/I6MUT2ZFJHVSVSOZXX6R5JAG",
+    "date_range": "July 4 – July 9",
+    "date_range_text": "Jul 4th – Jul 9th",
+    "address": [
+      "Kestner Waterfront Park",
+      "1100 W Lakeshore Dr, Houghton, MI 49931"
+    ],
+    "shows": [
+      {
+        "date": "July 9",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-9-houghton-mi/3CRHF46KPCJJPJ3KUBQBRCZJ"
+      }
+    ]
+  },
+  {
     "name": "Kingsford, MI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/711-712-kingsford-mi/FHFLTTLBKW52PLVM4H6WNUPE",
     "date_range": "July 11 – July 12",
