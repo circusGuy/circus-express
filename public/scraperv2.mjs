@@ -229,8 +229,11 @@ do {
     `Retrieved ${todayFiltered.length} shows from Square, filtering for shows after ${now.toISOString()} UTC...`,
   );
 
+  const cutoff = new Date();
+  cutoff.setHours(cutoff.getHours() + 4);
+
   const dateFiltered = todayFiltered
-    .filter((item) => item.date_reference >= now)
+    .filter((item) => item.date_reference >= cutoff)
     .sort((a, b) => a.date_reference - b.date_reference);
 
   allData.push(...dateFiltered);
