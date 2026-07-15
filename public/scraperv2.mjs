@@ -178,6 +178,7 @@ function truncate_item(item) {
 
   return {
     date_reference: dateReference,
+    removal_reference: new Date(dateReference.getTime() + 4 * 60 * 60 * 1000), // 4 hours later
     name: location_name,
     date,
     time,
@@ -229,11 +230,10 @@ do {
     `Retrieved ${todayFiltered.length} shows from Square, filtering for shows after ${now.toISOString()} UTC...`,
   );
 
-  const cutoff = new Date();
-  cutoff.setHours(cutoff.getHours() + 4);
+  const now = new Date();
 
   const dateFiltered = todayFiltered
-    .filter((item) => item.date_reference >= cutoff)
+    .filter((item) => item.removal_reference >= now)
     .sort((a, b) => a.date_reference - b.date_reference);
 
   allData.push(...dateFiltered);
