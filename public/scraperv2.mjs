@@ -222,15 +222,14 @@ do {
     .filter((item) => item.date_reference >= yesterday)
     .sort((a, b) => a.date_reference - b.date_reference);
 
-  const now = new Date(); // in UTC
-
   // local time conversion for filtering
+  const now = new Date();
+
 
   console.log(
     `Retrieved ${todayFiltered.length} shows from Square, filtering for shows after ${now.toISOString()} UTC...`,
   );
 
-  const now = new Date();
 
   const dateFiltered = todayFiltered
     .filter((item) => item.removal_reference >= now)
