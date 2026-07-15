@@ -1,9 +1,9 @@
 [
   {
     "name": "Eagle River, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/714-716-eagle-river-wi/UCJSJMOIWHJJ7VA5XPXWHNUA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/714-716-eagle river-wi/UCJSJMOIWHJJ7VA5XPXWHNUA",
     "date_range": "July 14 – July 16",
-    "date_range_text": "Jul 14th – 16th",
+    "date_range_text": "Jul 14th – Jul 16th",
     "address": [
       "Vilas County Fairgrounds",
       "164 S Forrest St, Eagle River, WI 54521"
@@ -16,7 +16,7 @@
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-15-eagle-river-wi/L6BDJUAPAFRSO6KTNUOMGKXQ"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-15-eagle river-wi/L6BDJUAPAFRSO6KTNUOMGKXQ"
       },
       {
         "date": "July 16",
@@ -25,7 +25,7 @@
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-16-eagle-river-wi/5XU2FORXF4JBKELWP3AFHAY5"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-16-eagle river-wi/5XU2FORXF4JBKELWP3AFHAY5"
       }
     ]
   },
@@ -33,7 +33,7 @@
     "name": "Marion, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/718-719-marion-wi/WKB2H5EH5AZ4ZEYTXSORL6S4",
     "date_range": "July 18 – July 19",
-    "date_range_text": "Jul 18th – 19th",
+    "date_range_text": "Jul 18th – Jul 19th",
     "address": [
       "Lion's Point",
       "325 W Garfield Ave, Marion, WI, 54950"
@@ -42,7 +42,7 @@
       {
         "date": "July 18",
         "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -52,7 +52,7 @@
       {
         "date": "July 19",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -65,7 +65,7 @@
     "name": "Berlin, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/721-723-berlin-wi/PN4SH7L4DEUMD5U2567Z4QZY",
     "date_range": "July 21 – July 23",
-    "date_range_text": "Jul 21st – 23rd",
+    "date_range_text": "Jul 21st – Jul 23rd",
     "address": [
       "Riverside Park",
       "River Drive, Berlin, WI 54923"
@@ -104,7 +104,7 @@
     "name": "Ladysmith, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/725-726-ladysmith-wi/JE6O5Z6ESVSNDTKQLLHWTP6Y",
     "date_range": "July 25 – July 26",
-    "date_range_text": "Jul 25th – 26th",
+    "date_range_text": "Jul 25th – Jul 26th",
     "address": [
       "Field on N Jez Road in Ladysmith Industrial Park",
       "N Jez Road, Ladysmith, WI, 54848"
@@ -113,7 +113,7 @@
       {
         "date": "July 25",
         "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -123,7 +123,7 @@
       {
         "date": "July 26",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -136,7 +136,7 @@
     "name": "Osseo, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/728-730-osseo-wi/AJMBIBH47W6ESXTLQQEGB2IS",
     "date_range": "July 28 – July 30",
-    "date_range_text": "Jul 28th – 30th",
+    "date_range_text": "Jul 28th – Jul 30th",
     "address": [
       "Ward Field",
       "51012 Rose Ln, Osseo, WI 54758"
@@ -173,9 +173,9 @@
   },
   {
     "name": "Marathon City, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon-city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
     "date_range": "August 1 – August 2",
-    "date_range_text": "Aug 1st – 2nd",
+    "date_range_text": "Aug 1st – Aug 2nd",
     "address": [
       "County Materials Sports Complex",
       "304 County Road NN, Marathon City, WI, 54448"
@@ -184,22 +184,22 @@
       {
         "date": "August 1",
         "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon-city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
       },
       {
         "date": "August 2",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon-city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
       }
     ]
   }
