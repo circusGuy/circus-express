@@ -1,26 +1,5 @@
 [
   {
-    "name": "Marion, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/718-719-marion-wi/WKB2H5EH5AZ4ZEYTXSORL6S4",
-    "date_range": "July 18 – July 19",
-    "date_range_text": "Jul 18th – Jul 19th",
-    "address": [
-      "Lion's Point",
-      "325 W Garfield Ave, Marion, WI, 54950"
-    ],
-    "shows": [
-      {
-        "date": "July 19",
-        "weekday": "Sun",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-19-marion-wi/LVRZSXT6R4NCZGXFAYTHAJHE"
-      }
-    ]
-  },
-  {
     "name": "Berlin, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/721-723-berlin-wi/PN4SH7L4DEUMD5U2567Z4QZY",
     "date_range": "July 21 – July 23",
