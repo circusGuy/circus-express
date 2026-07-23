@@ -1,26 +1,5 @@
 [
   {
-    "name": "Berlin, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/721-723-berlin-wi/PN4SH7L4DEUMD5U2567Z4QZY",
-    "date_range": "July 21 – July 23",
-    "date_range_text": "Jul 21st – Jul 23rd",
-    "address": [
-      "Riverside Park",
-      "River Drive, Berlin, WI 54923"
-    ],
-    "shows": [
-      {
-        "date": "July 23",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-23-berlin-wi/HMM4SHTDAGBWDBGKBKLNP6T5"
-      }
-    ]
-  },
-  {
     "name": "Ladysmith, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/725-726-ladysmith-wi/JE6O5Z6ESVSNDTKQLLHWTP6Y",
     "date_range": "July 25 – July 26",
