@@ -101,5 +101,69 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
       }
     ]
+  },
+  {
+    "name": "West Salem, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/88-89-west salem-wi/YOCWBQ4PRWEIC6O6SSSVCAER",
+    "date_range": "August 8 – August 9",
+    "date_range_text": "Aug 8th – Aug 9th",
+    "address": [
+      "Neshonoc Lakeside Campground",
+      "N5334 Neshonoc Rd, West Salem, WI 54669"
+    ],
+    "shows": [
+      {
+        "date": "August 8",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-8-west salem-wi/MUZI6DUYFBNLQTCL4FREB3K2"
+      },
+      {
+        "date": "August 9",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-9-west salem-wi/2N4XPY3Z7SD7EVW6P4KC3GRB"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Horeb, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/815-816-mt. horeb-wi/BX6UWQTCDP2FGCA43G6MWJDJ",
+    "date_range": "August 15 – August 16",
+    "date_range_text": "Aug 15th – Aug 16th",
+    "address": [
+      "Grundahl Park",
+      "401 S Blue Mounds St, Mt Horeb, WI 53572"
+    ],
+    "shows": [
+      {
+        "date": "August 15",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-15-mt. horeb-wi/I2UFKVLVLP7X7LOMYCS6G43V"
+      },
+      {
+        "date": "August 16",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt. horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
+      }
+    ]
   }
 ]
