@@ -71,6 +71,45 @@
     ]
   },
   {
+    "name": "Lancaster, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/84-86-lancaster-wi/E6R5UJOREPUSCSVL7AS5GPAW",
+    "date_range": "August 4 – August 6",
+    "date_range_text": "Aug 4th – Aug 6th",
+    "address": [
+      "Memorial Park",
+      "298 S Grant St, Lancaster, WI 53813"
+    ],
+    "shows": [
+      {
+        "date": "August 4",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-4-lancaster-wi/MEFGYFGTIKBRSNKUVCNXFXVM"
+      },
+      {
+        "date": "August 5",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-5-lancaster-wi/FDPP4CF2DTGHFZAFBZDLP5CS"
+      },
+      {
+        "date": "August 6",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-6-lancaster-wi/MZNKIA5BJFMPCABOEJV7MPBD"
+      }
+    ]
+  },
+  {
     "name": "West Salem, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/88-89-west salem-wi/YOCWBQ4PRWEIC6O6SSSVCAER",
     "date_range": "August 8 – August 9",
