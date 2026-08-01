@@ -262,7 +262,14 @@ allData = allData
   .filter((item) => createUTCDate(item.date_reference, item.timezone) >= now)
   .sort((a, b) => a.date_reference - b.date_reference);
 
-allData = allData.map((item) => transform_item(item));
+allData = allData.flatMap((item) => {
+  try {
+    return [transform_item(item)];
+  } catch (err) {
+    console.error("Failed to transform item:", err);
+    return [];
+  }
+});
 
 let data = [];
 

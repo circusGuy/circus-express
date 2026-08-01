@@ -1,181 +1,9 @@
 [
   {
-    "name": "Eagle River, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/714-716-eagle-river-wi/UCJSJMOIWHJJ7VA5XPXWHNUA",
-    "date_range": "July 14 – July 16",
-    "date_range_text": "Jul 14th – 16th",
-    "address": [
-      "Vilas County Fairgrounds",
-      "164 S Forrest St, Eagle River, WI 54521"
-    ],
-    "shows": [
-      {
-        "date": "July 15",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-15-eagle-river-wi/L6BDJUAPAFRSO6KTNUOMGKXQ"
-      },
-      {
-        "date": "July 16",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-16-eagle-river-wi/5XU2FORXF4JBKELWP3AFHAY5"
-      }
-    ]
-  },
-  {
-    "name": "Marion, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/718-719-marion-wi/WKB2H5EH5AZ4ZEYTXSORL6S4",
-    "date_range": "July 18 – July 19",
-    "date_range_text": "Jul 18th – 19th",
-    "address": [
-      "Lion's Point",
-      "325 W Garfield Ave, Marion, WI, 54950"
-    ],
-    "shows": [
-      {
-        "date": "July 18",
-        "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-18-marion-wi/JKN3UVXMQ6DINWHRF36I2BBT"
-      },
-      {
-        "date": "July 19",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-19-marion-wi/LVRZSXT6R4NCZGXFAYTHAJHE"
-      }
-    ]
-  },
-  {
-    "name": "Berlin, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/721-723-berlin-wi/PN4SH7L4DEUMD5U2567Z4QZY",
-    "date_range": "July 21 – July 23",
-    "date_range_text": "Jul 21st – 23rd",
-    "address": [
-      "Riverside Park",
-      "River Drive, Berlin, WI 54923"
-    ],
-    "shows": [
-      {
-        "date": "July 21",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-21-berlin-wi/4OJHRHIMOUPL2DSTSL7XAMP6"
-      },
-      {
-        "date": "July 22",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-22-berlin-wi/3CWKW6AYGSYLBNSWYJRTRQBO"
-      },
-      {
-        "date": "July 23",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-23-berlin-wi/HMM4SHTDAGBWDBGKBKLNP6T5"
-      }
-    ]
-  },
-  {
-    "name": "Ladysmith, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/725-726-ladysmith-wi/JE6O5Z6ESVSNDTKQLLHWTP6Y",
-    "date_range": "July 25 – July 26",
-    "date_range_text": "Jul 25th – 26th",
-    "address": [
-      "Field on N Jez Road in Ladysmith Industrial Park",
-      "N Jez Road, Ladysmith, WI, 54848"
-    ],
-    "shows": [
-      {
-        "date": "July 25",
-        "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-25-ladysmith-wi/TINSI6PV5QI3XLRBHBZU5SUA"
-      },
-      {
-        "date": "July 26",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-26-ladysmith-wi/KF22YKL3WIGM7Q6GGXIEIQ76"
-      }
-    ]
-  },
-  {
-    "name": "Osseo, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/728-730-osseo-wi/AJMBIBH47W6ESXTLQQEGB2IS",
-    "date_range": "July 28 – July 30",
-    "date_range_text": "Jul 28th – 30th",
-    "address": [
-      "Ward Field",
-      "51012 Rose Ln, Osseo, WI 54758"
-    ],
-    "shows": [
-      {
-        "date": "July 28",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-28-osseo-wi/IXM2E7XIYG2N6VPKAZB6AB47"
-      },
-      {
-        "date": "July 29",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-29-osseo-wi/SYJFVGCEVT5MSXTYEXN5I7M3"
-      },
-      {
-        "date": "July 30",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/july-30-osseo-wi/DSJPTUMWNHNOWW2CLGOFWIYT"
-      }
-    ]
-  },
-  {
     "name": "Marathon City, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon-city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
     "date_range": "August 1 – August 2",
-    "date_range_text": "Aug 1st – 2nd",
+    "date_range_text": "Aug 1st – Aug 2nd",
     "address": [
       "County Materials Sports Complex",
       "304 County Road NN, Marathon City, WI, 54448"
@@ -184,22 +12,114 @@
       {
         "date": "August 1",
         "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon-city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
       },
       {
         "date": "August 2",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon-city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
+      }
+    ]
+  },
+  {
+    "name": "Lancaster, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/84-86-lancaster-wi/E6R5UJOREPUSCSVL7AS5GPAW",
+    "date_range": "August 4 – August 6",
+    "date_range_text": "Aug 4th – Aug 6th",
+    "address": [
+      "Memorial Park",
+      "298 S Grant St, Lancaster, WI 53813"
+    ],
+    "shows": [
+      {
+        "date": "August 4",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-4-lancaster-wi/MEFGYFGTIKBRSNKUVCNXFXVM"
+      },
+      {
+        "date": "August 5",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-5-lancaster-wi/FDPP4CF2DTGHFZAFBZDLP5CS"
+      },
+      {
+        "date": "August 6",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-6-lancaster-wi/MZNKIA5BJFMPCABOEJV7MPBD"
+      }
+    ]
+  },
+  {
+    "name": "Sun Prairie, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/88-813-sun prairie-wi/GIKZYBPBX2AMIR43RDMEROOA",
+    "date_range": "August 8 – August 13",
+    "date_range_text": "Aug 8th – Aug 13th",
+    "address": [
+      "Angell Park Speedway",
+      "315 Park Street, Sun Prairie, WI 53590"
+    ],
+    "shows": [
+      {
+        "date": "August 8",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-8-sun prairie-wi/4RNWOCRRYW22QD5I2V7AHCOC"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Horeb, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/815-816-mt. horeb-wi/BX6UWQTCDP2FGCA43G6MWJDJ",
+    "date_range": "August 15 – August 16",
+    "date_range_text": "Aug 15th – Aug 16th",
+    "address": [
+      "Grundahl Park",
+      "401 S Blue Mounds St, Mt Horeb, WI 53572"
+    ],
+    "shows": [
+      {
+        "date": "August 15",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-15-mt. horeb-wi/I2UFKVLVLP7X7LOMYCS6G43V"
+      },
+      {
+        "date": "August 16",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt. horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
       }
     ]
   }
