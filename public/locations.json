@@ -4,29 +4,41 @@
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
     "date_range": "August 1 – August 2",
     "date_range_text": "Aug 1st – Aug 2nd",
+    "name": "Marathon City, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/81-82-marathon city-wi/GYSEBSOK37LQ27LQLA2ARLDR",
+    "date_range": "August 1 – August 2",
+    "date_range_text": "Aug 1st – Aug 2nd",
     "address": [
+      "County Materials Sports Complex",
+      "304 County Road NN, Marathon City, WI, 54448"
       "County Materials Sports Complex",
       "304 County Road NN, Marathon City, WI, 54448"
     ],
     "shows": [
       {
         "date": "August 1",
+        "date": "August 1",
         "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-1-marathon city-wi/UFTZ77OYXE7LQHXOF7QS5VF2"
       },
       {
         "date": "August 2",
+        "date": "August 2",
         "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-2-marathon city-wi/LTAIV7H66F6U4BWOO4LCLBOF"
       }
     ]
@@ -36,12 +48,19 @@
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/84-86-lancaster-wi/E6R5UJOREPUSCSVL7AS5GPAW",
     "date_range": "August 4 – August 6",
     "date_range_text": "Aug 4th – Aug 6th",
+    "name": "Lancaster, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/84-86-lancaster-wi/E6R5UJOREPUSCSVL7AS5GPAW",
+    "date_range": "August 4 – August 6",
+    "date_range_text": "Aug 4th – Aug 6th",
     "address": [
+      "Memorial Park",
+      "298 S Grant St, Lancaster, WI 53813"
       "Memorial Park",
       "298 S Grant St, Lancaster, WI 53813"
     ],
     "shows": [
       {
+        "date": "August 4",
         "date": "August 4",
         "weekday": "Tue",
         "formattedTimes": "6:00 PM<hr />",
@@ -49,8 +68,10 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-4-lancaster-wi/MEFGYFGTIKBRSNKUVCNXFXVM"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-4-lancaster-wi/MEFGYFGTIKBRSNKUVCNXFXVM"
       },
       {
+        "date": "August 5",
         "date": "August 5",
         "weekday": "Wed",
         "formattedTimes": "6:00 PM<hr />",
@@ -58,14 +79,17 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-5-lancaster-wi/FDPP4CF2DTGHFZAFBZDLP5CS"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-5-lancaster-wi/FDPP4CF2DTGHFZAFBZDLP5CS"
       },
       {
+        "date": "August 6",
         "date": "August 6",
         "weekday": "Thu",
         "formattedTimes": "6:00 PM<hr />",
         "times": [
           "6:00 PM"
         ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-6-lancaster-wi/MZNKIA5BJFMPCABOEJV7MPBD"
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-6-lancaster-wi/MZNKIA5BJFMPCABOEJV7MPBD"
       }
     ]
