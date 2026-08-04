@@ -69,5 +69,69 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt. horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
       }
     ]
+  },
+  {
+    "name": "Savanna, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/822-823-savanna-il/GSEX5OV5RUXKMTXXORWKZQUV",
+    "date_range": "August 22 – August 23",
+    "date_range_text": "Aug 22nd – Aug 23rd",
+    "address": [
+      "Savanna Park District Field",
+      "500 Cragmoor St, Savanna, IL 61074"
+    ],
+    "shows": [
+      {
+        "date": "August 22",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-22-savanna-il/SUKLD6GZNGWIFRRWUHRWBS6H"
+      },
+      {
+        "date": "August 23",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-23-savanna-il/DXD6ERG5ST5DI2QAKKPDEWO3"
+      }
+    ]
+  },
+  {
+    "name": "Monmouth, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/919-920-monmouth-il/LC6KD24QBX7UU4EBAXQHCEME",
+    "date_range": "September 19 – September 20",
+    "date_range_text": "Sep 19th – Sep 20th",
+    "address": [
+      "Citizen's Lake",
+      "IL-164, Monmouth, IL 61462"
+    ],
+    "shows": [
+      {
+        "date": "September 19",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-19-monmouth-il/67RWXN55V2XEAZQSSDBKA2XV"
+      },
+      {
+        "date": "September 20",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-20-monmouth-il/RVRGDUCERGGDJDKDKDLVUXKS"
+      }
+    ]
   }
 ]
