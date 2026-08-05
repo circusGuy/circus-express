@@ -94,6 +94,112 @@
     ]
   },
   {
+    "name": "Fulton, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/825-827-fulton-il/FXNCNLRB3EE7L7XRW5D77EOX",
+    "date_range": "August 25 – August 27",
+    "date_range_text": "Aug 25th – Aug 27th",
+    "address": [
+      "Drives Field",
+      "12th St, Fulton, IL 61252"
+    ],
+    "shows": [
+      {
+        "date": "August 25",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-25-fulton-il/PHIIPAGTHTVW3UP6PE6EAW5M"
+      },
+      {
+        "date": "August 26",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-26-fulton-il/QLNY47REKK5SW5JP6RDT2O2M"
+      },
+      {
+        "date": "August 27",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-27-fulton-il/FNMSNZEZ5UQAGINKWFSC25HB"
+      }
+    ]
+  },
+  {
+    "name": "Oglesby, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/95-910-oglesby-il/4HRDUMEOKVZTYGQHNPTCKEPY",
+    "date_range": "September 5 – September 10",
+    "date_range_text": "Sep 5th – Sep 10th",
+    "address": [
+      "Oglesby Municipal Swimming Pool",
+      "55 Pool Dr, Oglesby, IL 61348"
+    ],
+    "shows": [
+      {
+        "date": "September 5",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-5-oglesby-il/DZPORTRY5QY2QZTE57RCMPUH"
+      },
+      {
+        "date": "September 6",
+        "weekday": "Sun",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-6-oglesby-il/QEOJALAWPEJURTJVQ3JEIFNJ"
+      },
+      {
+        "date": "September 7",
+        "weekday": "Mon",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-7-oglesby-il/L63TPVSLJOFCJLQOMBGHTXFA"
+      },
+      {
+        "date": "September 8",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-8-oglesby-il/RKOOFXHHG26DJAN6MSQFZUAD"
+      },
+      {
+        "date": "September 9",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-9-oglesby-il/A6VCYFUK2LVPTP6PZP4UEGGG"
+      },
+      {
+        "date": "September 10",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-10-oglesby-il/KNUIBTWV2P3BDMHE6QPFQH74"
+      }
+    ]
+  },
+  {
     "name": "Monmouth, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/919-920-monmouth-il/LC6KD24QBX7UU4EBAXQHCEME",
     "date_range": "September 19 – September 20",
