@@ -1,26 +1,5 @@
 [
   {
-    "name": "Lancaster, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/84-86-lancaster-wi/E6R5UJOREPUSCSVL7AS5GPAW",
-    "date_range": "August 4 – August 6",
-    "date_range_text": "Aug 4th – Aug 6th",
-    "address": [
-      "Memorial Park",
-      "298 S Grant St, Lancaster, WI 53813"
-    ],
-    "shows": [
-      {
-        "date": "August 6",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-6-lancaster-wi/MZNKIA5BJFMPCABOEJV7MPBD"
-      }
-    ]
-  },
-  {
     "name": "Pardeeville, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/810-813-pardeeville-wi/MP2JHFJAQN7DFCF7YY4V3E6B",
     "date_range": "August 10 – August 13",
