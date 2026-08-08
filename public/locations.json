@@ -3,7 +3,7 @@
     "name": "Pardeeville, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/810-813-pardeeville-wi/MP2JHFJAQN7DFCF7YY4V3E6B",
     "date_range": "August 10 – August 13",
-    "date_range_text": "Aug 10th – Aug 13th",
+    "date_range_text": "Aug 10th – 13th",
     "address": [
       "Chandler Park",
       "303-307 Chandler Park Dr, Pardeeville, WI 53954"
@@ -49,9 +49,9 @@
   },
   {
     "name": "Mt. Horeb, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/815-816-mt. horeb-wi/BX6UWQTCDP2FGCA43G6MWJDJ",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/815-816-mt-horeb-wi/BX6UWQTCDP2FGCA43G6MWJDJ",
     "date_range": "August 15 – August 16",
-    "date_range_text": "Aug 15th – Aug 16th",
+    "date_range_text": "Aug 15th – 16th",
     "address": [
       "Grundahl Park",
       "401 S Blue Mounds St, Mt Horeb, WI 53572"
@@ -60,22 +60,61 @@
       {
         "date": "August 15",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-15-mt. horeb-wi/I2UFKVLVLP7X7LOMYCS6G43V"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-15-mt-horeb-wi/I2UFKVLVLP7X7LOMYCS6G43V"
       },
       {
         "date": "August 16",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt. horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt-horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
+      }
+    ]
+  },
+  {
+    "name": "Evansville, WI",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/818-820-evansville-wi/ALTEF4TA3F52N7SLGXKODV56",
+    "date_range": "August 18 – August 20",
+    "date_range_text": "Aug 18th – 20th",
+    "address": [
+      "Leonard Leota Park",
+      "5 Antes Dr, Evansville, WI 53536"
+    ],
+    "shows": [
+      {
+        "date": "August 18",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-18-evansville-wi/C2LIPNCGEU3H63G6F5SWG6MS"
+      },
+      {
+        "date": "August 19",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-19-evansville-wi/LPTF4TDEDHEJI6SVYRY4MSMN"
+      },
+      {
+        "date": "August 20",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-20-evansville-wi/GPBKJS6RF2QKGMW2QXII3LTA"
       }
     ]
   },
@@ -83,7 +122,7 @@
     "name": "Savanna, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/822-823-savanna-il/GSEX5OV5RUXKMTXXORWKZQUV",
     "date_range": "August 22 – August 23",
-    "date_range_text": "Aug 22nd – Aug 23rd",
+    "date_range_text": "Aug 22nd – 23rd",
     "address": [
       "Savanna Park District Field",
       "500 Cragmoor St, Savanna, IL 61074"
@@ -92,7 +131,7 @@
       {
         "date": "August 22",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -102,7 +141,7 @@
       {
         "date": "August 23",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -115,7 +154,7 @@
     "name": "Fulton, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/825-827-fulton-il/FXNCNLRB3EE7L7XRW5D77EOX",
     "date_range": "August 25 – August 27",
-    "date_range_text": "Aug 25th – Aug 27th",
+    "date_range_text": "Aug 25th – 27th",
     "address": [
       "Drives Field",
       "12th St, Fulton, IL 61252"
@@ -154,7 +193,7 @@
     "name": "Oglesby, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/95-910-oglesby-il/4HRDUMEOKVZTYGQHNPTCKEPY",
     "date_range": "September 5 – September 10",
-    "date_range_text": "Sep 5th – Sep 10th",
+    "date_range_text": "Sep 5th – 10th",
     "address": [
       "Oglesby Municipal Swimming Pool",
       "55 Pool Dr, Oglesby, IL 61348"
@@ -163,7 +202,7 @@
       {
         "date": "September 5",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -221,7 +260,7 @@
     "name": "Monmouth, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/919-920-monmouth-il/LC6KD24QBX7UU4EBAXQHCEME",
     "date_range": "September 19 – September 20",
-    "date_range_text": "Sep 19th – Sep 20th",
+    "date_range_text": "Sep 19th – 20th",
     "address": [
       "Citizen's Lake",
       "IL-164, Monmouth, IL 61462"
@@ -230,7 +269,7 @@
       {
         "date": "September 19",
         "weekday": "Sat",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
@@ -240,7 +279,7 @@
       {
         "date": "September 20",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
           "3:00 PM",
           "6:00 PM"
