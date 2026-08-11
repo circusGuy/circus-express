@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "August 10",
-        "weekday": "Mon",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-10-pardeeville-wi/NTYXL5R3GSORHR3SGU7VUEKS"
-      },
-      {
         "date": "August 11",
         "weekday": "Tue",
         "formattedTimes": "6:00 PM<hr />",
@@ -253,6 +244,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-10-oglesby-il/KNUIBTWV2P3BDMHE6QPFQH74"
+      }
+    ]
+  },
+  {
+    "name": "Watseka, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/912-913-watseka-il/QF2PNZC3W6BMVNXIZDKMLM2X",
+    "date_range": "September 12 – September 13",
+    "date_range_text": "Sep 12th – 13th",
+    "address": [
+      "Forrest Park Baseball Field",
+      "157 W Fleming St, Watseka, IL 60970"
+    ],
+    "shows": [
+      {
+        "date": "September 12",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-12-watseka-il/IISS6KZPSR5OOIGM3CSNXLNA"
+      },
+      {
+        "date": "September 13",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-13-watseka-il/ABPNISPQ3SAEJROF57FAVM7P"
       }
     ]
   },
