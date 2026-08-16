@@ -1,27 +1,5 @@
 [
   {
-    "name": "Mt. Horeb, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/815-816-mt-horeb-wi/BX6UWQTCDP2FGCA43G6MWJDJ",
-    "date_range": "August 15 – August 16",
-    "date_range_text": "Aug 15th – 16th",
-    "address": [
-      "Grundahl Park",
-      "401 S Blue Mounds St, Mt Horeb, WI 53572"
-    ],
-    "shows": [
-      {
-        "date": "August 16",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-16-mt-horeb-wi/RT5DT2RW2LE6TBC2BYSBHOIZ"
-      }
-    ]
-  },
-  {
     "name": "Evansville, WI",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/818-820-evansville-wi/ALTEF4TA3F52N7SLGXKODV56",
     "date_range": "August 18 – August 20",
