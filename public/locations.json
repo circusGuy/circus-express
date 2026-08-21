@@ -1,26 +1,5 @@
 [
   {
-    "name": "Evansville, WI",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/818-820-evansville-wi/ALTEF4TA3F52N7SLGXKODV56",
-    "date_range": "August 18 – August 20",
-    "date_range_text": "Aug 18th – 20th",
-    "address": [
-      "Leonard Leota Park",
-      "5 Antes Dr, Evansville, WI 53536"
-    ],
-    "shows": [
-      {
-        "date": "August 20",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-20-evansville-wi/GPBKJS6RF2QKGMW2QXII3LTA"
-      }
-    ]
-  },
-  {
     "name": "Savanna, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/822-823-savanna-il/GSEX5OV5RUXKMTXXORWKZQUV",
     "date_range": "August 22 – August 23",
