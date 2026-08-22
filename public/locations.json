@@ -275,5 +275,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-17-farmer-city-il/VGJBRRDLKCZKWF4IR5K5MWWS"
       }
     ]
+  },
+  {
+    "name": "Monmouth, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/919-920-monmouth-il/LC6KD24QBX7UU4EBAXQHCEME",
+    "date_range": "September 19 – September 20",
+    "date_range_text": "Sep 19th – 20th",
+    "address": [
+      "Citizen's Lake",
+      "IL-164, Monmouth, IL 61462"
+    ],
+    "shows": [
+      {
+        "date": "September 19",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-19-monmouth-il/67RWXN55V2XEAZQSSDBKA2XV"
+      },
+      {
+        "date": "September 20",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-20-monmouth-il/RVRGDUCERGGDJDKDKDLVUXKS"
+      }
+    ]
   }
 ]
