@@ -71,6 +71,74 @@
     ]
   },
   {
+    "name": "Sterling, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/829-93-sterling-il/5NHXUX5LCBS4QYODBBFCHV6J",
+    "date_range": "August 29 – September 3",
+    "date_range_text": "Aug 29th – Sep 3rd",
+    "address": [
+      "Ruffit Park Campground",
+      "24832 Rock Falls Rd, Sterling, IL 61081"
+    ],
+    "shows": [
+      {
+        "date": "August 29",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-29-sterling-il/5GSTEWFGBAU3VOSX7OS475XH"
+      },
+      {
+        "date": "August 30",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-30-sterling-il/HWSC6B4HCC7ICAN5A3T3WV47"
+      },
+      {
+        "date": "August 31",
+        "weekday": "Mon",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-31-sterling-il/YBCKKPJUPDBLXOWQVCYNLO3O"
+      },
+      {
+        "date": "September 1",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-1-sterling-il/VC5QWFYUH2F22OEKDUTJSEEJ"
+      },
+      {
+        "date": "September 2",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-2-sterling-il/UVOELTSIUA5DCHBFFGPO66ZR"
+      },
+      {
+        "date": "September 3",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-3-sterling-il/WAISM3KEHPTFCJ7VZ36TVUMD"
+      }
+    ]
+  },
+  {
     "name": "Oglesby, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/95-910-oglesby-il/4HRDUMEOKVZTYGQHNPTCKEPY",
     "date_range": "September 5 – September 10",
@@ -170,34 +238,41 @@
     ]
   },
   {
-    "name": "Monmouth, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/919-920-monmouth-il/LC6KD24QBX7UU4EBAXQHCEME",
-    "date_range": "September 19 – September 20",
-    "date_range_text": "Sep 19th – 20th",
+    "name": "Farmer City, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/915-917-farmer-city-il/E57KDLYJHM6WCR5XQG5VXFT7",
+    "date_range": "September 15 – September 17",
+    "date_range_text": "Sep 15th – 17th",
     "address": [
-      "Citizen's Lake",
-      "IL-164, Monmouth, IL 61462"
+      "Farmer City Raceway",
+      "850 N Grove St, Farmer City, IL 61842"
     ],
     "shows": [
       {
-        "date": "September 19",
-        "weekday": "Sat",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "date": "September 15",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
-          "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-19-monmouth-il/67RWXN55V2XEAZQSSDBKA2XV"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-15-farmer-city-il/L5VEMZ736YUTB5JVTKTG2IKH"
       },
       {
-        "date": "September 20",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "date": "September 16",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
         "times": [
-          "3:00 PM",
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-20-monmouth-il/RVRGDUCERGGDJDKDKDLVUXKS"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-16-farmer-city-il/O3PDKSWQZHVNWVDCH2D3QSJE"
+      },
+      {
+        "date": "September 17",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-17-farmer-city-il/VGJBRRDLKCZKWF4IR5K5MWWS"
       }
     ]
   }
