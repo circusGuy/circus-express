@@ -1,26 +1,5 @@
 [
   {
-    "name": "Fulton, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/825-827-fulton-il/FXNCNLRB3EE7L7XRW5D77EOX",
-    "date_range": "August 25 – August 27",
-    "date_range_text": "Aug 25th – 27th",
-    "address": [
-      "Drives Field",
-      "12th St, Fulton, IL 61252"
-    ],
-    "shows": [
-      {
-        "date": "August 27",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-27-fulton-il/FNMSNZEZ5UQAGINKWFSC25HB"
-      }
-    ]
-  },
-  {
     "name": "Sterling, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/829-93-sterling-il/5NHXUX5LCBS4QYODBBFCHV6J",
     "date_range": "August 29 – September 3",
@@ -111,9 +90,10 @@
       {
         "date": "September 6",
         "weekday": "Sun",
-        "formattedTimes": "3:00 PM<hr />",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
         "times": [
-          "3:00 PM"
+          "3:00 PM",
+          "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-6-oglesby-il/QEOJALAWPEJURTJVQ3JEIFNJ"
       },
