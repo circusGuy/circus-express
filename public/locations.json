@@ -266,5 +266,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-24-williamsville-il/O6BM5OCFG2BOOT4YBAJZJ3RY"
       }
     ]
+  },
+  {
+    "name": "Pittsfield, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/103-104-pittsfield-il/SIBMJUQW7NMOIRPJOEEIK264",
+    "date_range": "October 3 – October 4",
+    "date_range_text": "Oct 3rd – 4th",
+    "address": [
+      "Field Across from Pittsfield HS",
+      "512 S Madison St, Pittsfield, IL 62363"
+    ],
+    "shows": [
+      {
+        "date": "October 3",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-3-pittsfield-il/RTBTIATG42BEFXNZ2ISFJGOV"
+      },
+      {
+        "date": "October 4",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-4-pittsfield-il/237GZTYCDQ2WNWN2QYWCDS67"
+      }
+    ]
   }
 ]
