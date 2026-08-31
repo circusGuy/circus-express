@@ -10,16 +10,6 @@
     ],
     "shows": [
       {
-        "date": "August 30",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/august-30-sterling-il/HWSC6B4HCC7ICAN5A3T3WV47"
-      },
-      {
         "date": "August 31",
         "weekday": "Mon",
         "formattedTimes": "6:00 PM<hr />",
