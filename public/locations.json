@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "September 1",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-1-sterling-il/VC5QWFYUH2F22OEKDUTJSEEJ"
-      },
-      {
         "date": "September 2",
         "weekday": "Wed",
         "formattedTimes": "6:00 PM<hr />",
