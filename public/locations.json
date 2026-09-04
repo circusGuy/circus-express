@@ -1,26 +1,5 @@
 [
   {
-    "name": "Sterling, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/829-93-sterling-il/5NHXUX5LCBS4QYODBBFCHV6J",
-    "date_range": "August 29 – September 3",
-    "date_range_text": "Aug 29th – Sep 3rd",
-    "address": [
-      "Ruffit Park Campground",
-      "24832 Rock Falls Rd, Sterling, IL 61081"
-    ],
-    "shows": [
-      {
-        "date": "September 3",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-3-sterling-il/WAISM3KEHPTFCJ7VZ36TVUMD"
-      }
-    ]
-  },
-  {
     "name": "Oglesby, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/95-910-oglesby-il/4HRDUMEOKVZTYGQHNPTCKEPY",
     "date_range": "September 5 – September 10",
