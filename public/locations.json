@@ -1,27 +1,5 @@
 [
-  {
-    "name": "Watseka, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/912-913-watseka-il/QF2PNZC3W6BMVNXIZDKMLM2X",
-    "date_range": "September 12 – September 13",
-    "date_range_text": "Sep 12th – 13th",
-    "address": [
-      "Forrest Park Baseball Field",
-      "157 W Fleming St, Watseka, IL 60970"
-    ],
-    "shows": [
-      {
-        "date": "September 13",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-13-watseka-il/ABPNISPQ3SAEJROF57FAVM7P"
-      }
-    ]
-  },
-  {
+ {
     "name": "Farmer City, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/915-917-farmer-city-il/E57KDLYJHM6WCR5XQG5VXFT7",
     "date_range": "September 15 – September 17",
