@@ -101,6 +101,45 @@
     ]
   },
   {
+    "name": "Clinton, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/76E35SOTTZEL4TLVV43MXUBX",
+    "date_range": "September 29 – October 1",
+    "date_range_text": "Sep 29th – Oct 1st",
+    "address": [
+      "Field Behind First National Bank",
+      "2 Kelli Dr, Clinton, IL 61727"
+    ],
+    "shows": [
+      {
+        "date": "September 29",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-29-clinton-il/GZ3H3AAQQ77OXL6JCBY7XEEK"
+      },
+      {
+        "date": "September 30",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-30-clinton-il/7PPO4D2V5ME4M74FIFLFEKYX"
+      },
+      {
+        "date": "October 1",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-1-clinton-il/MWNPAQSIDRDOIVYH2NMZQY63"
+      }
+    ]
+  },
+  {
     "name": "Pittsfield, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/103-104-pittsfield-il/SIBMJUQW7NMOIRPJOEEIK264",
     "date_range": "October 3 – October 4",
