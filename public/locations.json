@@ -92,6 +92,37 @@
     ]
   },
   {
+    "name": "Lacon, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/926-927-lacon-il/QBN7PNNQU77DECOC3JMESWRM",
+    "date_range": "September 26 – September 27",
+    "date_range_text": "Sep 26th – 27th",
+    "address": [
+      "Midland Elementary Soccer Fields",
+      "300 N Fulton St, Lacon, IL 61540"
+    ],
+    "shows": [
+      {
+        "date": "September 26",
+        "weekday": "Sat",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-26-lacon-il/A2PERE4V3CKWUSOJBSHPMVY7"
+      },
+      {
+        "date": "September 27",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-27-lacon-il/SHG2GERTV2X6NNIXZQGXLLPW"
+      }
+    ]
+  },
+  {
     "name": "Clinton, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/76E35SOTTZEL4TLVV43MXUBX",
     "date_range": "September 29 – October 1",
