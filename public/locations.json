@@ -53,7 +53,7 @@
   },
   {
     "name": "Clinton, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/76E35SOTTZEL4TLVV43MXUBX",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/EUDUFXCM2PM7HS2KIKH3FY2B",
     "date_range": "September 29 – October 1",
     "date_range_text": "Sep 29th – Oct 1st",
     "address": [
@@ -68,7 +68,7 @@
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-29-clinton-il/GZ3H3AAQQ77OXL6JCBY7XEEK"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-29-clinton-il/WKI65WFT4GESVRXDFNZKIB5F"
       },
       {
         "date": "September 30",
@@ -77,7 +77,7 @@
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-30-clinton-il/7PPO4D2V5ME4M74FIFLFEKYX"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-30-clinton-il/2WBUXKH35MC2XEHETWIBQABM"
       },
       {
         "date": "October 1",
@@ -86,7 +86,7 @@
         "times": [
           "6:00 PM"
         ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-1-clinton-il/MWNPAQSIDRDOIVYH2NMZQY63"
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-1-clinton-il/2D6US5KPQEC5WGXDMOVOTWJF"
       }
     ]
   },
@@ -119,6 +119,45 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-4-pittsfield-il/237GZTYCDQ2WNWN2QYWCDS67"
+      }
+    ]
+  },
+  {
+    "name": "Benton, IL",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/76E35SOTTZEL4TLVV43MXUBX",
+    "date_range": "October 6 – October 8",
+    "date_range_text": "Oct 6th – Oct 8th",
+    "address": [
+      "Benton Municipal Airport",
+      "1 Airport Rd, Benton, IL 62812"
+    ],
+    "shows": [
+      {
+        "date": "October 6",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-29-clinton-il/GZ3H3AAQQ77OXL6JCBY7XEEK"
+      },
+      {
+        "date": "October 7",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/september-30-clinton-il/7PPO4D2V5ME4M74FIFLFEKYX"
+      },
+      {
+        "date": "October 8",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-1-clinton-il/MWNPAQSIDRDOIVYH2NMZQY63"
       }
     ]
   },
