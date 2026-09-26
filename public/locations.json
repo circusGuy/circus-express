@@ -171,5 +171,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-11-anna-il/FLSIV44AGOWIEBWZZXX3MSBD"
       }
     ]
+  },
+  {
+    "name": "Dry Ridge, KY",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1017-1018-dry-ridge-ky/PFDIT3IUGXHTINZTJUVMQVHP",
+    "date_range": "October 17 – October 18",
+    "date_range_text": "Oct 17th – 18th",
+    "address": [
+      "Piddle Park",
+      "10 S Main St, Dry Ridge, KY 41035"
+    ],
+    "shows": [
+      {
+        "date": "October 17",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-17-dry-ridge-ky/AT3QVARGGU3CHZ2Y264E3IMX"
+      },
+      {
+        "date": "October 18",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-18-dry-ridge-ky/F4RJUJROMQEXDXC2652LHVQK"
+      }
+    ]
   }
 ]
