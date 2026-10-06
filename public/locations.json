@@ -101,5 +101,83 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-18-dry-ridge-ky/F4RJUJROMQEXDXC2652LHVQK"
       }
     ]
+  },
+  {
+    "name": "Maysville, KY",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1020-1022-maysville-ky/PFA2XJ3U2AWMQQCLS54CROIU",
+    "date_range": "October 20 – October 22",
+    "date_range_text": "Oct 20th – Oct 22nd",
+    "address": [
+      "Old Reliable Germantown Fair",
+      "4088 KY-10, Maysville, KY 41056"
+    ],
+    "shows": [
+      {
+        "date": "October 20",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-20-maysville-ky/US3XGBOEVWUSQZD6CKQRZGYE"
+      },
+      {
+        "date": "October 21",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-21-maysville-ky/PSIFGN2NOGFM4T5EFJRRO5TP"
+      },
+      {
+        "date": "October 22",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-22-maysville-ky/QHYWNLS7YZIBKBZ2BX6XITTI"
+      }
+    ]
+  },
+  {
+    "name": "Monticello, KY",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1027-1029-monticello-ky/W6CMWRXHPT5CELAC3LL6RU5S",
+    "date_range": "October 27 – October 29",
+    "date_range_text": "Oct 27th – Oct 29th",
+    "address": [
+      "MWC Park",
+      "Park Rd 1, Monticello, KY 42633"
+    ],
+    "shows": [
+      {
+        "date": "October 27",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-27-monticello-ky/JIJBJ76RU6G5DBHOQJGI4VAK"
+      },
+      {
+        "date": "October 28",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-28-monticello-ky/LDHXWEFP7JMDGH7O27X4OVJS"
+      },
+      {
+        "date": "October 29",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-29-monticello-ky/REWBBQMEUELL77PXQHYHR2NW"
+      }
+    ]
   }
 ]
