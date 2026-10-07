@@ -62,6 +62,45 @@
     ]
   },
   {
+    "name": "Dawson Springs, KY",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1013-1015-dawson-springs-ky/7KEGR3TBFN4VA7NAYE4A5YB7",
+    "date_range": "October 13 – October 15",
+    "date_range_text": "Oct 13th – Oct 15th",
+    "address": [
+      "Riverside Park",
+      "901 W Arcadia Ave, Dawson Springs, KY 42408"
+    ],
+    "shows": [
+      {
+        "date": "October 13",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-13-dawson-springs-ky/Z57WSYXL3NCK4GNFKL4F7D6Y"
+      },
+      {
+        "date": "October 14",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-14-dawson-springs-ky/6453CKV4SJA37EKEHTF24VKH"
+      },
+      {
+        "date": "October 15",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-15-dawson-springs-ky/OX3OBEEFS6I4N2KSDKGE7IY5"
+      }
+    ]
+  },
+  {
     "name": "Dry Ridge, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1017-1018-dry-ridge-ky/PFDIT3IUGXHTINZTJUVMQVHP",
     "date_range": "October 17 – October 18",
