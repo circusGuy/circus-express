@@ -1,26 +1,5 @@
 [
   {
-    "name": "Benton, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/929-101-clinton-il/76E35SOTTZEL4TLVV43MXUBX",
-    "date_range": "October 6 – October 8",
-    "date_range_text": "Oct 6th – Oct 8th",
-    "address": [
-      "Benton Municipal Airport",
-      "1 Airport Rd, Benton, IL 62812"
-    ],
-    "shows": [
-      {
-        "date": "October 8",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-1-clinton-il/MWNPAQSIDRDOIVYH2NMZQY63"
-      }
-    ]
-  },
-  {
     "name": "Anna, IL",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1010-1011-anna-il/TGQHLAU6FWMRMBEJXYINR7MW",
     "date_range": "October 10 – October 11",
