@@ -1,27 +1,5 @@
 [
   {
-    "name": "Anna, IL",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1010-1011-anna-il/TGQHLAU6FWMRMBEJXYINR7MW",
-    "date_range": "October 10 – October 11",
-    "date_range_text": "Oct 10th – 11th",
-    "address": [
-      "Anna City Park",
-      "185 Herman Wright Dr, Anna, IL 62906"
-    ],
-    "shows": [
-      {
-        "date": "October 11",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-11-anna-il/FLSIV44AGOWIEBWZZXX3MSBD"
-      }
-    ]
-  },
-  {
     "name": "Dawson Springs, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1013-1015-dawson-springs-ky/7KEGR3TBFN4VA7NAYE4A5YB7",
     "date_range": "October 13 – October 15",
