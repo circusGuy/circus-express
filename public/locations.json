@@ -147,5 +147,44 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-29-monticello-ky/REWBBQMEUELL77PXQHYHR2NW"
       }
     ]
+  },
+  {
+    "name": "Loudon, TN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/113-115-loudon-tn/LHGRSRHBLJJOJS3VWO7FZG2T",
+    "date_range": "November 3 – November 5",
+    "date_range_text": "Nov 3rd – Nov 5th",
+    "address": [
+      "Loudon Municipal Park",
+      "1470 Roberson Spring Rd, Loudon, TN 37774"
+    ],
+    "shows": [
+      {
+        "date": "November 3",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-3-loudon-tn/CHTQQCKOJDJVD5S3XUTSM2SZ"
+      },
+      {
+        "date": "November 4",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-4-loudon-tn/EY7BX4MQQKHVN4BXJSMKOGG6"
+      },
+      {
+        "date": "November 5",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-5-loudon-tn/PXKTAEO4IIKZEZP7SLJMLHRZ"
+      }
+    ]
   }
 ]
