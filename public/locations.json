@@ -147,5 +147,76 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-5-loudon-tn/PXKTAEO4IIKZEZP7SLJMLHRZ"
       }
     ]
+  },
+  {
+    "name": "Monteagle, TN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/117-118-monteagle-tn/67G3DOZXPI6WCCPMGN7IJLKQ",
+    "date_range": "November 7 – November 8",
+    "date_range_text": "Nov 7th – 8th",
+    "address": [
+      "Monteagle Baseball Field",
+      "313 Dixie Lee Ave, Monteagle, TN 37356"
+    ],
+    "shows": [
+      {
+        "date": "November 7",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-7-monteagle-tn/AX6YDH4P43IY46PYT3MHBPWL"
+      },
+      {
+        "date": "November 8",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-8-monteagle-tn/D6NVXAAVAC6E4ACWU7RG2I6F"
+      }
+    ]
+  },
+  {
+    "name": "Jasper, TN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1110-1112-jasper-tn/4TH5NOKTX73EWKWZVWZQSWK4",
+    "date_range": "November 10 – November 12",
+    "date_range_text": "Nov 10th – Nov 12th",
+    "address": [
+      "Jasper City Park",
+      "700 Phillips Ave, Jasper, TN 37347"
+    ],
+    "shows": [
+      {
+        "date": "November 10",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-10-jasper-tn/B6ANSF5EPODBCD7RC5QO3JT7"
+      },
+      {
+        "date": "November 11",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-11-jasper-tn/LLE5KIOATW3Y6WI565JK6KDO"
+      },
+      {
+        "date": "November 12",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-12-jasper-tn/DAECG6IV4THETPW7KHVIEVQX"
+      }
+    ]
   }
 ]
