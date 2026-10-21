@@ -101,6 +101,37 @@
     ]
   },
   {
+    "name": "Carthage, TN",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1031-111-carthage-tn/SSA6KIR67ZY43CYKAXPTFIKN",
+    "date_range": "October 31 – November 1",
+    "date_range_text": "Oct 31st – Nov 1st",
+    "address": [
+      "Carthage Walking Track",
+      "350 Industrial Dr, Carthage, TN 37030"
+    ],
+    "shows": [
+      {
+        "date": "October 31",
+        "weekday": "Sat",
+        "formattedTimes": "3:00 PM<hr />",
+        "times": [
+          "3:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-31-carthage-tn/6GRN5V3LYOUZD3A2F46HOSR3"
+      },
+      {
+        "date": "November 1",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-1-carthage-tn/GQERS2CECTAWTSCF45GBZ4Y2"
+      }
+    ]
+  },
+  {
     "name": "Loudon, TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/113-115-loudon-tn/LHGRSRHBLJJOJS3VWO7FZG2T",
     "date_range": "November 3 – November 5",
