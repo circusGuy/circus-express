@@ -1,26 +1,5 @@
 [
   {
-    "name": "Maysville, KY",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1020-1022-maysville-ky/PFA2XJ3U2AWMQQCLS54CROIU",
-    "date_range": "October 20 – October 22",
-    "date_range_text": "Oct 20th – Oct 22nd",
-    "address": [
-      "Old Reliable Germantown Fair",
-      "4088 KY-10, Maysville, KY 41056"
-    ],
-    "shows": [
-      {
-        "date": "October 22",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-22-maysville-ky/QHYWNLS7YZIBKBZ2BX6XITTI"
-      }
-    ]
-  },
-  {
     "name": "Campbellsville, KY",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1024-1025-campbellsville-ky/IIVNCMZCWHYNCEQ3TE4VSTXP",
     "date_range": "October 24 – October 25",
