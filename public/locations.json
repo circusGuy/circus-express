@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "October 31",
-        "weekday": "Sat",
-        "formattedTimes": "3:00 PM<hr />",
-        "times": [
-          "3:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/october-31-carthage-tn/6GRN5V3LYOUZD3A2F46HOSR3"
-      },
-      {
         "date": "November 1",
         "weekday": "Sun",
         "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
@@ -137,6 +128,38 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-12-jasper-tn/DAECG6IV4THETPW7KHVIEVQX"
+      }
+    ]
+  },
+  {
+    "name": "LaFayette, GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1114-1115-lafayette-ga/76W4BSK2XS3ZEPFYM3SDZVZ2",
+    "date_range": "November 14 – November 15",
+    "date_range_text": "Nov 14th – 15th",
+    "address": [
+      "LaFayette Municipal Park",
+      "638 South Main St, LaFayette, GA 30728"
+    ],
+    "shows": [
+      {
+        "date": "November 14",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-14-lafayette-ga/VUGREHW6DK7UWR6WHGWOIRYI"
+      },
+      {
+        "date": "November 15",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-15-lafayette-ga/2NIU7D6SPUXFWZ4MEMNRHOBC"
       }
     ]
   }
