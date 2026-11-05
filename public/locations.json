@@ -1,26 +1,5 @@
 [
   {
-    "name": "Loudon, TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/113-115-loudon-tn/LHGRSRHBLJJOJS3VWO7FZG2T",
-    "date_range": "November 3 – November 5",
-    "date_range_text": "Nov 3rd – Nov 5th",
-    "address": [
-      "Loudon Municipal Park",
-      "1470 Roberson Spring Rd, Loudon, TN 37774"
-    ],
-    "shows": [
-      {
-        "date": "November 5",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-5-loudon-tn/PXKTAEO4IIKZEZP7SLJMLHRZ"
-      }
-    ]
-  },
-  {
     "name": "Monteagle, TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/117-118-monteagle-tn/67G3DOZXPI6WCCPMGN7IJLKQ",
     "date_range": "November 7 – November 8",
