@@ -122,5 +122,37 @@
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-15-lafayette-ga/2NIU7D6SPUXFWZ4MEMNRHOBC"
       }
     ]
+  },
+  {
+    "name": "McRae-Helena, GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1121-1122-mcrae-helena-ga/K3TSAPI526Q4PWSGXUAH5K3G",
+    "date_range": "November 21 – November 22",
+    "date_range_text": "Nov 21st – 22nd",
+    "address": [
+      "Telfair County Recreation Complex",
+      "408 E Oak St, McRae-Helena, GA 31055"
+    ],
+    "shows": [
+      {
+        "date": "November 21",
+        "weekday": "Sat",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-21-mcrae-helena-ga/J2TQ7FZKZ3JBOIW74VY3PFO7"
+      },
+      {
+        "date": "November 22",
+        "weekday": "Sun",
+        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "times": [
+          "3:00 PM",
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-22-mcrae-helena-ga/5HUF3KORQGYZEHBVOWBT6N73"
+      }
+    ]
   }
 ]
