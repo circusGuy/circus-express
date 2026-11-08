@@ -1,27 +1,5 @@
 [
   {
-    "name": "Monteagle, TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/117-118-monteagle-tn/67G3DOZXPI6WCCPMGN7IJLKQ",
-    "date_range": "November 7 – November 8",
-    "date_range_text": "Nov 7th – 8th",
-    "address": [
-      "Monteagle Baseball Field",
-      "313 Dixie Lee Ave, Monteagle, TN 37356"
-    ],
-    "shows": [
-      {
-        "date": "November 8",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-8-monteagle-tn/D6NVXAAVAC6E4ACWU7RG2I6F"
-      }
-    ]
-  },
-  {
     "name": "Jasper, TN",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1110-1112-jasper-tn/4TH5NOKTX73EWKWZVWZQSWK4",
     "date_range": "November 10 – November 12",
