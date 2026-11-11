@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "November 10",
-        "weekday": "Tue",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-10-jasper-tn/B6ANSF5EPODBCD7RC5QO3JT7"
-      },
-      {
         "date": "November 11",
         "weekday": "Wed",
         "formattedTimes": "6:00 PM<hr />",
@@ -67,6 +58,45 @@
           "6:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-15-lafayette-ga/2NIU7D6SPUXFWZ4MEMNRHOBC"
+      }
+    ]
+  },
+  {
+    "name": "Hampton, GA",
+    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1117-1119-hampton-ga/LYBFXGXM6NJR4AVATOKSTO3X",
+    "date_range": "November 17 – November 19",
+    "date_range_text": "Nov 17th – Nov 19th",
+    "address": [
+      "Nash Farm Park",
+      "100 Babbs Mill Rd, Hampton, GA 30228"
+    ],
+    "shows": [
+      {
+        "date": "November 17",
+        "weekday": "Tue",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-17-hampton-ga/KCCSF52DA7W6IODQAOV45XL4"
+      },
+      {
+        "date": "November 18",
+        "weekday": "Wed",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-18-hampton-ga/DSPKRQKSIBRTFWYKJBJOTVJZ"
+      },
+      {
+        "date": "November 19",
+        "weekday": "Thu",
+        "formattedTimes": "6:00 PM<hr />",
+        "times": [
+          "6:00 PM"
+        ],
+        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-19-hampton-ga/NFL26JGQ23D2YZBBYSTGXQW7"
       }
     ]
   },
