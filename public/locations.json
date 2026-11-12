@@ -1,26 +1,5 @@
 [
   {
-    "name": "Jasper, TN",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1110-1112-jasper-tn/4TH5NOKTX73EWKWZVWZQSWK4",
-    "date_range": "November 10 – November 12",
-    "date_range_text": "Nov 10th – Nov 12th",
-    "address": [
-      "Jasper City Park",
-      "700 Phillips Ave, Jasper, TN 37347"
-    ],
-    "shows": [
-      {
-        "date": "November 12",
-        "weekday": "Thu",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-12-jasper-tn/DAECG6IV4THETPW7KHVIEVQX"
-      }
-    ]
-  },
-  {
     "name": "LaFayette, GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1114-1115-lafayette-ga/76W4BSK2XS3ZEPFYM3SDZVZ2",
     "date_range": "November 14 – November 15",
