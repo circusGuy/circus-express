@@ -1,27 +1,5 @@
 [
   {
-    "name": "LaFayette, GA",
-    "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1114-1115-lafayette-ga/76W4BSK2XS3ZEPFYM3SDZVZ2",
-    "date_range": "November 14 – November 15",
-    "date_range_text": "Nov 14th – 15th",
-    "address": [
-      "Ross-Abney Football Field",
-      "101 1st St, LaFayette, GA 30728"
-    ],
-    "shows": [
-      {
-        "date": "November 15",
-        "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
-        "times": [
-          "3:00 PM",
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-15-lafayette-ga/2NIU7D6SPUXFWZ4MEMNRHOBC"
-      }
-    ]
-  },
-  {
     "name": "Hampton, GA",
     "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/1117-1119-hampton-ga/LYBFXGXM6NJR4AVATOKSTO3X",
     "date_range": "November 17 – November 19",
