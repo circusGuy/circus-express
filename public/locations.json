@@ -10,15 +10,6 @@
     ],
     "shows": [
       {
-        "date": "November 18",
-        "weekday": "Wed",
-        "formattedTimes": "6:00 PM<hr />",
-        "times": [
-          "6:00 PM"
-        ],
-        "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-18-hampton-ga/DSPKRQKSIBRTFWYKJBJOTVJZ"
-      },
-      {
         "date": "November 19",
         "weekday": "Thu",
         "formattedTimes": "6:00 PM<hr />",
@@ -52,10 +43,9 @@
       {
         "date": "November 22",
         "weekday": "Sun",
-        "formattedTimes": "3:00&nbsp; &amp; &nbsp;6:00 PM<hr />",
+        "formattedTimes": "3:00 PM<hr />",
         "times": [
-          "3:00 PM",
-          "6:00 PM"
+          "3:00 PM"
         ],
         "link": "https://purchase-tickets-forthe-kingdom-of-wonders.square.site/shop/november-22-mcrae-helena-ga/5HUF3KORQGYZEHBVOWBT6N73"
       }
